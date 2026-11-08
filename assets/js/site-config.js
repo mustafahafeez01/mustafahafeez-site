@@ -1,1 +1,1 @@
-window.SITE_CONFIG = {"siteUrl":"https://mustafahafeez.com","gaMeasurementId":"G-6HMBXR0QFE","googleSiteVerification":"","productionHostname":"mustafahafeez.com","indexable":false,"analyticsEnabled":false};
+window.SITE_CONFIG = {"siteUrl":"https://mustafahafeez.com","gaMeasurementId":"G-6HMBXR0QFE","googleSiteVerification":"","productionHostname":"mustafahafeez.com","indexable":false,"analyticsEnabled":true};

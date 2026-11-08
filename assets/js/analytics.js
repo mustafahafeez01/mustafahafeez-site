@@ -41,7 +41,7 @@
  status();
  if(!enabled){document.querySelectorAll('[data-consent]').forEach(b=>b.hidden=true);return}
  const description=document.querySelector('[data-privacy-text]');
- if(description) description.textContent='Optional Google Analytics sends visit and click events to Google only if you allow it. You can decline or withdraw consent here. Visitors who decline are not measured.';
+ if(description) description.textContent='Google Analytics is optional. After you allow it, Google can use cookies to measure visits and link clicks. You can decline or withdraw consent using Privacy & cookies.';
  document.addEventListener('click', event => {
   if(!allowed() || !loaded || typeof window.gtag !== 'function') return;
   const link=event.target.closest?.('a[href]');if(!link) return;
