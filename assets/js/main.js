@@ -1,9 +1,23 @@
+// Preserve links to sections on the former profile homepage.
+if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].includes(location.hash)) {
+ location.replace(location.hash === '#writing' ? '/' : '/about/' + location.hash);
+}
+
 (() => {
  const modal = document.querySelector('#privacy');
- document.querySelectorAll('[data-privacy]').forEach(b => b.addEventListener('click', () => {if(modal && !modal.open) modal.showModal()}));
+ document.querySelectorAll('[data-privacy]').forEach(button => button.addEventListener('click', () => {
+  if (!modal) return;
+  if (modal.classList.contains('privacy-prompt')) modal.close();
+  modal.classList.remove('privacy-prompt');
+  if (!modal.open) { modal.showModal(); modal.querySelector('[data-close]')?.focus(); }
+ }));
  document.querySelector('[data-close]')?.addEventListener('click', () => modal.close());
  document.querySelectorAll('[data-consent]').forEach(b => b.addEventListener('click', () => {window.setAnalyticsConsent?.(b.dataset.consent); modal.close();}));
  modal?.addEventListener?.('keydown', event => {
+  if (modal.classList.contains('privacy-prompt')) {
+   if (event.key === 'Escape') modal.close();
+   return;
+  }
   if(event.key!=='Tab') return;
   const controls=[...modal.querySelectorAll('button, a[href], input, select, textarea, [tabindex="0"]')].filter(el=>!el.hidden&&!el.disabled&&el.getClientRects().length);
   const first=controls[0],last=controls.at(-1);

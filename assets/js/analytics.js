@@ -41,7 +41,7 @@
  status();
  if(!enabled){document.querySelectorAll('[data-consent]').forEach(b=>b.hidden=true);return}
  const description=document.querySelector('[data-privacy-text]');
- if(description) description.textContent='Google Analytics is optional. After you allow it, Google can use cookies to measure visits and link clicks. You can decline or withdraw consent using Privacy & cookies.';
+ if(description) description.textContent='Optional Google Analytics uses cookies to measure visits and link clicks after you allow it. Change your choice in Privacy & cookies.';
  document.addEventListener('click', event => {
   if(!allowed() || !loaded || typeof window.gtag !== 'function') return;
   const link=event.target.closest?.('a[href]');if(!link) return;
@@ -54,6 +54,9 @@
   if(link.dataset.analytics === 'cv-download') window.gtag('event','cv_download',source);
   else if(url.origin!==location.origin) window.gtag('event','outbound_click',{...source,link_domain:url.hostname});
  });
- if(read() !== 'granted' && read() !== 'denied') document.querySelector('#privacy')?.showModal();
+ if(read() !== 'granted' && read() !== 'denied') {
+  const prompt = document.querySelector('#privacy');
+  if (prompt) { prompt.classList.add('privacy-prompt'); prompt.setAttribute('open', ''); }
+ }
  load();
 })();
