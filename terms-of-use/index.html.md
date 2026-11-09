@@ -16,7 +16,7 @@ Tools, protocols and services change. Assess the assumptions and limitations aga
 
 ## Copyright and reuse
 
-Original text and artwork are protected by copyright. Third-party names, trademarks and attributed material remain subject to their owners’ rights.
+I reserve the rights I hold in the original material on this site. Third-party names, trademarks and attributed material remain subject to their owners’ rights.
 
 You may link to articles and quote short excerpts with attribution and a link to the original page, subject to applicable law. Contact me for permission for wider republication or reuse. Rights and exceptions provided by applicable law continue to apply.
 
