@@ -2,7 +2,7 @@ Writing / Mustafa Hafeez
 
 # Notes on *building software.*
 
-I’m Mustafa, a senior software engineer and independent app developer. I share what I’m learning as I build with AI, along with practical lessons from my work and independent projects.
+I’m Mustafa, a senior software engineer and independent app developer. These are notes from my AI journey and wider engineering work: real problems, things I’ve tried, decisions I’ve made and what I’m learning along the way.
 
 [My technical notes](<https://mustafahafeez.com/#notes>) [Reading](<https://mustafahafeez.com/#recommended>)
 
@@ -22,7 +22,7 @@ About the author
 
 ## Mustafa Hafeez.
 
-My work spans Java, React, AI authentication, automation and infrastructure. I’m also an independent app developer. [More about me and my work](<https://mustafahafeez.com/about/>) .
+I work across software development, automation and infrastructure, and build independent apps. Here I share practical lessons from using AI and making engineering decisions. [More about me and my work](<https://mustafahafeez.com/about/>) .
 
 ## Reading
 
