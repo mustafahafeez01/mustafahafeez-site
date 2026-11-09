@@ -1,20 +1,22 @@
 Mustafa Hafeez · Software engineer
 
-# Building useful software *since 2007.*
+# I build software *and keep it working.*
 
-I’m a senior software engineer at Visokio, working with the team across Java, React, AI authentication, automation and infrastructure. Outside work, I design and build Travel Document Vault, my independent iOS and Android app.
+I’m a senior software engineer at Visokio and the independent developer of Travel Document Vault. I work across product features, automation and infrastructure, and write about the decisions behind the work, including what I’m learning from AI agents.
 
-[Explore my work](<https://mustafahafeez.com/about/#work>) [Career & education](<https://mustafahafeez.com/about/#journey>) [Contact](<https://mustafahafeez.com/about/#contact>)
+[Explore my work](<https://mustafahafeez.com/about/#work>) [Career & education](<https://mustafahafeez.com/about/#journey>) [Connect on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
 
 ![Mustafa Hafeez](<https://mustafahafeez.com/assets/images/mustafa-hafeez-800.webp>)
 
 Mustafa Hafeez Senior software engineer at Visokio
 
-01 / Selected work
+Selected work
 
 ## Selected engineering and product work.
 
 Long-term engineering and independent product work.
+
+01
 
 Professional work
 
@@ -22,65 +24,49 @@ Professional work
 
 2007 to present
 
-From Omniscope Classic to Evo.
+Building and maintaining Omniscope.
 
-I began at Visokio on Omniscope Classic, the earlier desktop application, before moving on to its successor, Omniscope Evo. I work with the team across Evo’s Java backend and JavaScript, CSS and React frontend. Much of my work focuses on automation and the shared features that help people build and run reports.
+I joined Visokio in 2007 and work on Omniscope, a platform for exploring data, building interactive reports and automating data workflows. My work has moved from the Classic desktop application to Omniscope Evo, across the Java server and JavaScript, CSS and React front end, working closely with colleagues.
 
-#### Product & reporting
+#### Reporting and everyday use
 
-I develop reporting, filtering and shared application features, including saved explorations, working copies, branding and persistence.
+I work on filtering, saved explorations, working copies and the shared features around reports, including persistence, styling and customer branding. These help people explore their data, return to their work and manage changes between projects and servers.
 
-#### AI, security & automation
+#### Automation and AI integration
 
-I built OAuth 2.1 sign-in for Omniscope’s MCP server and work on permissions and application hardening. I also develop scheduled execution, project automations and APIs, including retries and notifications.
+My Scheduler and project automation work spans server and client, including schedule validation, retries and outcome notifications. I also develop parameters and REST APIs. For Omniscope’s MCP server, I implemented OAuth 2.1 sign-in, endpoints and Admin screens so AI assistants can connect within a person’s existing permissions and authorised folders.
 
-#### DevOps & releases
+#### Cloud accounts and administration
 
-I work on Docker deployments, Terraform, cloud marketplace images and release pipelines. I also help plan infrastructure changes with colleagues, using runbooks and recovery steps.
+For Omniscope Cloud, I implemented sign-up, sign-in, trial and subscription flows using Auth0 and Stripe. My wider Admin work covers permissions, single sign-on and API-key configuration. I also work on application hardening, licensing and activation.
 
-**More about my engineering responsibilities**
+#### Releases and operations
 
-**AI authentication**
-
-I implemented OAuth 2.1 authentication for Omniscope’s MCP server, covering sign-in, endpoints and Admin screens. AI assistants operate within the person’s existing permissions and authorised folders.
-
-**Cloud & SaaS**
-
-For Omniscope Cloud, I implemented sign-up, sign-in, trial and subscription flows using Auth0 and Stripe. I also help set up Omniscope’s public SaaS services.
-
-**Reporting & frameworks**
-
-I work on filtering, reporting and shared application frameworks, including persistence, saved explorations and working copies.
-
-**Security & access**
-
-My Admin work covers sign-in, permissions, single sign-on and API-key configuration. I also work on application hardening and activation.
-
-**DevOps & infrastructure**
-
-I set up Docker containers and use Terraform to help manage infrastructure at Visokio. My work also includes cloud marketplace releases and operational runbooks.
-
-**Automation & APIs**
-
-I develop Scheduler functionality across server and client, including automated execution and retries, alongside project automations, parameters and REST APIs. I also work on schedule validation and project-level notifications.
-
-**Product experience**
-
-My work also covers data visualisation, filtering, customer branding and licensing.
-
-**Release engineering**
-
-I maintain the build pipeline and work with the team on code signing and release packaging for Windows, macOS, Linux, Docker and cloud releases. My work also includes Windows app-store packaging and user-data persistence.
-
-**Customer troubleshooting**
-
-When customers encounter server problems, I investigate the cause and work with the team to resolve them.
+I maintain the build pipeline and work with the team on packaging and code signing across Windows, macOS and Linux, alongside Docker and cloud marketplace releases. I use Terraform for infrastructure work, help plan changes with runbooks and recovery steps, and investigate customer server problems with colleagues.
 
 [Explore Omniscope at Visokio](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=work_visokio>)
 
-Independent product · iOS & Android
+Alongside the work
 
-### Travel Document Vault
+#### Explore Omniscope.
+
+Public apps and resources from the team I work with.
+
+- [Connect AI agents to Omniscope with MCP Connect an AI agent to an Omniscope server.↗ ](<https://help.visokio.com/support/solutions/articles/42000118534-connect-ai-agents-to-omniscope-with-the-mcp-server?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_mcp>)
+
+- [Connect Omniscope Cloud in Claude Work on Omniscope projects from a Claude conversation.↗ ](<https://claude.ai/directory/omniscope-cloud?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_claude>)
+
+- [Explore Omniscope at Visokio Product information, downloads and deployment options.↗ ](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_product>)
+
+Visokio Omniscope
+
+02
+
+Independent product
+
+### Travel Document Vault.
+
+iOS & Android
 
 A little less worry. A better start to the trip.
 
@@ -90,7 +76,7 @@ Passports, visas and IDs, organised on your phone with expiry reminders.
 
 My role
 
-I lead the product, design and engineering, supported by AI agents I configure and coordinate. I optimise their context and token use, review their output and make the final decisions.
+I designed Travel Document Vault from the ground up, choosing its architecture and tooling and building it hands-on. I make the product and design decisions, develop the app, and review and test changes before release. AI coding agents support that work. I set the direction and decide what ships.
 
 Inside the app Product demo
 
@@ -133,6 +119,8 @@ Pro adds family profiles and document checks against trip dates.
 [Explore the product](<https://traveldocumentvault.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=work_tdv_product>) [Why I built it](<https://traveldocumentvault.com/blog/why-i-built-travel-document-vault/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=work_tdv_origin>) [How privacy works](<https://traveldocumentvault.com/privacy-verification/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=work_tdv_privacy>) [Privacy policy](<https://traveldocumentvault.com/privacy-policy/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=work_tdv_policy>)
 
 Digital copies do not replace original travel documents or official entry requirements.
+
+03
 
 Engineering judgement
 
@@ -184,36 +172,46 @@ recorded separately
 
 These checks establish the behaviour of the tested output. Access control and the state of an already deployed host need their own checks.
 
-[Read “Before I accept an AI agent’s changes”](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
+From my writing
 
-02 / Career
+![Conceptual paper models of an app and websites bring work towards a human review desk and release gate.](<https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp>)
+
+AI engineering 9 November 2026 4 min read
+
+### [Before I accept an AI agent’s changes](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
+
+What I ask agents to show before accepting a change, using build and release checks as a concrete example.
+
+[Read the note ↗ ](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
+
+Career
 
 ## Career & education.
 
 The foundations, the first placement, and the work that followed.
 
-- Since 2007 Visokio
+- Since 2007 [Visokio (UK)](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=career_visokio>)
 
 ### Graduate engineer to senior software engineer
 
 My work spans product development, reporting automation, security, releases and infrastructure, working with the Visokio team.
 
-- Industry placement BusinessObjects
-
-### Putting the foundations to work
-
-My placement brought university learning into contact with professional software development.
-
-- Education Kingston University
+- Degree completion [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
 
 ### First Class honours in software engineering
 
-I received the best software engineering student award. Alongside my studies, I worked as a Java assistant, helping other students learn to program.
+My four-year degree included an industry placement at BusinessObjects. I received the best software engineering student award. Alongside my studies, I was selected as a Java assistant, helping other students learn to program in class.
 
-Keep in touch
+- During my degree [BusinessObjects (later acquired by SAP)](<https://www.sap.com/hk/about/company/history/2001-2010.html>)
+
+### Putting the foundations to work
+
+This placement was part of my four-year course at Kingston University. My placement brought university learning into contact with professional software development.
+
+Contact
 
 ## Let’s compare notes.
 
-[Connect on LinkedIn](<https://www.linkedin.com/in/mustafahafeez-dev>)
+[Connect on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
 
 [Read the HTML page](<https://mustafahafeez.com/about/>)

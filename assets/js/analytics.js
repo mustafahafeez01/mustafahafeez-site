@@ -59,8 +59,7 @@
  if(read() !== 'granted' && read() !== 'denied') {
   const prompt = document.querySelector('#privacy');
   if (prompt) {
-   // Normal flow keeps the choice visible without covering reading or keyboard focus.
-   document.querySelector('header')?.after(prompt);
+   // Initial HTML and the first-paint class reserve this space before rendering.
    prompt.classList.add('privacy-prompt');
    prompt.querySelector('h2').textContent='Optional analytics';
    if(description) description.textContent='May I use Google Analytics cookies to measure visits and link clicks?';

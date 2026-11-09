@@ -1,12 +1,12 @@
 Writing / Mustafa Hafeez
 
-# Notes on *building software.*
+# What I’m learning *by building.*
 
-I’m Mustafa, a senior software engineer and independent app developer. These are notes from my AI journey and wider engineering work: real problems, things I’ve tried, decisions I’ve made and what I’m learning along the way.
+I’m Mustafa, a software engineer and independent app developer. These are notes on using AI agents and solving engineering problems, grounded in the tools I used, the choices I made and the checks behind them.
 
-[My technical notes](<https://mustafahafeez.com/#notes>) [Reading](<https://mustafahafeez.com/#recommended>)
+[Technical notes](<https://mustafahafeez.com/#notes>) [Reading](<https://mustafahafeez.com/#recommended>)
 
-## Latest notes
+## Technical notes
 
 1 published
 
@@ -16,9 +16,13 @@ AI engineering 9 November 2026 4 min read
 
 What I ask agents to show before accepting a change, using build and release checks as a concrete example.
 
+![Conceptual paper models of an app and websites bring work towards a human review desk and release gate.](<https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp>)
+
+[Read the note ↗ ](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
+
 [Subscribe with RSS](<https://mustafahafeez.com/blog/feed.xml>) [Subscribe with Atom](<https://mustafahafeez.com/blog/atom.xml>)
 
-![Mustafa Hafeez](<https://mustafahafeez.com/assets/images/mustafa-hafeez-320.webp>)
+![Mustafa Hafeez](<https://mustafahafeez.com/assets/images/mustafa-hafeez-64.webp>)
 
 About the author
 
@@ -44,9 +48,9 @@ Antonio Poggi antoniopoggi.com
 
 Read Antonio’s article on his website.
 
-**Visokio and Omniscope resources**
+**Visokio Omniscope resources**
 
-### Visokio & Omniscope
+### Visokio Omniscope
 
 Public apps, AI integrations and product resources from the team I work with.
 
