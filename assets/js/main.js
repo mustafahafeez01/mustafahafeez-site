@@ -1,6 +1,6 @@
 // Preserve links to sections on the former profile homepage.
 if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].includes(location.hash)) {
- location.replace(location.hash === '#writing' ? '/' : '/about/' + location.hash);
+ location.replace(location.hash === '#writing' ? '/blog/#notes' : '/about/' + location.hash);
 }
 
 (() => {
@@ -10,17 +10,19 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
   event?.preventDefault();
   if (modal.classList.contains('privacy-prompt')) modal.close();
   modal.classList.remove('privacy-prompt');
+  document.documentElement.classList.remove('analytics-choice-needed');
   const title = modal.querySelector('h2');
   if (title) title.textContent = 'Privacy & cookies';
   const description = modal.querySelector('[data-privacy-text]');
   if (description) description.textContent = 'Optional Google Analytics uses cookies to measure visits and link clicks after you allow it. Change your choice in Cookie settings.';
   if (!modal.open) { modal.showModal(); modal.querySelector('[data-close]')?.focus(); }
  }));
- document.querySelector('[data-close]')?.addEventListener('click', () => modal.close());
- document.querySelectorAll('[data-consent]').forEach(b => b.addEventListener('click', () => {window.setAnalyticsConsent?.(b.dataset.consent); modal.close();}));
+ const close = () => {modal.close(); document.documentElement.classList.remove('analytics-choice-needed')};
+ document.querySelector('[data-close]')?.addEventListener('click', close);
+ document.querySelectorAll('[data-consent]').forEach(b => b.addEventListener('click', () => {window.setAnalyticsConsent?.(b.dataset.consent); close();}));
  modal?.addEventListener?.('keydown', event => {
   if (modal.classList.contains('privacy-prompt')) {
-   if (event.key === 'Escape') modal.close();
+   if (event.key === 'Escape') close();
    return;
   }
   if(event.key!=='Tab') return;
@@ -40,12 +42,12 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
  if (activation?.navigationType !== 'push' || typeof activation.from?.url !== 'string' || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
  const previous = new URL(activation.from.url);
  if (previous.origin !== location.origin) return;
- const routes = {'/': 'writing', '/blog/': 'writing', '/about/': 'about'};
+ const routes = {'/': 'home', '/blog/': 'writing', '/about/': 'about'};
  const from = routes[previous.pathname];
  const to = routes[location.pathname];
  const indicator = nav.querySelector('.nav-indicator');
  if (!from || !to || to !== nav.dataset.active || from === to || !indicator?.animate) return;
- const position = active => active === 'about' ? 'translateX(calc(100% + 2px))' : 'translateX(0)';
+ const position = active => ({home: 'translateX(0)', writing: 'translateX(calc(100% + 2px))', about: 'translateX(calc(200% + 4px))'})[active];
  const animation = indicator.animate([{transform: position(from)}, {transform: position(to)}], {duration: 220, easing: 'cubic-bezier(.2,.7,.3,1)'});
  window.addEventListener('pagehide', () => animation.cancel(), {once: true});
 })();

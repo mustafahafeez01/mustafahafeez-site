@@ -2,7 +2,7 @@ Mustafa Hafeez · Software engineer
 
 # I build software *and keep it working.*
 
-I’m a senior software engineer at Visokio and the independent developer of Travel Document Vault. I work across product features, automation and infrastructure, and write about the decisions behind the work, including what I’m learning from AI agents.
+I’m a senior software engineer at Visokio and the independent developer of Travel Document Vault. I work across product features, automation and infrastructure, and write about the decisions behind the work.
 
 [Explore my work](<https://mustafahafeez.com/about/#work>) [Career & education](<https://mustafahafeez.com/about/#journey>) [Connect on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
 
@@ -46,20 +46,6 @@ I maintain the build pipeline and work with the team on packaging and code signi
 
 [Explore Omniscope at Visokio](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=work_visokio>)
 
-Alongside the work
-
-#### Explore Omniscope.
-
-Public apps and resources from the team I work with.
-
-- [Connect AI agents to Omniscope with MCP Connect an AI agent to an Omniscope server.↗ ](<https://help.visokio.com/support/solutions/articles/42000118534-connect-ai-agents-to-omniscope-with-the-mcp-server?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_mcp>)
-
-- [Connect Omniscope Cloud in Claude Work on Omniscope projects from a Claude conversation.↗ ](<https://claude.ai/directory/omniscope-cloud?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_claude>)
-
-- [Explore Omniscope at Visokio Product information, downloads and deployment options.↗ ](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_product>)
-
-Visokio Omniscope
-
 02
 
 Independent product
@@ -76,7 +62,7 @@ Passports, visas and IDs, organised on your phone with expiry reminders.
 
 My role
 
-I designed Travel Document Vault from the ground up, choosing its architecture and tooling and building it hands-on. I make the product and design decisions, develop the app, and review and test changes before release. AI coding agents support that work. I set the direction and decide what ships.
+I designed Travel Document Vault from the ground up, choosing its architecture and tooling and building it hands-on. I make the product and design decisions, develop the app, and review and test changes before release. AI coding agents support that work.
 
 Inside the app Product demo
 
@@ -120,70 +106,6 @@ Pro adds family profiles and document checks against trip dates.
 
 Digital copies do not replace original travel documents or official entry requirements.
 
-03
-
-Engineering judgement
-
-## A release boundary I can check.
-
-Source files and working drafts stay private, while a separate output directory contains the material allowed to go live. I used agents to help develop and check that boundary.
-
-- 01 / Constraint
-
-### Keep private work private.
-
-Source files and working drafts must stay outside the release directory.
-
-- 02 / Choice
-
-### List what can go live.
-
-I use an explicit allowlist to check the complete output file list. An unexpected file makes the check fail.
-
-- 03 / Check
-
-### Try the rejection case.
-
-A test deliberately adds an unapproved file to the generated directory and expects the check to fail.
-
-**See what was checked**
-
-A static example from the release described in my article. The full record retains the revision and individual checks.
-
-**Output allowlist**
-
-passed
-
-**Private-file exclusion**
-
-passed
-
-**Draft exclusion**
-
-passed
-
-**Live text comparison**
-
-matched
-
-**Browser coverage**
-
-recorded separately
-
-These checks establish the behaviour of the tested output. Access control and the state of an already deployed host need their own checks.
-
-From my writing
-
-![Conceptual paper models of an app and websites bring work towards a human review desk and release gate.](<https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp>)
-
-AI engineering 9 November 2026 4 min read
-
-### [Before I accept an AI agent’s changes](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
-
-What I ask agents to show before accepting a change, using build and release checks as a concrete example.
-
-[Read the note ↗ ](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
-
 Career
 
 ## Career & education.
@@ -194,19 +116,19 @@ The foundations, the first placement, and the work that followed.
 
 ### Graduate engineer to senior software engineer
 
-My work spans product development, reporting automation, security, releases and infrastructure, working with the Visokio team.
+My work has grown with Omniscope from the Classic desktop application to Evo, across the Java backend and JavaScript and React frontend. I develop reporting and shared application features, Scheduler functionality, project automations and APIs. I implemented Cloud account and subscription flows and OAuth sign-in for AI assistants. I also work on Docker, Terraform, build pipelines and releases, and investigate customer server problems with colleagues.
 
 - Degree completion [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
 
 ### First Class honours in software engineering
 
-My four-year degree included an industry placement at BusinessObjects. I received the best software engineering student award. Alongside my studies, I was selected as a Java assistant, helping other students learn to program in class.
+I received the best software engineering student award. For my final-year project, I designed and built a unit-test generator in Java. Developers described how a method should be tested in ordinary Java comments. An ANTLR grammar parsed those descriptions, and Velocity templates generated JUnit test methods and harnesses. The university used the tool to test students’ submitted practical assignments. My four-year software engineering degree included an industrial placement at BusinessObjects. I was also selected twice as a Java teaching assistant for my programming skills, supporting first-year and second-year programming workshops.
 
 - During my degree [BusinessObjects (later acquired by SAP)](<https://www.sap.com/hk/about/company/history/2001-2010.html>)
 
-### Putting the foundations to work
+### Testing and releases as a placement developer
 
-This placement was part of my four-year course at Kingston University. My placement brought university learning into contact with professional software development.
+From June 2005 to July 2006, I worked with senior developers on unit tests with JUnit and mock objects, test environments, and the team’s unit-testing framework and reporting. I handled the team’s release and configuration management, and worked on hot-fixes with teams in other countries. I wrote an internal paper on removing contextual dependencies from unit tests and was asked to present it. I also helped interview the following year’s placement candidates.
 
 Contact
 

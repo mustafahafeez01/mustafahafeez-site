@@ -1,14 +1,36 @@
-Writing / Mustafa Hafeez
+Mustafa Hafeez · Software engineer
 
-# What I’m learning *by building.*
+# I build software *and keep it working.*
 
-I’m Mustafa, a software engineer and independent app developer. These are notes on using AI agents and solving engineering problems, grounded in the tools I used, the choices I made and the checks behind them.
+I’m a senior software engineer at Visokio and the independent developer of Travel Document Vault. I work across product features, automation and infrastructure, and write about the decisions behind the work.
 
-[Technical notes](<https://mustafahafeez.com/#notes>) [Reading](<https://mustafahafeez.com/#recommended>)
+[Explore my work](<https://mustafahafeez.com/#selected-work>) [Career & education](<https://mustafahafeez.com/about/#journey>) [Connect on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
 
-## Technical notes
+![Mustafa Hafeez](<https://mustafahafeez.com/assets/images/mustafa-hafeez-800.webp>)
 
-1 published
+Mustafa Hafeez Senior software engineer at Visokio
+
+Selected work
+
+## Engineering and independent products.
+
+### Visokio Omniscope
+
+At Visokio, I work on Omniscope across reporting, automation, cloud accounts and releases, working closely with colleagues. I joined in 2007.
+
+[My work at Visokio](<https://mustafahafeez.com/about/#professional-title>)
+
+### Travel Document Vault
+
+I design and build Travel Document Vault, my independent app for organising passports, visas and IDs, with expiry reminders.
+
+[Explore Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>)
+
+Writing
+
+## Latest technical note.
+
+[All technical notes](<https://mustafahafeez.com/blog/>)
 
 AI engineering 9 November 2026 4 min read
 
@@ -20,72 +42,6 @@ What I ask agents to show before accepting a change, using build and release che
 
 [Read the note ↗ ](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
 
-[Subscribe with RSS](<https://mustafahafeez.com/blog/feed.xml>) [Subscribe with Atom](<https://mustafahafeez.com/blog/atom.xml>)
-
-![Mustafa Hafeez](<https://mustafahafeez.com/assets/images/mustafa-hafeez-64.webp>)
-
-About the author
-
-## Mustafa Hafeez.
-
-I work across software development, automation and infrastructure, and build [Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>) , my independent app. Here I share practical lessons from using AI and making engineering decisions. [More about me and my work](<https://mustafahafeez.com/about/>) .
-
-## Reading
-
-External articles & resources
-
-Articles and resources I recommend, published on their original sites.
-
-Antonio Poggi antoniopoggi.com
-
-### [What Is Verifiable AI Analytics?](<https://antoniopoggi.com/writing/what-is-verifiable-ai-analytics/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_verifiable_ai>)
-
-Read Antonio’s article on his website.
-
-Antonio Poggi antoniopoggi.com
-
-### [From CSV Prototype to Scheduled Data Application](<https://antoniopoggi.com/writing/csv-prototype-to-scheduled-data-application/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_csv_prototype>)
-
-Read Antonio’s article on his website.
-
-**Visokio Omniscope resources**
-
-### Visokio Omniscope
-
-Public apps, AI integrations and product resources from the team I work with.
-
-- [Connect AI agents to Omniscope with MCP Connect an AI agent to an Omniscope server. ](<https://help.visokio.com/support/solutions/articles/42000118534-connect-ai-agents-to-omniscope-with-the-mcp-server?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_mcp>)
-
-- [Connect Omniscope Cloud in Claude Work on Omniscope projects from a Claude conversation. ](<https://claude.ai/directory/omniscope-cloud?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_claude>)
-
-- [Open Omniscope Cloud Open the hosted Omniscope workspace. ](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_cloud>)
-
-- [Explore Omniscope App Hub Browse Omniscope-powered applications. ](<https://omniscope.app/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_app_hub>)
-
-- [Explore Omniscope at Visokio Product information, downloads and deployment options. ](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_product>)
-
-- [Try Omniscope Insight Explorer Ask questions about data and inspect the analysis. ](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_insight_explorer>)
-
-- [Try Omniscope Instant Dashboard Create an interactive dashboard from a data file. ](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_instant_dashboard>)
-
-- [Explore Omniscope Decision Scorecard Compare rows using questions and weighted scores. ](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_decision_scorecard>)
-
-- [Explore Omniscope demos and data solutions Explore example dashboards and data solutions. ](<https://visokio.com/omniscope-demos-and-data-solutions-gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_demos>)
-
-- [Try Omniscope Data Quality Inspector Find missing values, duplicate rows and numeric outliers. ](<https://visokio.com/data-quality-inspector/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_data_quality>)
-
-### From Visokio
-
-Public product updates from Visokio, separate from my own technical writing.
-
-- [Verifiable AI analytics across the data journey](<https://visokio.com/verifiable-ai-analytics-across-the-data-journey/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_verifiable_ai>)
-
-- [Visokio’s Omniscope blog](<https://visokio.com/blog/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=company_reading_blog>)
-
-- [Visokio on LinkedIn](<https://www.linkedin.com/company/visokio/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=company_reading_linkedin>)
-
-- [Visokio on Workflow Ninja and inspectable analytics](<https://www.linkedin.com/posts/visokio_omniscope-from-data-preparation-to-visual-activity-7495817878877736960-IZlW?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=company_reading_workflows>)
-
-- [Visokio on integrated AI and data exploration](<https://www.linkedin.com/posts/visokio_a-smarter-way-to-explore-data-natural-language-activity-7426596096350580736-n5o5?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=company_reading_ai>)
+[Subscribe with RSS](<https://mustafahafeez.com/blog/feed.xml>)
 
 [Read the HTML page](<https://mustafahafeez.com/>)

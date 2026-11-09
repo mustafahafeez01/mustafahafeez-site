@@ -3,10 +3,11 @@
 Senior software engineer at Visokio, where he joined in 2007, and the developer of Travel Document Vault. This personal site covers his career, independent product work and technical writing.
 
 ## Public pages
+- [Home](https://mustafahafeez.com/)
 - [Profile and selected work](https://mustafahafeez.com/about/)
-- [Technical writing](https://mustafahafeez.com/)
+- [Technical writing](https://mustafahafeez.com/blog/)
 - [Profile Markdown](https://mustafahafeez.com/about/index.html.md)
-- [Writing Markdown](https://mustafahafeez.com/index.html.md)
+- [Writing Markdown](https://mustafahafeez.com/blog/index.html.md)
 - [Privacy and cookies](https://mustafahafeez.com/privacy-policy/index.html.md)
 - [Terms of use](https://mustafahafeez.com/terms-of-use/index.html.md)
 
