@@ -16,13 +16,15 @@ AI engineering 9 November 2026 4 min read
 
 What I ask agents to show before accepting a change, using build and release checks as a concrete example.
 
+[Subscribe with RSS](<https://mustafahafeez.com/blog/feed.xml>) [Subscribe with Atom](<https://mustafahafeez.com/blog/atom.xml>)
+
 ![Mustafa Hafeez](<https://mustafahafeez.com/assets/images/mustafa-hafeez-320.webp>)
 
 About the author
 
 ## Mustafa Hafeez.
 
-I work across software development, automation and infrastructure, and build independent apps. Here I share practical lessons from using AI and making engineering decisions. [More about me and my work](<https://mustafahafeez.com/about/>) .
+I work across software development, automation and infrastructure, and build [Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>) , my independent app. Here I share practical lessons from using AI and making engineering decisions. [More about me and my work](<https://mustafahafeez.com/about/>) .
 
 ## Reading
 
@@ -81,7 +83,5 @@ Public product updates from Visokio, separate from my own technical writing.
 - [Visokio on Workflow Ninja and inspectable analytics](<https://www.linkedin.com/posts/visokio_omniscope-from-data-preparation-to-visual-activity-7495817878877736960-IZlW?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=company_reading_workflows>)
 
 - [Visokio on integrated AI and data exploration](<https://www.linkedin.com/posts/visokio_a-smarter-way-to-explore-data-natural-language-activity-7426596096350580736-n5o5?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=company_reading_ai>)
-
-[Subscribe with RSS](<https://mustafahafeez.com/blog/feed.xml>) [Subscribe with Atom](<https://mustafahafeez.com/blog/atom.xml>)
 
 [Read the HTML page](<https://mustafahafeez.com/>)

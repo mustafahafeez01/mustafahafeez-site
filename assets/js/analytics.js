@@ -9,6 +9,8 @@
  const allowed = () => enabled && consent === 'granted' && read() === 'granted' && !window['ga-disable-'+config.gaMeasurementId];
  function status() {
   const node = document.querySelector('[data-consent-status]');
+  const decline = document.querySelector('[data-consent="denied"]');
+  if(decline) decline.textContent = read() === 'granted' ? 'Withdraw analytics' : 'Decline analytics';
   if(node) node.textContent = !enabled ? 'Analytics is off for this site.' : read() === 'granted' ? 'Analytics is allowed. You can withdraw it here.' : 'Analytics is not allowed.';
  }
  function load() {
@@ -56,7 +58,14 @@
  });
  if(read() !== 'granted' && read() !== 'denied') {
   const prompt = document.querySelector('#privacy');
-  if (prompt) { prompt.classList.add('privacy-prompt'); prompt.setAttribute('open', ''); }
+  if (prompt) {
+   // Normal flow keeps the choice visible without covering reading or keyboard focus.
+   document.querySelector('header')?.after(prompt);
+   prompt.classList.add('privacy-prompt');
+   prompt.querySelector('h2').textContent='Optional analytics';
+   if(description) description.textContent='May I use Google Analytics cookies to measure visits and link clicks?';
+   prompt.setAttribute('open', '');
+  }
  }
  load();
 })();

@@ -38,6 +38,8 @@ Open Cookie settings in the footer to review or withdraw your choice. Withdrawal
 
 Withdrawal affects future processing. Information already sent remains subject to the applicable retention and deletion processes.
 
+[Open cookie settings](<https://mustafahafeez.com/privacy-policy/#analytics-settings>)
+
 ## How long information is kept
 
 The Google Analytics property is configured to retain event data for two months and user data for fourteen months. Reset on new user activity is enabled, so new activity can restart the retention period for the user identifier.

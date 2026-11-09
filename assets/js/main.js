@@ -5,10 +5,15 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
 
 (() => {
  const modal = document.querySelector('#privacy');
- document.querySelectorAll('[data-privacy]').forEach(button => button.addEventListener('click', () => {
-  if (!modal) return;
+ document.querySelectorAll('[data-privacy]').forEach(button => button.addEventListener('click', event => {
+  if (!modal || typeof modal.showModal !== 'function') return;
+  event?.preventDefault();
   if (modal.classList.contains('privacy-prompt')) modal.close();
   modal.classList.remove('privacy-prompt');
+  const title = modal.querySelector('h2');
+  if (title) title.textContent = 'Privacy & cookies';
+  const description = modal.querySelector('[data-privacy-text]');
+  if (description) description.textContent = 'Optional Google Analytics uses cookies to measure visits and link clicks after you allow it. Change your choice in Cookie settings.';
   if (!modal.open) { modal.showModal(); modal.querySelector('[data-close]')?.focus(); }
  }));
  document.querySelector('[data-close]')?.addEventListener('click', () => modal.close());
@@ -26,17 +31,39 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
  });
 })();
 
+// Animate only the local selection after an ordinary same-tab page navigation.
+// Native links remain immediate, and no preference or navigation data is stored.
+(() => {
+ const nav = document.querySelector('nav[aria-label="Main navigation"][data-active]');
+ if (!nav) return;
+ const activation = window.navigation?.activation;
+ if (activation?.navigationType !== 'push' || typeof activation.from?.url !== 'string' || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+ const previous = new URL(activation.from.url);
+ if (previous.origin !== location.origin) return;
+ const routes = {'/': 'writing', '/blog/': 'writing', '/about/': 'about'};
+ const from = routes[previous.pathname];
+ const to = routes[location.pathname];
+ const indicator = nav.querySelector('.nav-indicator');
+ if (!from || !to || to !== nav.dataset.active || from === to || !indicator?.animate) return;
+ const position = active => active === 'about' ? 'translateX(calc(100% + 2px))' : 'translateX(0)';
+ const animation = indicator.animate([{transform: position(from)}, {transform: position(to)}], {duration: 220, easing: 'cubic-bezier(.2,.7,.3,1)'});
+ window.addEventListener('pagehide', () => animation.cancel(), {once: true});
+})();
+
 // Keep all figures readable without JavaScript. Enhance only multi-image galleries.
 (() => {
  document.querySelectorAll('[data-carousel]').forEach(carousel => {
    const slides = [...carousel.querySelectorAll('[data-carousel-slide]')];
    const controls = carousel.querySelector('.carousel-controls');
    const status = carousel.querySelector('[data-carousel-status]');
+   const scenes = [...carousel.querySelectorAll('[data-carousel-scene]')];
+   const sceneControls = carousel.querySelector('.carousel-scenes');
    if (slides.length < 2 || !controls || !status) return;
    let current = 0;
    const show = index => {
      current = (index + slides.length) % slides.length;
      slides.forEach((slide, i) => { slide.hidden = i !== current; });
+     scenes.forEach((button, i) => button.setAttribute('aria-pressed', String(i === current)));
      status.textContent = `Image ${current + 1} of ${slides.length}`;
    };
    slides.forEach((slide, i) => {
@@ -44,6 +71,7 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
      slide.setAttribute('aria-roledescription', 'slide');
      slide.setAttribute('aria-label', `${i + 1} of ${slides.length}`);
    });
+   scenes.forEach((button, i) => button.addEventListener('click', () => show(i)));
    carousel.querySelector('[data-carousel-prev]').addEventListener('click', () => show(current - 1));
    carousel.querySelector('[data-carousel-next]').addEventListener('click', () => show(current + 1));
    carousel.addEventListener('keydown', event => {
@@ -66,6 +94,7 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
      if (Math.abs(dx) >= 50 && Math.abs(dx) > Math.abs(dy) * 1.5) show(current + (dx < 0 ? 1 : -1));
    }, {passive: true});
    controls.hidden = false;
+   if (sceneControls) sceneControls.hidden = false;
    show(0);
  });
 })();

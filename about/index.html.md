@@ -134,6 +134,58 @@ Pro adds family profiles and document checks against trip dates.
 
 Digital copies do not replace original travel documents or official entry requirements.
 
+Engineering judgement
+
+## A release boundary I can check.
+
+Source files and working drafts stay private, while a separate output directory contains the material allowed to go live. I used agents to help develop and check that boundary.
+
+- 01 / Constraint
+
+### Keep private work private.
+
+Source files and working drafts must stay outside the release directory.
+
+- 02 / Choice
+
+### List what can go live.
+
+I use an explicit allowlist to check the complete output file list. An unexpected file makes the check fail.
+
+- 03 / Check
+
+### Try the rejection case.
+
+A test deliberately adds an unapproved file to the generated directory and expects the check to fail.
+
+**See what was checked**
+
+A static example from the release described in my article. The full record retains the revision and individual checks.
+
+**Output allowlist**
+
+passed
+
+**Private-file exclusion**
+
+passed
+
+**Draft exclusion**
+
+passed
+
+**Live text comparison**
+
+matched
+
+**Browser coverage**
+
+recorded separately
+
+These checks establish the behaviour of the tested output. Access control and the state of an already deployed host need their own checks.
+
+[Read “Before I accept an AI agent’s changes”](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
+
 02 / Career
 
 ## Career & education.
@@ -162,6 +214,6 @@ Keep in touch
 
 ## Let’s compare notes.
 
-[Connect with Mustafa](<https://www.linkedin.com/in/mustafahafeez-dev>)
+[Connect on LinkedIn](<https://www.linkedin.com/in/mustafahafeez-dev>)
 
 [Read the HTML page](<https://mustafahafeez.com/about/>)
