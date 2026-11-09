@@ -67,7 +67,6 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
      status.textContent = `Image ${current + 1} of ${slides.length}`;
    };
    slides.forEach((slide, i) => {
-     slide.setAttribute('role', 'group');
      slide.setAttribute('aria-roledescription', 'slide');
      slide.setAttribute('aria-label', `${i + 1} of ${slides.length}`);
    });
