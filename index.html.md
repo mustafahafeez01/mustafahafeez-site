@@ -24,7 +24,7 @@ AI engineering 9 November 2026 4 min read
 
 ### [Before I accept an AI agent’s changes](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
 
-What I ask agents to show before accepting their work on Travel Document Vault, from existing-data checks to the version being released.
+What I ask agents to show before accepting a change, using build and release checks as a concrete example.
 
 ## Reading
 
