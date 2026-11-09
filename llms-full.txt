@@ -35,11 +35,11 @@ The useful question was whether the files being released matched the rules and t
 
 ## Inspect the files the build actually produces
 
-The publishing check compares the complete output file list with an explicit allowlist\. An unexpected file makes the check fail\. That gives the release process a concrete condition to enforce\.
+For this workflow, I use an explicit allowlist to check the complete output file list\. An unexpected file makes the check fail\. This turns the publishing boundary I want into a condition the release process can enforce\.
 
-The tests also place a recognisable marker in private fixture files, generate the site and inspect the output for that marker\. This checks the result of the build\. It can expose a copy step that includes material the release should exclude\.
+I also use build tests that place a recognisable marker in private fixture files, generate the site and inspect the output for that marker\. I want to inspect what the build produces\. This can expose a copy step that includes material the release should exclude\.
 
-A separate check deliberately adds an unapproved file to the generated directory and expects rejection\. That negative case matters\. A check that only accepts a clean output has not yet demonstrated that it catches an unwanted file\.
+For the rejection case, I use a test that deliberately adds an unapproved file to the generated directory and expects the check to fail\. This is part of how I assess the agent\-assisted implementation\. I can inspect evidence that it catches the unwanted file as well as accepting clean output\.
 
 These checks establish the behaviour of the tested output\. The record includes the test conditions and results\.
 
@@ -55,7 +55,7 @@ This establishes behaviour in the tested build directories\. Access control and 
 
 My workflow records the revision being checked\. If files change after review, the earlier result leaves a question about the later edits\. With agents or several working copies involved, the directory used for a check is part of the evidence too\.
 
-After a manual release, a verification step compared hashes of the local public text files with the responses served by the website\. The comparison matched\. Its scope was file delivery; interaction and visual checks were recorded separately\.
+After a manual release, I use a verification step that compares hashes of the local public text files with the responses served by the website\. In the release recorded for this article, the comparison matched\. I keep that result alongside separate interaction and visual checks, so I can see what each check establishes\.
 
 A sanitised summary of that release evidence looks like this\. The full record retains the revision and individual checks\.
 
