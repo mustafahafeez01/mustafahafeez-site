@@ -85,7 +85,7 @@ For a recent agent\-assisted change, identify one condition the release must rej
 
 ## About this note
 
-This note describes generalised software engineering practice and checks used in a static publishing workflow\. Identifying details are omitted\. Assess the checks against your own build, access model and release process\.
+This article draws on checks I’ve used in my own AI\-assisted development and static\-site publishing work\. It explains the technical approach and what the checks establish, with project\-specific details generalised\. Adapt the checks to your own build, permissions and release process\.
 
 ## Sources
 
