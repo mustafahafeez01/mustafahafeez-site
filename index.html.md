@@ -6,16 +6,6 @@ I’m Mustafa, a senior software engineer and independent app developer. I share
 
 [My technical notes](<https://mustafahafeez.com/#notes>) [Reading](<https://mustafahafeez.com/#recommended>)
 
-From my work at Visokio
-
-## Try Omniscope with Claude.
-
-At Visokio, I implemented OAuth 2.1 sign-in for Omniscope’s MCP server. Connect Omniscope Cloud to Claude to prepare data, build dashboards and open the resulting project to inspect it.
-
-[Connect in Claude](<https://claude.ai/directory/omniscope-cloud?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=home_omniscope_claude>) [Open Omniscope Cloud](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=home_omniscope_cloud>)
-
-Omniscope Cloud account required.
-
 ## Latest notes
 
 1 published
@@ -26,25 +16,33 @@ AI engineering 9 November 2026 4 min read
 
 What I ask agents to show before accepting a change, using build and release checks as a concrete example.
 
+![Mustafa Hafeez](<https://mustafahafeez.com/assets/images/mustafa-hafeez-320.webp>)
+
+About the author
+
+## Mustafa Hafeez.
+
+My work spans Java, React, AI authentication, automation and infrastructure. I’m also an independent app developer. [More about me and my work](<https://mustafahafeez.com/about/>) .
+
 ## Reading
 
 External articles & resources
 
 Articles and resources I recommend, published on their original sites.
 
-[Articles](<https://mustafahafeez.com/#reading-articles>) [Omniscope](<https://mustafahafeez.com/#reading-ai>) [Visokio updates](<https://mustafahafeez.com/#company-reading-title>)
-
-Antonio Poggi · COO at Visokio antoniopoggi.com
+Antonio Poggi antoniopoggi.com
 
 ### [What Is Verifiable AI Analytics?](<https://antoniopoggi.com/writing/what-is-verifiable-ai-analytics/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_verifiable_ai>)
 
 Read Antonio’s article on his website.
 
-Antonio Poggi · COO at Visokio antoniopoggi.com
+Antonio Poggi antoniopoggi.com
 
 ### [From CSV Prototype to Scheduled Data Application](<https://antoniopoggi.com/writing/csv-prototype-to-scheduled-data-application/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_csv_prototype>)
 
 Read Antonio’s article on his website.
+
+**Visokio and Omniscope resources**
 
 ### Visokio & Omniscope
 
@@ -83,12 +81,6 @@ Public product updates from Visokio, separate from my own technical writing.
 - [Visokio on Workflow Ninja and inspectable analytics](<https://www.linkedin.com/posts/visokio_omniscope-from-data-preparation-to-visual-activity-7495817878877736960-IZlW?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=company_reading_workflows>)
 
 - [Visokio on integrated AI and data exploration](<https://www.linkedin.com/posts/visokio_a-smarter-way-to-explore-data-natural-language-activity-7426596096350580736-n5o5?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=company_reading_ai>)
-
-A note on the notes
-
-## Clear thinking. Careful boundaries.
-
-I write about engineering ideas and public examples. Employer code, customer information and confidential implementation details stay out of these pages. [More about my journey](<https://mustafahafeez.com/about/#journey>) .
 
 [Subscribe with RSS](<https://mustafahafeez.com/blog/feed.xml>) [Subscribe with Atom](<https://mustafahafeez.com/blog/atom.xml>)
 
