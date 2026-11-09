@@ -5,6 +5,8 @@ Senior software engineer at Visokio, where he joined in 2007, and the developer 
 ## Public pages
 - [Profile and selected work](https://mustafahafeez.com/about/)
 - [Technical writing](https://mustafahafeez.com/)
+- [Profile Markdown](https://mustafahafeez.com/about/index.html.md)
+- [Writing Markdown](https://mustafahafeez.com/index.html.md)
 
 ## Published articles
 - [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): What I ask agents to show before accepting their work on Travel Document Vault, from existing-data checks to the version being released.
