@@ -97,5 +97,42 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
    controls.hidden = false;
    if (sceneControls) sceneControls.hidden = false;
    show(0);
+   if (carousel.hasAttribute('data-carousel-autoplay')) {
+     const toggle = carousel.querySelector('[data-carousel-toggle]');
+     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+     let paused = reducedMotion.matches;
+     let visible = false;
+     let hovering = false;
+     let entered = false;
+     let entrance;
+     let timer;
+     const updatePlayback = () => {
+       clearInterval(timer);
+       const playing = !paused && visible && !hovering && !document.hidden;
+       status.setAttribute('aria-live', playing ? 'off' : 'polite');
+       toggle.setAttribute('aria-label', paused ? 'Play slideshow' : 'Pause slideshow');
+       toggle.title = paused ? 'Play slideshow' : 'Pause slideshow';
+       toggle.firstElementChild.textContent = paused ? '▶' : 'Ⅱ';
+       if (playing) timer = setInterval(() => show(current + 1), 5000);
+     };
+     toggle.addEventListener('click', () => { paused = !paused; updatePlayback(); });
+     carousel.addEventListener('mouseenter', () => { hovering = true; updatePlayback(); });
+     carousel.addEventListener('mouseleave', () => { hovering = false; updatePlayback(); });
+     carousel.addEventListener('focusin', event => {
+       if (event.target !== toggle) { paused = true; updatePlayback(); }
+     });
+     carousel.addEventListener('touchstart', () => { paused = true; updatePlayback(); }, {passive: true});
+     document.addEventListener('visibilitychange', updatePlayback);
+     reducedMotion.addEventListener('change', () => { paused = true; entrance?.cancel(); updatePlayback(); });
+     new IntersectionObserver(entries => {
+       visible = entries[0].isIntersecting;
+       if (visible && !entered) {
+         entered = true;
+         if (!reducedMotion.matches) entrance = carousel.animate([{opacity: 0.35}, {opacity: 1}], {duration: 550, easing: 'ease-out'});
+       }
+       updatePlayback();
+     }, {threshold: 0.25}).observe(carousel);
+     updatePlayback();
+   }
  });
 })();

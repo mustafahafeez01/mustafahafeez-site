@@ -46,6 +46,30 @@ I maintain the build pipeline and work with the team on packaging and code signi
 
 [Explore Omniscope at Visokio](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=work_visokio>)
 
+Inside Omniscope Product overview
+
+From raw data to reports people can use.
+
+![Omniscope brings preparation, analysis and reporting together.](<https://mustafahafeez.com/assets/images/omniscope-overview-desktop.webp>)
+
+Prepare data, explore it and deliver the results in one platform.
+
+![Load, clean, blend, validate and transform data.](<https://mustafahafeez.com/assets/images/omniscope-prepare-desktop.webp>)
+
+Load, clean, blend, validate and transform data.
+
+![Explore data and investigate patterns.](<https://mustafahafeez.com/assets/images/omniscope-analyse-desktop.webp>)
+
+Explore data and investigate patterns.
+
+![Publish reports, export data and schedule delivery.](<https://mustafahafeez.com/assets/images/omniscope-deliver-desktop.webp>)
+
+Publish reports, export data and schedule delivery.
+
+Product illustrations from Visokio. Sample data shown.
+
+Image 1 of 4
+
 02
 
 Independent product
@@ -64,7 +88,7 @@ My role
 
 I designed Travel Document Vault from the ground up, choosing its architecture and tooling and building it hands-on. I make the product and design decisions, develop the app, and review and test changes before release. AI coding agents support that work.
 
-Inside the app Product demo
+Inside Travel Document Vault Product overview
 
 ![Travel Document Vault Documents screen showing document categories, family grouping and expiry reminders](<https://mustafahafeez.com/assets/images/tdv-documents.webp>)
 
