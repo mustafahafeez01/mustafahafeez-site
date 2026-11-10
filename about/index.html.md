@@ -136,25 +136,43 @@ Career
 
 ## Career & education.
 
-The foundations, the first placement, and the work that followed.
+From university and a placement year to Omniscope and an independent app.
 
-- Since 2007 [Visokio (UK)](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=career_visokio>)
+- 2003   [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
 
-### Graduate engineer to senior software engineer
+### Beginning the degree
 
-My work has grown with Omniscope from the Classic desktop application to Evo, across the Java backend and JavaScript and React frontend. I develop reporting and shared application features, Scheduler functionality, project automations and APIs. I implemented Cloud account and subscription flows and OAuth sign-in for AI assistants. I also work on Docker, Terraform, build pipelines and releases, and investigate customer server problems with colleagues.
+My four-year software engineering degree included an industrial placement at BusinessObjects. I was also selected twice as a Java teaching assistant for my programming skills, supporting first-year and second-year programming workshops.
 
-- Degree completion [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
-
-### First Class honours in software engineering
-
-I received the best software engineering student award. For my final-year project, I designed and built a unit-test generator in Java. Developers described how a method should be tested in ordinary Java comments. An ANTLR grammar parsed those descriptions, and Velocity templates generated JUnit test methods and harnesses. The university used the tool to test students’ submitted practical assignments. My four-year software engineering degree included an industrial placement at BusinessObjects. I was also selected twice as a Java teaching assistant for my programming skills, supporting first-year and second-year programming workshops.
-
-- During my degree [BusinessObjects (later acquired by SAP)](<https://www.sap.com/hk/about/company/history/2001-2010.html>)
+- 2005 –2006   [BusinessObjects (later acquired by SAP)](<https://www.sap.com/products/data-cloud/bi-platform.html>)
 
 ### Testing and releases as a placement developer
 
-From June 2005 to July 2006, I worked with senior developers on unit tests with JUnit and mock objects, test environments, and the team’s unit-testing framework and reporting. I handled the team’s release and configuration management, and worked on hot-fixes with teams in other countries. I wrote an internal paper on removing contextual dependencies from unit tests and was asked to present it. I also helped interview the following year’s placement candidates.
+From June 2005 to July 2006, I worked with senior developers on unit tests with JUnit and mock objects, test environments, and the team’s unit-testing framework and reporting. I handled the team’s release and configuration management, and worked on hot-fixes with teams in other countries.
+
+I wrote an internal paper on removing contextual dependencies from unit tests and was asked to present it. I also helped interview the following year’s placement candidates.
+
+- 2007   [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
+
+### First Class honours in software engineering
+
+I received the best software engineering student award. For my final-year project, I designed and built a unit-test generator in Java. Developers described how a method should be tested in ordinary Java comments.
+
+An ANTLR grammar parsed those descriptions, and Velocity templates generated JUnit test methods and harnesses. The university used the tool to test students’ submitted practical assignments.
+
+- 2007   to present  [Visokio (UK)](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=career_visokio>)
+
+### Graduate engineer to senior software engineer
+
+My work has grown with Omniscope from the Classic desktop application to Evo, across the Java backend and JavaScript and React frontend. I develop reporting and shared application features, Scheduler functionality, project automations and APIs.
+
+I implemented Cloud account and subscription flows and OAuth sign-in for AI assistants. I also work on Docker, Terraform, build pipelines and releases, and investigate customer server problems with colleagues.
+
+- 2025   to present  [Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>)
+
+### An independent app, from the ground up
+
+I started designing and building Travel Document Vault, my independent app for organising passports, visas and IDs. The work covers its architecture, product design, development, testing and releases.
 
 Contact
 
