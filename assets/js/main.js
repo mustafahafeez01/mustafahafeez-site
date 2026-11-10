@@ -136,3 +136,36 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
    }
  });
 })();
+
+// Sharing uses the canonical public URL, with no third-party widget requests.
+(() => {
+ const panel = document.querySelector('[data-article-share]');
+ if (!panel) return;
+ const url = panel.dataset.shareUrl;
+ const title = panel.dataset.shareTitle;
+ const status = panel.querySelector('[role="status"]');
+ const fallback = panel.querySelector('.share-link-fallback');
+ const copy = panel.querySelector('[data-copy-article]');
+ copy.hidden = false;
+ copy.addEventListener('click', async () => {
+  try {
+   await navigator.clipboard.writeText(url);
+   status.textContent = 'Link copied.';
+  } catch {
+   fallback.hidden = false;
+   fallback.focus();
+   fallback.select();
+   status.textContent = 'Select and copy the link below.';
+  }
+ });
+ const share = panel.querySelector('[data-native-share]');
+ if (typeof navigator.share !== 'function') return;
+ share.hidden = false;
+ share.addEventListener('click', async () => {
+  try {
+   await navigator.share({title, url});
+  } catch (error) {
+   if (error.name !== 'AbortError') status.textContent = 'Sharing is unavailable. You can copy the link instead.';
+  }
+ });
+})();
