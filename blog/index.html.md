@@ -4,7 +4,7 @@ Writing / Mustafa Hafeez
 
 I’m Mustafa, a software engineer and independent app developer. These are notes on software engineering, grounded in the tools I used, the choices I made and the checks behind them.
 
-[Technical notes](<https://mustafahafeez.com/blog/#notes>) [Reading](<https://mustafahafeez.com/blog/#recommended>)
+[Technical notes](<https://mustafahafeez.com/blog/#notes>) [Earlier notes](<https://mustafahafeez.com/blog/#earlier-notes>) [Reading](<https://mustafahafeez.com/blog/#recommended>)
 
 ## Technical notes
 
