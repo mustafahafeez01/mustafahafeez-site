@@ -32,15 +32,15 @@ Writing
 
 [All technical notes](<https://mustafahafeez.com/blog/>)
 
-AI engineering 9 November 2026 3 min read
+AI engineering 10 November 2026 4 min read
 
-### [Before I accept an AI agent’s changes](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
+### [When an AI agent cannot run your tests](<https://mustafahafeez.com/blog/tests-inside-agent-sandbox/>)
 
-A real publishing check from my website, and the question I ask before accepting an AI agent’s work.
+How I adapted tooling tests for a restricted environment, and why some checks still needed the real machine.
 
-![Conceptual paper models of an app and websites bring work towards a human review desk and release gate.](<https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp>)
+![A paper model testing station inside a transparent enclosure and a physical computer feed results towards a shared review notebook.](<https://mustafahafeez.com/assets/images/articles/agent-test-environments-cover.webp>)
 
-[Read the note ↗ ](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
+[Read the note ↗ ](<https://mustafahafeez.com/blog/tests-inside-agent-sandbox/>)
 
 [Subscribe with RSS](<https://mustafahafeez.com/blog/feed.xml>)
 

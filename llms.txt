@@ -12,4 +12,5 @@ Senior software engineer at Visokio, where he joined in 2007, and the developer 
 - [Terms of use](https://mustafahafeez.com/terms-of-use/index.html.md)
 
 ## Published articles
+- [When an AI agent cannot run your tests](https://mustafahafeez.com/blog/tests-inside-agent-sandbox/index.html.md): How I adapted tooling tests for a restricted environment, and why some checks still needed the real machine.
 - [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): A real publishing check from my website, and the question I ask before accepting an AI agent’s work.
