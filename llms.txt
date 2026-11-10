@@ -12,4 +12,4 @@ Senior software engineer at Visokio, where he joined in 2007, and the developer 
 - [Terms of use](https://mustafahafeez.com/terms-of-use/index.html.md)
 
 ## Published articles
-- [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): What I ask agents to show before accepting a change, using build and release checks as a concrete example.
+- [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): A real publishing check from my website, and the question I ask before accepting an AI agent’s work.

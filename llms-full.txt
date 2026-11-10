@@ -12,88 +12,65 @@ Senior software engineer at Visokio, where he joined in 2007, and the developer 
 - [Terms of use](https://mustafahafeez.com/terms-of-use/index.html.md)
 
 ## Published articles
-- [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): What I ask agents to show before accepting a change, using build and release checks as a concrete example.
+- [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): A real publishing check from my website, and the question I ask before accepting an AI agent’s work.
 
 # Before I accept an AI agent’s changes
 
-What I ask agents to show before accepting a change, using build and release checks as a concrete example\.
+A real publishing check from my website, and the question I ask before accepting an AI agent’s work\.
 
 By Mustafa Hafeez · 2026-11-09
 
 ## The takeaway
 
-Ask for the version that was checked, evidence for a specific failure case and a clear account of what remains untested\.
+Choose one failure the change must reject, demonstrate that rejection, and attach the result to the version being released\.
 
 ![Conceptual paper models of an app and websites bring work towards a human review desk and release gate\.](https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp)
 
 A conceptual illustration of preparing work across an app and its websites\.
 
-## Decide what the task needs to prove
+## The problem I needed to catch
 
-I use AI coding agents for implementation, code review, testing and release verification\. I set the direction, inspect the work and make the final decisions\. Part of that work is deciding what evidence an agent needs to bring back\.
+While building my personal website with AI coding agents, I needed to keep build scripts, drafts and agent instructions private\. Only the finished website should reach the public repository\.
 
-One practical use has been a static publishing workflow\. Source files and working drafts stay private, while a separate output directory contains the material allowed to go live\. I used agents to help develop and check that boundary\.
+Agents helped implement the build and release checks\. A successful build showed that the pages could be generated\. I also wanted evidence that an unexpected private file would stop publication\.
 
-The useful question was whether the files being released matched the rules and the version that had been reviewed\. A successful build was one piece of evidence\. The output itself still needed checking\.
+## Check every file going live
 
-## Inspect the files the build actually produces
+The build writes the website into a separate output directory\. A checker inventories that whole directory and compares it with an allowlist of approved public files\. An unexpected file makes the check fail\.
 
-For this workflow, I use an explicit allowlist to check the complete output file list\. An unexpected file makes the check fail\. This turns the publishing boundary I want into a condition the release process can enforce\.
+Adding a page or image means updating the list deliberately\. That small maintenance cost helps me see exactly what I am approving for release\.
 
-I also use build tests that place a recognisable marker in private fixture files, generate the site and inspect the output for that marker\. I want to inspect what the build produces\. This can expose a copy step that includes material the release should exclude\.
+## Make the check reject something
 
-For the rejection case, I use a test that deliberately adds an unapproved file to the generated directory and expects the check to fail\. This is part of how I assess the agent\-assisted implementation\. I can inspect evidence that it catches the unwanted file as well as accepting clean output\.
+For this article, I tested a temporary copy of the current build\. The clean copy passed\. I then added a harmless editorial\-notes\.txt file and ran the same check again\.
 
-These checks establish the behaviour of the tested output\. The record includes the test conditions and results\.
-
-## Test the change between public and private output
-
-The generator was tested in both public and non\-indexable configurations\. In public mode, discovery files and article routes had to include only approved material\. In the non\-indexable mode, generated feeds and readable discovery files had to be absent\.
-
-That transition is worth testing explicitly\. A file created by an earlier build can remain on disk if a later build simply stops writing it\. The checks cover rebuilding and removing generated discovery output when the mode changes\.
-
-This establishes behaviour in the tested build directories\. Access control and the state of an already deployed host need their own checks\. A local cleanup cannot remove a file from a remote server\.
-
-## Match the reviewed version to the release
-
-My workflow records the revision being checked\. If files change after review, the earlier result leaves a question about the later edits\. With agents or several working copies involved, the directory used for a check is part of the evidence too\.
-
-After a manual release, I use a verification step that compares hashes of the local public text files with the responses served by the website\. In the release recorded for this article, the comparison matched\. I keep that result alongside separate interaction and visual checks, so I can see what each check establishes\.
-
-A sanitised summary of that release evidence looks like this\. The full record retains the revision and individual checks\.
+The file sat outside the reserved private folders, so the test exercised the allowlist comparison itself\. The observed result was as follows\.
 
 ```
-Output allowlist: passed
-Private-file exclusion: passed
-Draft exclusion: passed
-Live text comparison: matched
-Browser coverage: recorded separately
+Clean output accepted
+Deploy artifact differs from positive allowlist
 ```
+
+## Check the version that will ship
+
+If that file had been accepted, I would have checked whether the inventory actually included unexpected files\. If the build kept copying it, I would have fixed the copy step and repeated the test with a clean build\.
+
+I record the source revision checked and publish the reviewed output manually\. A later edit needs another check\. After publication, I also compare the local public text with what the website serves\.
+
+The file list has limits\. An approved file could still contain private information, so credential scanning and content review remain part of my checks\.
 
 ![Tests and review match revision A\. A later edit creates revision B, which needs its own review before release\.](https://mustafahafeez.com/assets/images/articles/ai-agent-revision-evidence-v4.webp)
 
 A simplified illustration\. Evidence recorded for revision A does not establish that revision B has been checked\.
 
-## Give the reviewer a boundary to challenge
+## Try it on your next change
 
-For this kind of change, I want the reviewer to investigate whether an unapproved file can reach the release directory\. That is a specific question with a rejection case to examine\. The reviewer can inspect the file\-list comparison and the test that deliberately supplies an unexpected file\.
+The same approach could test a data pipeline\. Give it a fixture with a required field missing, then inspect both the job status and the published report\. A reported error would be little comfort if malformed data still reached readers\.
 
-A second agent can still repeat the first agent’s assumptions\. Written results need their scope and unperformed checks alongside them, especially when a report uses a broad word such as “verified”\.
-
-GitHub offers an optional protected\-branch setting that dismisses stale approvals when commits change the reviewed diff\. It applies the same idea of attaching approval to the work that was inspected\.
-
-The tools available to an agent also deserve review\. Instructions alone do not reduce the permissions held by a credential\. OWASP’s excessive\-agency guidance recommends limiting functionality and permissions, with human approval for high\-impact actions\.
-
-For a recent agent\-assisted change, identify one condition the release must reject\. Check whether the evidence demonstrates that rejection, and whether it belongs to the files about to be released\. That gives you a concrete next step when a completion summary is too broad\.
+For your next agent\-assisted change, choose one unwanted outcome\. Ask the agent to demonstrate a test that catches it, show the observed result and identify the version tested\. Then inspect whether the test can fail for the reason you care about\.
 
 ## About this note
 
-This article draws on checks I’ve used in my own AI\-assisted development and static\-site publishing work\. It explains the technical approach and what the checks establish, with project\-specific details generalised\. Adapt the checks to your own build, permissions and release process\.
-
-## Sources
-
-- [GitHub Docs, protected branches and stale review approvals](<https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches>)
-
-- [OWASP Gen AI Security Project, Excessive Agency \(2025\)](<https://genai.owasp.org/llmrisk/llm062025-excessive-agency/>)
+This example comes from my personal website’s publishing checks\. The rejection test used a temporary copy and a harmless fixture\. The data\-pipeline example is a suggested application\.
 
 [Read on the website](https://mustafahafeez.com/blog/reviewing-ai-agent-work/)

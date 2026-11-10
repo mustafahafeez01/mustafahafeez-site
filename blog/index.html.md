@@ -8,11 +8,11 @@ I’m Mustafa, a software engineer and independent app developer. These are note
 
 ## Technical notes
 
-AI engineering 9 November 2026 4 min read
+AI engineering 9 November 2026 3 min read
 
 ### [Before I accept an AI agent’s changes](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
 
-What I ask agents to show before accepting a change, using build and release checks as a concrete example.
+A real publishing check from my website, and the question I ask before accepting an AI agent’s work.
 
 ![Conceptual paper models of an app and websites bring work towards a human review desk and release gate.](<https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp>)
 
