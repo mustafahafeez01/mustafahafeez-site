@@ -1,8 +1,8 @@
-Mustafa Hafeez · Software engineer
+Mustafa Hafeez · Senior software engineer
 
-# I build software *and keep it working.*
+# I enjoy building *software properly.*
 
-I’m a senior software engineer at Visokio and the independent developer of Travel Document Vault. I work across product features, automation and infrastructure, and write about the decisions behind the work.
+I joined Visokio in 2007 and now work on Omniscope, a data analytics platform, as a senior software engineer. Travel Document Vault is my independent offline app for passports, visas and IDs, designed and built from the ground up. These notes draw on practical work with automation, AI integrations, product features and releases.
 
 [Explore my work](<https://mustafahafeez.com/#selected-work>) [Career & education](<https://mustafahafeez.com/about/#journey>) [Connect on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
 
@@ -16,13 +16,13 @@ Selected work
 
 ### Visokio Omniscope
 
-At Visokio, I work on Omniscope across reporting, automation, cloud accounts and releases, working closely with colleagues. I joined in 2007.
+Since joining Visokio in 2007, I’ve worked with colleagues on Omniscope’s reporting, automation, cloud accounts and releases.
 
 [My work at Visokio](<https://mustafahafeez.com/about/#professional-title>)
 
 ### Travel Document Vault
 
-I design and build Travel Document Vault, my independent app for organising passports, visas and IDs, with expiry reminders.
+My independent app for organising passports, visas and IDs, with expiry reminders.
 
 [Explore Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>)
 

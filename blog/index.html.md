@@ -34,7 +34,7 @@ About the author
 
 ## Mustafa Hafeez.
 
-I work across software development, automation and infrastructure, and build [Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>) , my independent app. Here I share practical lessons from building software and making engineering decisions. [More about me and my work](<https://mustafahafeez.com/about/>) .
+My work spans software development, automation and infrastructure, alongside [Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>) , my independent app. Here I share practical lessons from building software and making engineering decisions. [More about me and my work](<https://mustafahafeez.com/about/>) .
 
 ## Reading
 

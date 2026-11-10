@@ -1,8 +1,8 @@
-Mustafa Hafeez · Software engineer
+Mustafa Hafeez · Senior software engineer
 
-# I build software *and keep it working.*
+# My path through *software engineering.*
 
-I’m a senior software engineer at Visokio and the independent developer of Travel Document Vault. I work across product features, automation and infrastructure, and write about the decisions behind the work.
+My software engineering degree at Kingston University included a placement at BusinessObjects. After graduating, I joined Visokio in 2007, progressing from graduate engineer to senior software engineer through work on Omniscope. Since 2025, I’ve also been designing and building Travel Document Vault as an independent app developer.
 
 [Explore my work](<https://mustafahafeez.com/about/#work>) [Career & education](<https://mustafahafeez.com/about/#journey>) [Connect on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
 
@@ -30,19 +30,19 @@ I joined Visokio in 2007 and work on Omniscope, a platform for exploring data, b
 
 #### Reporting and everyday use
 
-I work on filtering, saved explorations, working copies and the shared features around reports, including persistence, styling and customer branding. These help people explore their data, return to their work and manage changes between projects and servers.
+My reporting work covers filtering, saved explorations, working copies and shared features around reports, including persistence, styling and customer branding. These help people explore their data, return to their work and manage changes between projects and servers.
 
 #### Automation and AI integration
 
-My Scheduler and project automation work spans server and client, including schedule validation, retries and outcome notifications. I also develop parameters and REST APIs. For Omniscope’s MCP server, I implemented OAuth 2.1 sign-in, endpoints and Admin screens so AI assistants can connect within a person’s existing permissions and authorised folders.
+My Scheduler and project automation work spans server and client, including schedule validation, retries and outcome notifications, alongside parameters and REST APIs. For Omniscope’s MCP server, I implemented OAuth 2.1 sign-in, endpoints and Admin screens so AI assistants can connect within a person’s existing permissions and authorised folders.
 
 #### Cloud accounts and administration
 
-For Omniscope Cloud, I implemented sign-up, sign-in, trial and subscription flows using Auth0 and Stripe. My wider Admin work covers permissions, single sign-on and API-key configuration. I also work on application hardening, licensing and activation.
+For Omniscope Cloud, I implemented sign-up, sign-in, trial and subscription flows using Auth0 and Stripe. My wider Admin work covers permissions, single sign-on and API-key configuration, alongside application hardening, licensing and activation.
 
 #### Releases and operations
 
-I maintain the build pipeline and work with the team on packaging and code signing across Windows, macOS and Linux, alongside Docker and cloud marketplace releases. I use Terraform for infrastructure work, help plan changes with runbooks and recovery steps, and investigate customer server problems with colleagues.
+My release work includes maintaining the build pipeline and working with the team on packaging and code signing across Windows, macOS and Linux, alongside Docker and cloud marketplace releases. Infrastructure responsibilities include Terraform, planning changes with runbooks and recovery steps, and investigating customer server problems with colleagues.
 
 [Explore Omniscope at Visokio](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=work_visokio>)
 
@@ -80,7 +80,7 @@ Independent product
 
 iOS & Android
 
-A little less worry. A better start to the trip.
+One less thing to worry about.
 
 Passports, visas and IDs, organised on your phone with expiry reminders.
 
@@ -88,7 +88,7 @@ Passports, visas and IDs, organised on your phone with expiry reminders.
 
 My role
 
-I designed Travel Document Vault from the ground up, choosing its architecture and tooling and building it hands-on. I make the product and design decisions, develop the app, and review and test changes before release. AI coding agents support that work.
+I designed Travel Document Vault from the ground up, choosing its architecture and tooling and building it hands-on. That includes product and design decisions, development, review and testing before release. AI coding agents support that work.
 
 Inside Travel Document Vault Product overview
 
