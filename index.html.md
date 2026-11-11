@@ -40,6 +40,10 @@ Bring scattered data together and reduce the preparation behind regular reports.
 
 Use APIs and automation to reduce repetitive copying and manual tasks.
 
+### Technical consultancy.
+
+Get help reviewing an existing workflow, planning an integration or assessing an AI idea before committing to a larger build.
+
 As an Omniscope developer at Visokio, I can help you explore how it could bring data preparation, reporting and automation together. I also offer independent consultancy on integrations and practical AI workflows. The starting point is what you need to improve.
 
 Tell me what you’re trying to do and where you’re getting stuck. You don’t need a technical brief to start a conversation.
