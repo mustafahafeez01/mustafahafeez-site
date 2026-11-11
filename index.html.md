@@ -26,6 +26,34 @@ My independent app for organising passports, visas and IDs, with expiry reminder
 
 [Explore Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>)
 
+Services
+
+## Spend less time on manual work.
+
+Still copying data between spreadsheets, preparing the same report each week or wondering where AI could actually help? Bring the problem, even if you’re not sure what the solution should look like.
+
+### Make reporting repeatable.
+
+Bring scattered data together and reduce the preparation behind regular reports.
+
+### Connect the steps between tools.
+
+Use APIs and automation to reduce repetitive copying and manual tasks.
+
+As an Omniscope developer at Visokio, I can help you explore how it could bring data preparation, reporting and automation together. I also offer independent consultancy on integrations and practical AI workflows. The starting point is what you need to improve.
+
+Tell me what you’re trying to do and where you’re getting stuck. You don’t need a technical brief to start a conversation.
+
+[Discuss your project on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
+
+Your browser cannot play this demonstration. The image below shows the workflow.
+
+![An Omniscope workflow joins two data sources and branches into a report and a CSV export.](<https://mustafahafeez.com/assets/images/omniscope-workflow-poster.webp>)
+
+A demonstration workflow in Visokio Omniscope. Two data sources are joined and processed into a report and a CSV export.
+
+[Browse Omniscope’s demo catalogue](<https://omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_demo_catalogue#tab=Content%20View>)
+
 Writing
 
 ## Technical notes.

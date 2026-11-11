@@ -4,6 +4,7 @@ Mustafa joined Visokio in 2007 and is now a senior software engineer working on 
 
 ## Public pages
 - [Home](https://mustafahafeez.com/)
+- [Services and project enquiries](https://mustafahafeez.com/#services)
 - [Profile and selected work](https://mustafahafeez.com/about/)
 - [Technical writing](https://mustafahafeez.com/blog/)
 - [Profile Markdown](https://mustafahafeez.com/about/index.html.md)
