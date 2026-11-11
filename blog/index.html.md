@@ -16,7 +16,7 @@ How I adapted tooling tests for a restricted environment, and why some checks st
 
 ![A paper model testing station inside a transparent enclosure and a physical computer feed results towards a shared review notebook.](<https://mustafahafeez.com/assets/images/articles/agent-test-environments-cover.webp>)
 
-[Read the note ↗ ](<https://mustafahafeez.com/blog/tests-inside-agent-sandbox/>)
+[Read the note ](<https://mustafahafeez.com/blog/tests-inside-agent-sandbox/>)
 
 ## Earlier notes
 
@@ -44,35 +44,35 @@ Technical writing by colleagues at Visokio, selected for the questions it raises
 
 Steve Spencer Visokio · CTO
 
-### [Drinking from the AI firehose ↗ ](<https://visokio.com/2026/10/02/drinking-from-the-ai-firehose/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_steve_ai_firehose>)
+### [Drinking from the AI firehose ](<https://visokio.com/2026/10/02/drinking-from-the-ai-firehose/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_steve_ai_firehose>)
 
 The question worth taking from Steve’s chart is when to finish and review a task before opening another. Useful reading for developers trying to keep agent-assisted work manageable.
 
-[Read the full article ↗ ](<https://visokio.com/2026/10/02/drinking-from-the-ai-firehose/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_steve_ai_firehose>)
+[Read the full article ](<https://visokio.com/2026/10/02/drinking-from-the-ai-firehose/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_steve_ai_firehose>)
 
 Antonio Poggi Visokio · COO
 
-### [Omniscope as a tool for AI agents ↗ ](<https://visokio.com/2026/08/03/omniscope-as-a-tool-for-ai-agents/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_antonio_agent_tools>)
+### [Omniscope as a tool for AI agents ](<https://visokio.com/2026/08/03/omniscope-as-a-tool-for-ai-agents/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_antonio_agent_tools>)
 
 Before choosing an AI integration, ask what you will be able to change after the conversation ends. Antonio follows different ways of using a model through to the work left in Omniscope, making the comparison useful when deciding how to connect an agent.
 
-[Read the full article ↗ ](<https://visokio.com/2026/08/03/omniscope-as-a-tool-for-ai-agents/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_antonio_agent_tools>)
+[Read the full article ](<https://visokio.com/2026/08/03/omniscope-as-a-tool-for-ai-agents/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_antonio_agent_tools>)
 
 Antonio Poggi antoniopoggi.com
 
-### [What Is Verifiable AI Analytics? ↗ ](<https://antoniopoggi.com/writing/what-is-verifiable-ai-analytics/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_verifiable_ai>)
+### [What Is Verifiable AI Analytics? ](<https://antoniopoggi.com/writing/what-is-verifiable-ai-analytics/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_verifiable_ai>)
 
 A convincing answer is easier to accept than to challenge. This is worth reading for the practical questions to ask before relying on AI-assisted analysis, especially when a number needs explaining to someone else.
 
-[Read the full article ↗ ](<https://antoniopoggi.com/writing/what-is-verifiable-ai-analytics/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_verifiable_ai>)
+[Read the full article ](<https://antoniopoggi.com/writing/what-is-verifiable-ai-analytics/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_verifiable_ai>)
 
 Antonio Poggi antoniopoggi.com
 
-### [From CSV Prototype to Scheduled Data Application ↗ ](<https://antoniopoggi.com/writing/csv-prototype-to-scheduled-data-application/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_csv_prototype>)
+### [From CSV Prototype to Scheduled Data Application ](<https://antoniopoggi.com/writing/csv-prototype-to-scheduled-data-application/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_csv_prototype>)
 
 A scheduled run is only part of turning a prototype into something other people can depend on. This piece is a useful prompt to think about who will notice a failure, maintain the data and look after the result.
 
-[Read the full article ↗ ](<https://antoniopoggi.com/writing/csv-prototype-to-scheduled-data-application/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_csv_prototype>)
+[Read the full article ](<https://antoniopoggi.com/writing/csv-prototype-to-scheduled-data-application/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=writing_reading_csv_prototype>)
 
 More from the team on the [Visokio blog](<https://visokio.com/blog/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_blog>)  and [LinkedIn](<https://www.linkedin.com/company/visokio/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=reading_visokio_linkedin>) .
 
