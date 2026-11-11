@@ -64,7 +64,7 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
  const to = location.pathname === '/' && location.hash === '#services' ? 'services' : routes[location.pathname];
  const indicator = nav.querySelector('.nav-indicator');
  if (!from || !to || to !== nav.dataset.active || from === to || !indicator?.animate) return;
- const position = active => ({home: 'translateX(0)', writing: 'translateX(calc(100% + 2px))', about: 'translateX(calc(200% + 4px))', services: 'translateX(calc(300% + 6px))'})[active];
+ const position = active => ({home: 'translateX(0)', writing: 'translateX(calc(200% + 4px))', about: 'translateX(calc(300% + 6px))', services: 'translateX(calc(100% + 2px))'})[active];
  const animation = indicator.animate([{transform: position(from)}, {transform: position(to)}], {duration: 220, easing: 'cubic-bezier(.2,.7,.3,1)'});
  window.addEventListener('pagehide', () => animation.cancel(), {once: true});
 })();

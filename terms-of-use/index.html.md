@@ -6,7 +6,7 @@ Using the articles and other material on this personal website.
 
 ## About the website
 
-These terms apply to mustafahafeez.com, Mustafa Hafeez’s personal writing and professional-profile website, operated personally from the United Arab Emirates. You can contact me at mustafa@mustafahafeez.com.
+These terms apply to mustafahafeez.com, Mustafa Hafeez’s personal writing and professional-profile website, operated personally from the United Arab Emirates. You can contact me at [mustafa@mustafahafeez.com](<mailto:mustafa@mustafahafeez.com>) .
 
 ## Technical writing and examples
 
@@ -38,6 +38,6 @@ The [Privacy & cookies notice](<https://mustafahafeez.com/privacy-policy/>)  exp
 
 ## Contact and changes
 
-For questions about these terms or reuse requests, email mustafa@mustafahafeez.com. The revision date identifies the current version.
+For questions about these terms or reuse requests, email [mustafa@mustafahafeez.com](<mailto:mustafa@mustafahafeez.com>) . The revision date identifies the current version.
 
 [Read the HTML page](<https://mustafahafeez.com/terms-of-use/>)

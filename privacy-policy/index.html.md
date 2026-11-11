@@ -6,7 +6,7 @@ How information is used when you visit mustafahafeez.com.
 
 ## Who is responsible
 
-I’m Mustafa Hafeez, based in the United Arab Emirates. I run this personal writing and professional-profile website and am responsible for the personal information I process through it. For privacy questions or requests, contact mustafa@mustafahafeez.com.
+I’m Mustafa Hafeez, based in the United Arab Emirates. I run this personal writing and professional-profile website and am responsible for the personal information I process through it. For privacy questions or requests, contact [mustafa@mustafahafeez.com](<mailto:mustafa@mustafahafeez.com>) .
 
 This notice applies to mustafahafeez.com. Linked products and services publish their own privacy information.
 
@@ -60,7 +60,7 @@ Optional analytics relies on your consent. I use privacy enquiries to respond to
 
 Depending on the law that applies to you, you may have rights to access, correct, delete or receive a copy of personal information, restrict or object to certain processing, and complain to the relevant data-protection authority.
 
-Email mustafa@mustafahafeez.com so I can consider your request. Analytics identifiers may be needed to locate a relevant record. Please avoid sending sensitive documents with an initial enquiry.
+Email [mustafa@mustafahafeez.com](<mailto:mustafa@mustafahafeez.com>)  so I can consider your request. Analytics identifiers may be needed to locate a relevant record. Please avoid sending sensitive documents with an initial enquiry.
 
 ## Updates to this notice
 

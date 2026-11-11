@@ -1,6 +1,6 @@
 # Mustafa Hafeez
 
-Mustafa joined Visokio in 2007 and is now a senior software engineer working on Omniscope, a data analytics platform. Independent developer of Travel Document Vault, an offline app for passports, visas and IDs. His writing draws on practical work with product features, automation, AI integrations and releases. He offers independent technical consultancy on data workflows, integrations and practical AI.
+Mustafa joined Visokio in 2007 and is now a senior software engineer working on Omniscope, a data analytics platform. Independent developer of Travel Document Vault, an offline app for passports, visas and IDs. His writing draws on practical work with product features, automation, AI integrations and releases. He offers independent technical consultancy on reporting, integrations, automation and practical AI.
 
 ## Public pages
 - [Home](https://mustafahafeez.com/)

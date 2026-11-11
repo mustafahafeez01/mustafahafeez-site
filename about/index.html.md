@@ -100,9 +100,29 @@ Loads an external report from Visokio. See the [Visokio privacy policy](<https:/
 
 [Open the demo catalogue in its own page](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_catalogue>)
 
-[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>) [Instant Dashboard](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>) [Decision Scorecard](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_decision_scorecard>)
+Explore Omniscope
 
-Decision Scorecard helps you compare options using the criteria that matter to you.
+#### Try it with sample data.
+
+Use sample or anonymised data when trying these demos. Do not upload personal, confidential or sensitive information.
+
+[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>)
+
+##### [Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_insight_explorer>)
+
+Ask a question about your data and explore the answer.
+
+##### [Instant Dashboard](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>)
+
+Turn a CSV file into an interactive dashboard.
+
+##### [Decision Scorecard](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_decision_scorecard>)
+
+Compare your options using the criteria that matter to you.
+
+##### [Data Quality Inspector](<https://visokio.com/data-quality-inspector/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_data_quality>)
+
+Spot missing values, duplicate rows and numeric outliers.
 
 02
 
@@ -208,10 +228,10 @@ My four-year software engineering degree included an industrial placement at Bus
 
 Contact
 
-## Let’s compare notes.
+## Let’s talk about your project.
 
 Want help with reporting, automation or an integration? [See how I can help](<https://mustafahafeez.com/#services>) .
 
-[Message me on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>) Email me about your project
+[Message me on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>) [Email me about your project](<mailto:mustafa@mustafahafeez.com?subject=Project%20enquiry>)
 
 [Read the HTML page](<https://mustafahafeez.com/about/>)

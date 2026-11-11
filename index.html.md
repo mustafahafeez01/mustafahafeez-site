@@ -28,9 +28,11 @@ My independent app for organising passports, visas and IDs, with expiry reminder
 
 Services
 
-## Spend less time on manual work.
+## Bring me your data problem.
 
-Still copying data between spreadsheets, preparing the same report each week or wondering where AI could actually help? Bring the problem, even if you’re not sure what the solution should look like.
+I bring nearly two decades of hands-on software engineering experience across reporting, automation and solving practical problems. If a report takes too long, your tools don’t connect or a task keeps needing manual attention, let’s work out how I can help.
+
+[Discuss your project on LinkedIn](<https://www.linkedin.com/in/mustafahafeez-dev>) [Email me about your project](<mailto:mustafa@mustafahafeez.com?subject=Project%20enquiry>)
 
 ### Make reporting repeatable.
 
@@ -44,55 +46,31 @@ Use APIs and automation to reduce repetitive copying and manual tasks.
 
 Get help reviewing an existing workflow, planning an integration or assessing an AI idea before committing to a larger build.
 
-[Explore interactive Omniscope examples](<https://mustafahafeez.com/about/#omniscope-demos>)
+My software engineering work since 2007 spans product development, reporting automation, integrations and customer troubleshooting.
 
-The right approach starts with your data, your existing tools and what you want to improve. I can help assess the options and work out a practical next step. That might mean Omniscope, another platform or a solution built around the systems you already use.
-
-Have a data problem or a project in mind? Send me a short message on LinkedIn or by email. Tell me what you’re trying to do and where you’re getting stuck.
-
-[Discuss your project on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>) Email me about your project
+This consultancy is separate from my role at Visokio. We start with your data, the systems you already use and what needs to improve.
 
 The workflow
 
+[
+
 ![Omniscope joins and processes two data sources, then produces a report and a CSV export.](<https://mustafahafeez.com/assets/images/omniscope-workflow-poster.webp>)
 
-A demonstration workflow in Visokio Omniscope.
+](<https://mustafahafeez.com/about/#omniscope-demos>)
+
+See how two data sources become a report and a CSV export. A public product demonstration in Visokio Omniscope.
 
 The report
 
+[
+
 ![An Omniscope demonstration report with linked charts and filtering controls.](<https://mustafahafeez.com/assets/images/omniscope-report-poster.webp>)
 
-A demonstration report in Visokio Omniscope.
+](<https://mustafahafeez.com/about/#omniscope-demos>)
 
-[Browse Omniscope’s demo catalogue](<https://omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_demo_catalogue#tab=Content%20View>)
+Explore linked charts and filtering in one report. A public product demonstration in Visokio Omniscope.
 
-Explore Omniscope
-
-### Try it with your data.
-
-Use sample or anonymised data when trying these demos. Do not upload personal, confidential or sensitive information.
-
-[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_try_omniscope>)
-
-#### [Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_insight_explorer>)
-
-Ask a question about your data and explore the answer.
-
-#### [Instant Dashboard](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_drop_and_dash>)
-
-Turn a CSV file into an interactive dashboard.
-
-#### [Decision Scorecard](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_decision_scorecard>)
-
-Compare your options using the criteria that matter to you.
-
-#### [Data Quality Inspector](<https://visokio.com/data-quality-inspector/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_data_quality>)
-
-Spot missing values, duplicate rows and numeric outliers.
-
-Have a data problem, project or automation in mind?
-
-[Connect on LinkedIn](<https://www.linkedin.com/in/mustafahafeez-dev>) Email me about your project
+[Explore interactive Omniscope examples](<https://mustafahafeez.com/about/#omniscope-demos>)
 
 Writing
 
