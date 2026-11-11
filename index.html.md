@@ -46,7 +46,7 @@ Get help reviewing an existing workflow, planning an integration or assessing an
 
 [Explore interactive Omniscope examples](<https://mustafahafeez.com/about/#omniscope-demos>)
 
-The right approach starts with understanding your data, your tools and the work you want to improve. I can help you assess the options and plan a practical next step, whether that involves Omniscope, an integration or an AI-assisted workflow.
+The right approach starts with your data, your existing tools and what you want to improve. I can help assess the options and work out a practical next step. That might mean Omniscope, another platform or a solution built around the systems you already use.
 
 Have a data problem or a project in mind? Send me a short message on LinkedIn or by email. Tell me what you’re trying to do and where you’re getting stuck.
 
@@ -70,6 +70,8 @@ Explore Omniscope
 
 ### Try it with your data.
 
+Use sample or anonymised data when trying these demos. Do not upload personal, confidential or sensitive information.
+
 [Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_try_omniscope>)
 
 #### [Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_insight_explorer>)
@@ -87,8 +89,6 @@ Compare your options using the criteria that matter to you.
 #### [Data Quality Inspector](<https://visokio.com/data-quality-inspector/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_data_quality>)
 
 Spot missing values, duplicate rows and numeric outliers.
-
-Use sample or anonymised data when trying these demos. Do not upload personal, confidential or sensitive information.
 
 Have a data problem, project or automation in mind?
 
