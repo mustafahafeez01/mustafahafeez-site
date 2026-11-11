@@ -50,7 +50,7 @@ Inside Omniscope Product demo
 
 From a question to a report.
 
-Report Ninja
+Insight Explorer
 
 [
 
