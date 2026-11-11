@@ -50,7 +50,7 @@ AI engineering 9 November 2026 4 min read
 
 ### [Before I accept an AI agent’s changes](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
 
-A real publishing check from my website, and the question I ask before accepting an AI agent’s work.
+Checking what my website build would publish, and how I tested an AI agent’s release check.
 
 [Browse all earlier notes ](<https://mustafahafeez.com/blog/#earlier-notes>)
 

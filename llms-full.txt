@@ -13,7 +13,7 @@ Senior software engineer at Visokio, working on Omniscope, a data analytics plat
 
 ## Published articles
 - [When an AI agent cannot run your tests](https://mustafahafeez.com/blog/tests-inside-agent-sandbox/index.html.md): How I adapted tooling tests for a restricted environment, and why some checks still needed the real machine.
-- [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): A real publishing check from my website, and the question I ask before accepting an AI agent’s work.
+- [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): Checking what my website build would publish, and how I tested an AI agent’s release check.
 
 # When an AI agent cannot run your tests
 
@@ -29,27 +29,27 @@ Before replacing an external dependency with a fixture, identify the real behavi
 
 A conceptual illustration of testing inside a restricted environment and against the real machine\.
 
-## The agent could change the code but could not verify it
+## The agent could edit the code, but the tests were blocked
 
-While working on the developer tooling around my app, I wanted coding agents to run useful checks before handing changes back for review\. Some tests depended on the real machine’s process list and local sockets, which the agent’s sandbox restricted\. The agent could edit the code but could not run the same checks that worked outside it\.
+Some tests in my app’s developer tooling worked on the real machine and failed to run inside the coding agent’s sandbox\. They needed access to process lists and local sockets that the restricted environment could not provide\.
 
-Running everything outside the sandbox would leave another person or agent responsible for each verification run\. I chose to make the tests that could work inside it do so, while keeping real\-machine checks in a separate host run\.
+I wanted the agent to check useful parts of its work before handing a change back\. Sending every verification run outside the sandbox would leave another person or agent to do it\.
 
-That adaptation introduced a second problem\. Replacing an operating\-system call with supplied data could make a test pass while removing the very behaviour it used to check\. The work needed to preserve coverage as well as make tests runnable\.
+I chose to adapt the tests that could run inside, while keeping checks of real\-machine behaviour in a separate host run\. During review, we found that some replacements had lost behaviour the original tests checked\.
 
-## Separate the decision from the observation
+## Two questions were being tested together
 
-Consider a tool that checks whether a background process is still running\. There are two things to test\. Does it make the right decision from a supplied process list? And can it obtain the right information from the real machine?
+Consider a tool that checks whether a background process is running\. It has to obtain a process list from the operating system, then decide whether the process it wants appears in that list\.
 
-For the first question, a fixture works well\. Supply a small, known process list and check the decision\. That test can run without inspecting unrelated processes on the computer\.
+Those are two questions\. Can the tool make the right decision from the information it receives? And can it get the right information from the machine?
 
-The second question needs a real process\. A fixture cannot establish that the operating\-system call works or that the tool observes the process correctly\.
+Supplied test data, often called a fixture, can answer the first question\. Give the code a known list and check its decision\. This can run inside a restricted environment without inspecting the laptop’s other processes\.
 
-A fixture is supplied test data\. In this case it let the code receive a known process list through a small input boundary, while ordinary execution continued to use the real operating\-system command\. That kept the decision test independent of what happened to be running on the laptop\.
+The second question needs access to the real interaction\. A supplied list cannot tell us whether the operating\-system command works\.
 
-## A passing fixture test leaves a question unanswered
+## What a fixture can show
 
-This toy example illustrates the distinction using invented data\. It checks whether a supplied list contains a process identifier\.
+This teaching example uses invented process identifiers\. The function receives another function, listProcesses, which supplies the list\. That lets a test control the input without asking the operating system\.
 
 ```
 function isRunning(pid, listProcesses) {
@@ -60,43 +60,45 @@ isRunning(42, () => [42, 73]); // true
 isRunning(42, () => [73]);     // false
 ```
 
-## Keep a check of the real interaction
+## The real command could break while those tests passed
 
-Those cases exercise the present and absent decisions\. They would keep passing if the real process\-list command stopped working, because that command never runs in either case\. A separate test needs to start a controlled process and check that the real observation can find it\.
+In the first call, the supplied list contains 42, so isRunning returns true\. The second list contains only 73, so it returns false\. Together they check the present and absent decisions\.
 
-I would also ask how an observation error is handled\. Treating an unavailable process list as an empty list could confuse “could not check” with “process is gone”\. The expected behaviour needs to be explicit in the code’s own contract\. This is a review question, not a claim about a further bug in my project\.
+Both would keep passing if the real process\-list command stopped working\. Neither call uses it\. That missing interaction needs its own check, for example by starting a controlled process and verifying that the real observation can find it\.
 
-## Review caught checks the fixtures had lost
+There is another question to settle when reviewing code like this\. What happens if the process list is unavailable? Returning an empty list would make an observation failure look like an absent process\. The implementation needs an explicit way to handle that uncertainty\. This is a review question, rather than a further bug found in my tooling\.
 
-During review, some replacement tests were found to have lost checks of real process behaviour\. One asserted information constructed by the test itself\. Another replacement could only see processes it had already been told about, so it could miss a stray process\.
+## Review found what the replacements could no longer see
 
-Those findings changed the repair\. The original operating\-system checks were preserved in a separately named host\-only set\. Fixture\-based tests covered the decision logic inside the sandbox\. The host checks ran separately with the access they required\.
+One replacement test asserted information it had constructed itself\. Another could only see processes it had already been told about, so a stray process could escape its view\.
 
-The important review step was comparing what the old tests observed with what their replacements could observe\. Keeping a similar assertion or a passing test count would have hidden that loss\. The host tests retained the external observation, while fixtures made individual decisions easier to exercise\.
+Those findings changed the repair\. The original operating\-system checks were preserved in a separately named host\-only set\. Fixture\-based tests covered the decisions inside the sandbox\.
+
+The comparison that helped was to ask what each old test observed and what its replacement could observe\. A similar assertion or a passing test count would have missed that difference\.
 
 ![Use sandbox fixtures to test decisions from known inputs\. Keep host integration checks for real system interactions\. Review both results\.](https://mustafahafeez.com/assets/images/articles/agent-test-environments-flow-v2.svg)
 
 Fixture and host checks answer separate questions about the same implementation\.
 
-## Both environments needed a result
+## Both test runs needed a result
 
-The recorded final checks passed for the targeted sandbox suites and the full host run\. I kept their scopes separate\. A passing sandbox run covered the tests selected for that environment, while the host run supplied the broader integration evidence\.
+The recorded final checks passed for the targeted sandbox suites and the full host run\. Each result had a different scope\. The sandbox tests covered the selected decisions using controlled inputs, and the host run supplied the broader integration evidence\.
 
-This split also creates an obligation\. The host\-only checks need an explicit place in the review process, otherwise moving them out of the agent’s run can quietly remove them from everyday verification\.
+Keeping host checks separate creates an ongoing job\. They need a clear place in the review process, otherwise a move intended to make tests runnable can quietly leave some checks behind\.
 
-A useful handover identifies the test set, environment, revision and result together\. If the sandbox run excludes host\-only tests, the review needs the host result alongside it\. Naming the split makes it possible to see which evidence is still missing\.
+A useful handover identifies which tests ran, where they ran, the revision and the result\. If a sandbox run excludes host\-only tests, its result needs the corresponding host result alongside it\.
 
 ## Ask what the test actually observes
 
-When adapting tests for an agent, write down what each existing test observes before changing it\. If it checks a real external interaction, preserve a check of that interaction somewhere you will actually run it\.
+Before replacing a dependency in a test, write down what the existing test can see\. Then ask whether the implementation could break while the replacement still passed\. Identify the check that would catch that failure and where it will run\.
 
-A useful review question is whether the implementation could break while the fixture\-based test still passed\. If the answer is yes, identify which test would catch that failure and where it runs\.
+A database gives another example\. A fake returned row can help test how code handles the data\. A separate integration test can establish whether the real query and connection work in the intended environment\.
 
-This distinction applies to other dependencies too\. A fake database can exercise how code handles a returned row\. A separate integration check is needed to establish that the real query and connection work in the intended environment\. Choose the split according to the behaviour being tested\.
+In my tooling, fixtures made decision tests runnable inside the sandbox\. Keeping the host checks preserved the evidence about real process behaviour that the fixtures could not supply\.
 
 ## About this note
 
-Based on a recorded investigation in my own development tooling\. Implementation details are generalised\. AI agents helped with research, changes and review\. I chose the approach and the split between sandbox and host checks\. The code example uses invented identifiers and illustrates the testing distinction\.
+Based on a recorded investigation in my own development tooling, with implementation details generalised\. AI agents helped with research, changes and review\. I chose the approach and the split between sandbox and host checks\. The code uses invented identifiers\. Final test outcomes are historical recorded results\.
 
 ## Sources
 
@@ -107,7 +109,7 @@ Based on a recorded investigation in my own development tooling\. Implementation
 
 # Before I accept an AI agent’s changes
 
-A real publishing check from my website, and the question I ask before accepting an AI agent’s work\.
+Checking what my website build would publish, and how I tested an AI agent’s release check\.
 
 By Mustafa Hafeez · 2026-11-09
 
@@ -119,21 +121,21 @@ Choose one failure the change must reject, demonstrate that rejection, and attac
 
 A conceptual illustration of preparing work across an app and its websites\.
 
-## The build could succeed and still publish the wrong files
+## A successful build left a question
 
-While building my personal website with AI coding agents, I needed to keep build scripts, drafts and agent instructions private\. Visitors should receive the finished pages, styles, scripts and approved images\. I kept the source in a private GitHub repository and published the compiled output through a separate public repository\.
+While building this website with AI coding agents, I needed to keep drafts, build scripts and agent instructions private\. The finished pages belonged in a public repository\. The source belonged in a separate private one\.
 
-The problem was deciding whether that output was safe to copy\. A build could finish successfully and still include an extra file\. Reviewing the page in a browser would show whether it looked right, but an unwanted notes file could sit alongside it without appearing on any page\.
+A successful build could still copy an unwanted file into the public output\. Looking at the website in a browser would tell me whether the pages looked right\. It would leave a stray notes file sitting alongside those pages unseen\.
 
-Agents helped implement the build and release checks\. Before accepting that work, I wanted an observable answer to a specific question\. Would the release check reject a file that had no reason to become public?
+Agents helped implement the publishing checks\. Before accepting that work, I wanted to see what happened when the output contained something that had no reason to go live\.
 
-## Compare the complete output with an approved list
+## An approved list gave me something to compare
 
-The build writes into a separate output directory\. The checker walks that whole directory and compares its file list with the approved public list\. A mismatch stops the check\.
+The build writes the public website into its own output directory\. The checker walks that directory, lists every file and compares the result with the files approved for release\. An unexpected file or a missing one stops the check\.
 
-Looking only for known private filenames would leave a gap\. A newly created notes file might have a name nobody had thought to forbid\. Looking only at the approved files would also miss it\. The inventory has to include everything actually present\.
+The complete inventory matters\. A list of forbidden names only covers names someone has thought of\. A new notes file could have any name\. And a check that only visits the approved files would never discover an extra one\.
 
-This simplified comparison shows the idea\. The path names are illustrative\. The real checker also rejects symbolic links and performs additional checks\.
+This small JavaScript example shows the comparison with invented filenames\. The real checker also handles symbolic links and other release checks\.
 
 ```
 const approved = new Set(['index.html', 'assets/site.css']);
@@ -151,45 +153,51 @@ if (unexpected.length || missing.length) {
 
 The file inventory is one release check\. Matching filenames still need content and credential checks\.
 
-## Prove acceptance and rejection with the same checker
+## I added a file that should be rejected
 
-For the article, I copied the current build into a temporary directory\. I checked the clean copy first, then added a harmless editorial\-notes\.txt file at its root and ran the same checker again\.
+For this article, I copied the current build into a temporary directory and checked the clean copy\. Then I added a harmless file called editorial\-notes\.txt at its root and ran the same checker again\.
 
-The file sat outside the reserved private folders\. That mattered because I wanted to exercise the allowlist comparison itself, rather than stop at a separate rule that already rejects private directory names\. The observed result was as follows\.
+I put it outside the reserved private folders so the test would reach the approved\-list comparison\. Otherwise a separate private\-folder rule might reject it first, leaving the comparison untested\.
+
+The clean copy passed\. The copy containing the extra file failed\. These were the recorded results\.
 
 ```
 Clean output accepted
 Deploy artifact differs from positive allowlist
 ```
 
-## Follow a failed check back to the copy step
+## What that result established
 
-If the unwanted file had been accepted, I would have inspected the inventory and comparison first\. Was the checker walking the whole directory? Did it report a mismatch as a failure that stopped publication?
+The check rejected the extra file in that temporary copy\. That gave me evidence about the behaviour I had asked the agents to implement\.
 
-If the checker rejects the file but the build keeps creating it, investigate the copy or generation step\. Rebuild into a clean output directory after fixing it and repeat both checks\. Adding the unwanted file to the approved list just to pass would remove the protection\.
+The short JavaScript example reaches the same kind of failure because notes\.txt appears in actual but not in approved\. Remove that extra filename and both lists match\. The code teaches the comparison\. The temporary\-directory check exercised the website’s actual checker\.
 
-The approved list does need maintenance\. When I deliberately add a public image or page, I update it\. That creates a small review step at the point where new material becomes publishable\.
+If a checker accepted the unwanted file, I would look at how it collected the inventory and whether a mismatch stopped publication\. If the checker rejected it but the build kept copying it, the copy step would need fixing\. Adding the file to the approved list just to get a pass would hide the problem\.
 
-## Keep the result attached to the version being released
+The approved list still needs maintenance\. When I deliberately add a public page or image, I update it as part of reviewing what will become public\.
 
-I record the source revision checked and publish the reviewed output manually\. If an agent edits the build afterwards, that changed output needs checking again\. A report from an earlier revision cannot establish what the later one contains\.
+## The result has to follow the release
 
-After publication, I compare local public text files with what the live website serves\. That catches a separate problem where a correct build has been prepared but the host still serves an earlier version\.
+I record the source revision checked and publish the reviewed output manually\. If an agent changes the build afterwards, the changed output needs checking again\. An earlier result describes the earlier version\.
 
-The file list also has limits\. An approved JavaScript file could contain private information\. Credential scanning, content review and browser checks remain separate parts of the work\.
+After publication, I compare the local public text files with the files served by the website\. That answers a different question\. A correct build can be ready locally while the host still serves an older copy\.
+
+The file inventory has a limit too\. A JavaScript file can have an approved name and still contain private information\. Content review, credential scanning and browser checks each cover further parts of the release\.
 
 ![Tests and review match revision A\. A later edit creates revision B, which needs its own review before release\.](https://mustafahafeez.com/assets/images/articles/ai-agent-revision-evidence-v4.webp)
 
 A simplified illustration\. Evidence recorded for revision A does not establish that revision B has been checked\.
 
-## Choose a failure you can deliberately test
+## A check to try on your next change
 
-For your next agent\-assisted change, write down one unwanted outcome\. Ask for the input or fixture that triggers it, the observed result and the version tested\. Check that the test can actually reach the failure you care about\.
+Choose one unwanted outcome the change must prevent\. Prepare an input that should trigger it, run the check and inspect what actually happened\. Keep the result with the version you checked\.
 
-For example, a data pipeline could receive a fixture with a required field missing\. Inspect the published report as well as the job status\. An error message would be insufficient if the report had already been updated with malformed data\. This is a suggested application of the approach\.
+The same approach could help with a data pipeline\. Give it a sample with a required field missing, then inspect the published report as well as the job status\. A failure message would leave a problem if malformed data had already reached the report\. This is a suggested application, rather than an incident from my work\.
+
+For this website, the useful evidence was straightforward\. The same checker accepted the clean copy and rejected the copy containing an unapproved file\.
 
 ## About this note
 
-Based on my personal website’s publishing checks\. The rejection result came from a temporary copy containing a harmless fixture\. The code above is a simplified illustration of the comparison, with invented filenames\.
+Based on my personal website’s publishing checks\. The rejection result came from a temporary copy containing a harmless fixture\. The code is a simplified illustration with invented filenames\.
 
 [Read on the website](https://mustafahafeez.com/blog/reviewing-ai-agent-work/)

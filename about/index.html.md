@@ -138,27 +138,11 @@ Career
 
 From university and a placement year to Omniscope and an independent app.
 
-- 2003   [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
+- 2025   to present  [Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>)
 
-### Beginning the degree
+### An independent app, from the ground up
 
-My four-year software engineering degree included an industrial placement at BusinessObjects. I was also selected twice as a Java teaching assistant for my programming skills, supporting first-year and second-year programming workshops.
-
-- 2005 –2006   [BusinessObjects (later acquired by SAP)](<https://www.sap.com/products/data-cloud/bi-platform.html>)
-
-### Testing and releases as a placement developer
-
-From June 2005 to July 2006, I worked with senior developers on unit tests with JUnit and mock objects, test environments, and the team’s unit-testing framework and reporting. I handled the team’s release and configuration management, and worked on hot-fixes with teams in other countries.
-
-I wrote an internal paper on removing contextual dependencies from unit tests and was asked to present it. I also helped interview the following year’s placement candidates.
-
-- 2007   [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
-
-### First Class honours in software engineering
-
-I received the best software engineering student award. For my final-year project, I designed and built a unit-test generator in Java. Developers described how a method should be tested in ordinary Java comments.
-
-An ANTLR grammar parsed those descriptions, and Velocity templates generated JUnit test methods and harnesses. The university used the tool to test students’ submitted practical assignments.
+I started designing and building Travel Document Vault, my independent app for organising passports, visas and IDs. The work covers its architecture, product design, development, testing and releases.
 
 - 2007   to present  [Visokio (UK)](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=career_visokio>)
 
@@ -168,11 +152,27 @@ My work has grown with Omniscope from the Classic desktop application to Evo, ac
 
 I implemented Cloud account and subscription flows and OAuth sign-in for AI assistants. I also work on Docker, Terraform, build pipelines and releases, and investigate customer server problems with colleagues.
 
-- 2025   to present  [Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>)
+- 2007   [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
 
-### An independent app, from the ground up
+### First Class honours in software engineering
 
-I started designing and building Travel Document Vault, my independent app for organising passports, visas and IDs. The work covers its architecture, product design, development, testing and releases.
+I received the best software engineering student award. For my final-year project, I designed and built a unit-test generator in Java. Developers described how a method should be tested in ordinary Java comments.
+
+An ANTLR grammar parsed those descriptions, and Velocity templates generated JUnit test methods and harnesses. The university used the tool to test students’ submitted practical assignments.
+
+- 2005 –2006   [BusinessObjects (later acquired by SAP)](<https://www.sap.com/products/data-cloud/bi-platform.html>)
+
+### Testing and releases as a placement developer
+
+From June 2005 to July 2006, I worked with senior developers on unit tests with JUnit and mock objects, test environments, and the team’s unit-testing framework and reporting. I handled the team’s release and configuration management, and worked on hot-fixes with teams in other countries.
+
+I wrote an internal paper on removing contextual dependencies from unit tests and was asked to present it. I also helped interview the following year’s placement candidates.
+
+- 2003   [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
+
+### Beginning the degree
+
+My four-year software engineering degree included an industrial placement at BusinessObjects. I was also selected twice as a Java teaching assistant for my programming skills, supporting first-year and second-year programming workshops.
 
 Contact
 

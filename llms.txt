@@ -13,4 +13,4 @@ Senior software engineer at Visokio, working on Omniscope, a data analytics plat
 
 ## Published articles
 - [When an AI agent cannot run your tests](https://mustafahafeez.com/blog/tests-inside-agent-sandbox/index.html.md): How I adapted tooling tests for a restricted environment, and why some checks still needed the real machine.
-- [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): A real publishing check from my website, and the question I ask before accepting an AI agent’s work.
+- [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): Checking what my website build would publish, and how I tested an AI agent’s release check.
