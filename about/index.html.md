@@ -52,25 +52,33 @@ From a question to a report.
 
 Report Ninja
 
+[
+
 ![Visokio’s Report Ninja demonstration, with a chart and an AI-assisted report editing conversation.](<https://mustafahafeez.com/assets/images/omniscope-report-ninja-poster.webp>)
 
-Public demonstration of AI-assisted report editing in Visokio Omniscope.
+](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja#tab=Content%20View>)
+
+Public demonstration of AI-assisted report editing in Visokio Omniscope.[Explore the demo gallery](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja#tab=Content%20View>)
 
 Geospatial exploration
 
+[
+
 ![A public Omniscope demonstration exploring European water-quality data through maps, charts and filters.](<https://mustafahafeez.com/assets/images/omniscope-water-poster.webp>)
 
-Explore maps, charts and filters in Visokio’s public water-quality demonstration.
+](<https://public.omniscope.me/Demos/EU+Water+Quality.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_water_quality>)
+
+Explore maps, charts and filters in Visokio’s public water-quality demonstration.[Explore the water-quality report](<https://public.omniscope.me/Demos/EU+Water+Quality.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_water_quality>)
 
 Data analysis
 
 [
 
-![Visokio’s public spend-management demo with expenditure trends, category comparisons and purchasing breakdowns.](<https://mustafahafeez.com/assets/images/omniscope-spend-analysis.webp>)
+![Visokio’s public Salesforce dashboard example, showing sales opportunities, expected revenue and lead sources.](<https://mustafahafeez.com/assets/images/omniscope-salesforce-demo.webp>)
 
-](<https://mustafahafeez.com/assets/images/omniscope-spend-analysis.webp>)
+](<https://public.omniscope.me/Demos/SalesForce+dashboard.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_salesforce>)
 
-A public spend-management analysis example from Visokio. [View full-size image](<https://mustafahafeez.com/assets/images/omniscope-spend-analysis.webp>)
+A public Salesforce dashboard example from Visokio.[Explore the Salesforce dashboard](<https://public.omniscope.me/Demos/SalesForce+dashboard.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_salesforce>)
 
 Operational reporting
 
@@ -78,9 +86,9 @@ Operational reporting
 
 ![Visokio’s public call-centre KPI dashboard example.](<https://mustafahafeez.com/assets/images/omniscope-call-centre-demo.webp>)
 
-](<https://mustafahafeez.com/assets/images/omniscope-call-centre-demo.webp>)
+](<https://public.omniscope.me/Public/Call+Center+Analysis/Call+center+dashboard.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_call_centre>)
 
-A public call-centre dashboard example from Visokio. [View full-size image](<https://mustafahafeez.com/assets/images/omniscope-call-centre-demo.webp>)
+A public call-centre dashboard example from Visokio.[Explore the call-centre dashboard](<https://public.omniscope.me/Public/Call+Center+Analysis/Call+center+dashboard.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_call_centre>)
 
 #### Explore Omniscope interactively.
 
