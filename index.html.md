@@ -1,4 +1,4 @@
-Mustafa Hafeez · Senior software engineer
+Mustafa Hafeez  Senior software engineer
 
 # I enjoy building *software properly.*
 
@@ -71,6 +71,46 @@ The report
 Explore linked charts and filtering in one report. A public product demonstration in Visokio Omniscope.
 
 [Explore interactive Omniscope examples](<https://mustafahafeez.com/about/#omniscope-demos>)
+
+Explore Omniscope
+
+### Try it with sample data.
+
+Use sample or anonymised data when trying these demos. Do not upload personal, confidential or sensitive information.
+
+[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_try_omniscope>)
+
+[
+
+#### Insight Explorer
+
+Ask a question about your data and explore the answer.
+
+Try Insight Explorer ](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_insight_explorer>)
+
+[
+
+#### Instant Dashboard
+
+Turn a CSV file into an interactive dashboard.
+
+Try Instant Dashboard ](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_drop_and_dash>)
+
+[
+
+#### Decision Scorecard
+
+Compare your options using the criteria that matter to you.
+
+Try Decision Scorecard ](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_decision_scorecard>)
+
+[
+
+#### Data Quality Inspector
+
+Spot missing values, duplicate rows and numeric outliers.
+
+Try Data Quality Inspector ](<https://visokio.com/data-quality-inspector/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_data_quality>)
 
 Writing
 

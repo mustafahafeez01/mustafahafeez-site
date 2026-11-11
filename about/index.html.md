@@ -1,4 +1,4 @@
-Mustafa Hafeez · Senior software engineer
+Mustafa Hafeez  Senior software engineer
 
 # My path through *software engineering.*
 
@@ -108,21 +108,37 @@ Use sample or anonymised data when trying these demos. Do not upload personal, c
 
 [Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>)
 
-##### [Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_insight_explorer>)
+[
+
+##### Insight Explorer
 
 Ask a question about your data and explore the answer.
 
-##### [Instant Dashboard](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>)
+Try Insight Explorer ](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_insight_explorer>)
+
+[
+
+##### Instant Dashboard
 
 Turn a CSV file into an interactive dashboard.
 
-##### [Decision Scorecard](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_decision_scorecard>)
+Try Instant Dashboard ](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>)
+
+[
+
+##### Decision Scorecard
 
 Compare your options using the criteria that matter to you.
 
-##### [Data Quality Inspector](<https://visokio.com/data-quality-inspector/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_data_quality>)
+Try Decision Scorecard ](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_decision_scorecard>)
+
+[
+
+##### Data Quality Inspector
 
 Spot missing values, duplicate rows and numeric outliers.
+
+Try Data Quality Inspector ](<https://visokio.com/data-quality-inspector/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_data_quality>)
 
 02
 
