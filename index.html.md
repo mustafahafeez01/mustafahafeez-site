@@ -72,7 +72,7 @@ Explore Omniscope
 
 [Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_try_omniscope>)
 
-#### [Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_insight_explorer>)
+#### [Insight Explorer](<https://omniscope.app/InsightExplorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_insight_explorer>)
 
 Ask questions about your data and explore the analysis.
 

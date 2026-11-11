@@ -56,9 +56,9 @@ Report Ninja
 
 ![Visokio’s Report Ninja demonstration, with a chart and an AI-assisted report editing conversation.](<https://mustafahafeez.com/assets/images/omniscope-report-ninja-poster.webp>)
 
-](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
+](<https://omniscope.app/InsightExplorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
 
-Public demonstration of AI-assisted report editing in Visokio Omniscope. [Explore Omniscope Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
+Public demonstration of AI-assisted report editing in Visokio Omniscope. [Explore Omniscope Insight Explorer](<https://omniscope.app/InsightExplorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
 
 Geospatial exploration
 
