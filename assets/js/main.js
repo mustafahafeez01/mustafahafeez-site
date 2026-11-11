@@ -169,3 +169,67 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
   }
  });
 })();
+
+(() => {
+ const demo = document.querySelector('[data-release-check-demo]');
+ if (!demo) return;
+
+ const approved = ['index.html', 'assets/site.css'];
+ const sampleBuild = ['index.html', 'assets/site.css'];
+ const extraFile = 'private-notes.txt';
+ const includeExtra = demo.querySelector('[data-extra-file]');
+ const result = demo.querySelector('[role="status"]');
+
+ includeExtra.checked = false;
+ includeExtra.addEventListener('change', () => {
+  result.textContent = 'Sample changed. Run the check again.';
+ });
+ demo.querySelector('[data-run-check]').addEventListener('click', () => {
+  const files = includeExtra.checked ? [...sampleBuild, extraFile] : sampleBuild;
+  const unexpected = files.filter(file => !approved.includes(file));
+  const missing = approved.filter(file => !files.includes(file));
+
+  if (unexpected.length || missing.length) {
+   const details = [
+    ...unexpected.map(file => 'Unexpected file: ' + file + '.'),
+    ...missing.map(file => 'Missing file: ' + file + '.')
+   ];
+   result.textContent = 'Blocked. ' + details.join(' ');
+   return;
+  }
+  result.textContent = 'Passed. The sample matches the approved file list.';
+ });
+ demo.hidden = false;
+})();
+
+(() => {
+ const demo = document.querySelector('[data-observation-demo]');
+ if (!demo) return;
+
+ const broken = demo.querySelector('[data-broken-observation]');
+ const result = demo.querySelector('[role="status"]');
+ const isRunning = (pid, listProcesses) => listProcesses().includes(pid);
+ const fixture = () => [42, 73];
+ const observe = () => {
+  if (broken.checked) throw new Error('Process list unavailable.');
+  return [42, 73];
+ };
+
+ broken.checked = false;
+ broken.addEventListener('change', () => {
+  result.textContent = 'Simulation changed. Run both checks again.';
+ });
+ demo.querySelector('[data-run-observation]').addEventListener('click', () => {
+  const fixturePassed = isRunning(42, fixture);
+  const fixtureResult = fixturePassed ? 'Fixture test passed.' : 'Fixture test failed.';
+  try {
+   const observed = isRunning(42, observe);
+   result.textContent = fixtureResult + (observed
+    ? ' Simulated integration check passed. Process 42 was found.'
+    : ' Simulated integration check failed. Process 42 was missing.');
+  } catch {
+   result.textContent = fixtureResult + ' Simulated integration check failed. The process list was unavailable, so whether process 42 is running is unknown.';
+  }
+ });
+ demo.hidden = false;
+})();
