@@ -190,3 +190,26 @@ document.querySelectorAll('[data-code-example]').forEach(panel => {
   }
  });
 });
+
+// Original product GIFs autoplay unless reduced motion is requested.
+// Pause swaps to a still image; no JavaScript retains the still images.
+(() => {
+ const panels = document.querySelectorAll('[data-gif-demo]');
+ if (!panels.length || typeof window.matchMedia !== 'function') return;
+ const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+ panels.forEach(panel => {
+  const image = panel.querySelector('[data-gif-src]');
+  const button = panel.querySelector('[data-gif-toggle]');
+  if (!image || !button) return;
+  let playing = !motion.matches;
+  const render = () => {
+   image.src = playing ? image.dataset.gifSrc : image.dataset.stillSrc;
+   button.textContent = playing ? 'Pause animation' : 'Play animation';
+   button.setAttribute('aria-label', button.textContent + ': ' + panel.querySelector('.eyebrow').textContent.toLowerCase());
+  };
+  button.hidden = false;
+  button.addEventListener('click', () => { playing = !playing; render(); });
+  motion.addEventListener('change', () => { if (motion.matches) { playing = false; render(); } });
+  render();
+ });
+})();

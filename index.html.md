@@ -46,11 +46,17 @@ Tell me what you’re trying to do and where you’re getting stuck. You don’t
 
 [Discuss your project on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
 
-Your browser cannot play this demonstration. The image below shows the workflow.
+The workflow
 
-![An Omniscope workflow joins two data sources and branches into a report and a CSV export.](<https://mustafahafeez.com/assets/images/omniscope-workflow-poster.webp>)
+![Omniscope joins and processes two data sources, then produces a report and a CSV export.](<https://mustafahafeez.com/assets/images/omniscope-workflow-poster.webp>)
 
-A demonstration workflow in Visokio Omniscope. Two data sources are joined and processed into a report and a CSV export.
+A demonstration workflow in Visokio Omniscope.
+
+The report
+
+![An Omniscope demonstration report with linked charts and filtering controls.](<https://mustafahafeez.com/assets/images/omniscope-report-poster.webp>)
+
+A demonstration report in Visokio Omniscope.
 
 [Browse Omniscope’s demo catalogue](<https://omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_demo_catalogue#tab=Content%20View>)
 
