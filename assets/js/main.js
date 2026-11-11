@@ -169,3 +169,24 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
   }
  });
 })();
+
+document.querySelectorAll('[data-code-example]').forEach(panel => {
+ const button = panel.querySelector('[data-copy-code]');
+ const code = panel.querySelector('code');
+ const feedback = panel.querySelector('[role="status"]');
+ button.hidden = false;
+ button.addEventListener('click', async () => {
+  try {
+   await navigator.clipboard.writeText(code.textContent);
+   feedback.textContent = 'Code copied.';
+  } catch {
+   const selection = window.getSelection();
+   const range = document.createRange();
+   range.selectNodeContents(code);
+   selection.removeAllRanges();
+   selection.addRange(range);
+   panel.querySelector('pre').focus();
+   feedback.textContent = 'Code selected. Use your device’s copy command.';
+  }
+ });
+});
