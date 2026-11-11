@@ -94,11 +94,13 @@ A public call-centre dashboard example from Visokio. [Explore the call-centre da
 
 Browse Visokio’s public demo catalogue here. It loads only when you choose to open it.
 
+Use sample or anonymised data when trying these demos. Do not upload personal, confidential or sensitive information.
+
 Loads an external report from Visokio. See the [Visokio privacy policy](<https://visokio.com/privacy-policy/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_privacy>) .
 
 [Open the demo catalogue in its own page](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_catalogue>)
 
-[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>) [Drop & Dash](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>)
+[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>) [Instant Dashboard](<https://omniscope.app/InstantDashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>)
 
 02
 
