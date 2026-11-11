@@ -44,9 +44,11 @@ Use APIs and automation to reduce repetitive copying and manual tasks.
 
 Get help reviewing an existing workflow, planning an integration or assessing an AI idea before committing to a larger build.
 
-I work on Omniscope at Visokio and can help you explore whether it fits your needs. My independent consultancy is separate from that role and covers reporting, integrations and practical AI workflows, using tools that fit your situation.
+[Explore interactive Omniscope examples](<https://mustafahafeez.com/about/#omniscope-demos>)
 
-Tell me what you’re trying to do and where you’re getting stuck. You don’t need a technical brief to start a conversation.
+The right approach starts with understanding your data, your tools and the work you want to improve. I can help you assess the options and plan a practical next step, whether that involves Omniscope, an integration or an AI-assisted workflow.
+
+Have a data problem or a project in mind? Send me a short message on LinkedIn or by email. Tell me what you’re trying to do and where you’re getting stuck.
 
 [Discuss your project on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>) Email me about your project
 

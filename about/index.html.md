@@ -56,9 +56,9 @@ Report Ninja
 
 ![Visokio’s Report Ninja demonstration, with a chart and an AI-assisted report editing conversation.](<https://mustafahafeez.com/assets/images/omniscope-report-ninja-poster.webp>)
 
-](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja#tab=Content%20View>)
+](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
 
-Public demonstration of AI-assisted report editing in Visokio Omniscope.[Explore the demo gallery](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja#tab=Content%20View>)
+Public demonstration of AI-assisted report editing in Visokio Omniscope. [Explore Omniscope Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
 
 Geospatial exploration
 
@@ -68,17 +68,17 @@ Geospatial exploration
 
 ](<https://public.omniscope.me/Demos/EU+Water+Quality.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_water_quality>)
 
-Explore maps, charts and filters in Visokio’s public water-quality demonstration.[Explore the water-quality report](<https://public.omniscope.me/Demos/EU+Water+Quality.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_water_quality>)
+Explore maps, charts and filters in Visokio’s public water-quality demonstration. [Explore the water-quality report](<https://public.omniscope.me/Demos/EU+Water+Quality.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_water_quality>)
 
 Data analysis
 
 [
 
-![Visokio’s public Salesforce dashboard example, showing sales opportunities, expected revenue and lead sources.](<https://mustafahafeez.com/assets/images/omniscope-salesforce-demo.webp>)
+![Visokio’s public sales overview, showing orders, revenue, product comparisons and regional sales.](<https://mustafahafeez.com/assets/images/omniscope-sales-analysis.webp>)
 
-](<https://public.omniscope.me/Demos/SalesForce+dashboard.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_salesforce>)
+](<https://public.omniscope.me/Public/Template+Orders+Customers.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_sales_analysis>)
 
-A public Salesforce dashboard example from Visokio.[Explore the Salesforce dashboard](<https://public.omniscope.me/Demos/SalesForce+dashboard.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_salesforce>)
+Explore orders, revenue and product performance in Visokio’s public sales example. [Explore the sales dashboard](<https://public.omniscope.me/Public/Template+Orders+Customers.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_sales_analysis>)
 
 Operational reporting
 
@@ -88,7 +88,7 @@ Operational reporting
 
 ](<https://public.omniscope.me/Public/Call+Center+Analysis/Call+center+dashboard.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_call_centre>)
 
-A public call-centre dashboard example from Visokio.[Explore the call-centre dashboard](<https://public.omniscope.me/Public/Call+Center+Analysis/Call+center+dashboard.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_call_centre>)
+A public call-centre dashboard example from Visokio. [Explore the call-centre dashboard](<https://public.omniscope.me/Public/Call+Center+Analysis/Call+center+dashboard.iox/r/Report/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_call_centre>)
 
 #### Explore Omniscope interactively.
 
@@ -97,6 +97,8 @@ Browse Visokio’s public demo catalogue here. It loads only when you choose to 
 Loads an external report from Visokio. See the [Visokio privacy policy](<https://visokio.com/privacy-policy/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_privacy>) .
 
 [Open the demo catalogue in its own page](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_catalogue>)
+
+[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>) [Drop & Dash](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>)
 
 02
 
