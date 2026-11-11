@@ -100,7 +100,9 @@ Loads an external report from Visokio. See the [Visokio privacy policy](<https:/
 
 [Open the demo catalogue in its own page](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_catalogue>)
 
-[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>) [Instant Dashboard](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>)
+[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>) [Instant Dashboard](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>) [Decision Scorecard](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_decision_scorecard>)
+
+Decision Scorecard helps you compare options using the criteria that matter to you.
 
 02
 
