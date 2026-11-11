@@ -1,6 +1,6 @@
 # Terms of use
 
-Last updated 9 November 2026
+Last updated 11 November 2026
 
 Using the articles and other material on this personal website.
 

@@ -2,9 +2,9 @@ Mustafa Hafeez · Senior software engineer
 
 # I enjoy building *software properly.*
 
-I joined Visokio in 2007 and now work on Omniscope, a data analytics platform, as a senior software engineer. Travel Document Vault is my independent offline app for passports, visas and IDs, designed and built from the ground up. These notes draw on practical work with automation, AI integrations, product features and releases.
+I joined Visokio in 2007 and now work on Omniscope, a data analytics platform, as a senior software engineer. Travel Document Vault is my independent offline app for passports, visas and IDs. I also help teams make reporting repeatable, connect tools and assess practical AI ideas.
 
-[Explore my work](<https://mustafahafeez.com/#selected-work>) [Career & education](<https://mustafahafeez.com/about/#journey>) [Connect on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
+[Explore my work](<https://mustafahafeez.com/#selected-work>) [How I can help](<https://mustafahafeez.com/#services>) [Connect on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
 
 ![Mustafa Hafeez](<https://mustafahafeez.com/assets/images/mustafa-hafeez-800.webp>)
 
@@ -40,15 +40,15 @@ Bring scattered data together and reduce the preparation behind regular reports.
 
 Use APIs and automation to reduce repetitive copying and manual tasks.
 
-### Technical consultancy.
+### Get a second opinion before you build.
 
 Get help reviewing an existing workflow, planning an integration or assessing an AI idea before committing to a larger build.
 
-As an Omniscope developer at Visokio, I can help you explore how it could bring data preparation, reporting and automation together. I also offer independent consultancy on integrations and practical AI workflows. The starting point is what you need to improve.
+I work on Omniscope at Visokio and can help you explore whether it fits your needs. My independent consultancy is separate from that role and covers reporting, integrations and practical AI workflows, using tools that fit your situation.
 
 Tell me what you’re trying to do and where you’re getting stuck. You don’t need a technical brief to start a conversation.
 
-[Discuss your project on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
+[Discuss your project on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>) Email me about your project
 
 The workflow
 

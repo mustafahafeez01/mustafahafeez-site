@@ -26,49 +26,69 @@ Professional work
 
 Building and maintaining Omniscope.
 
-I joined Visokio in 2007 and work on Omniscope, a platform for exploring data, building interactive reports and automating data workflows. My work has moved from the Classic desktop application to Omniscope Evo, across the Java server and JavaScript, CSS and React front end, working closely with colleagues.
+I joined Visokio in 2007 and work on Omniscope, a platform for exploring data, building interactive reports and automating data workflows. That work has taken me from the Classic desktop application to Omniscope Evo, across the Java server and JavaScript, CSS and React front end, working closely with colleagues.
 
 #### Reporting and everyday use
 
-My reporting work covers filtering, saved explorations, working copies and shared features around reports, including persistence, styling and customer branding. These help people explore their data, return to their work and manage changes between projects and servers.
+Reporting responsibilities include filtering, saved explorations, working copies and shared features around reports, including persistence, styling and customer branding. These help people explore their data, return to their work and manage changes between projects and servers.
 
 #### Automation and AI integration
 
-My Scheduler and project automation work spans server and client, including schedule validation, retries and outcome notifications, alongside parameters and REST APIs. For Omniscope’s MCP server, I implemented OAuth 2.1 sign-in, endpoints and Admin screens so AI assistants can connect within a person’s existing permissions and authorised folders.
+Scheduler and project automation work spans server and client, including schedule validation, retries and outcome notifications, alongside parameters and REST APIs. For Omniscope’s MCP server, I implemented OAuth 2.1 sign-in, endpoints and Admin screens so AI assistants can connect within a person’s existing permissions and authorised folders.
 
 #### Cloud accounts and administration
 
-For Omniscope Cloud, I implemented sign-up, sign-in, trial and subscription flows using Auth0 and Stripe. My wider Admin work covers permissions, single sign-on and API-key configuration, alongside application hardening, licensing and activation.
+For Omniscope Cloud, I implemented sign-up, sign-in, trial and subscription flows using Auth0 and Stripe. Administration covers permissions, single sign-on and API-key configuration, alongside application hardening, licensing and activation.
 
 #### Releases and operations
 
-My release work includes maintaining the build pipeline and working with the team on packaging and code signing across Windows, macOS and Linux, alongside Docker and cloud marketplace releases. Infrastructure responsibilities include Terraform, planning changes with runbooks and recovery steps, and investigating customer server problems with colleagues.
+Release responsibilities include maintaining the build pipeline and working with the team on packaging and code signing across Windows, macOS and Linux, alongside Docker and cloud marketplace releases. Infrastructure responsibilities include Terraform, planning changes with runbooks and recovery steps, and investigating customer server problems with colleagues.
 
 [Explore Omniscope at Visokio](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=work_visokio>)
 
-Inside Omniscope Product overview
+Inside Omniscope Product demo
 
-From raw data to reports people can use.
+From a question to a report.
 
-![Omniscope brings preparation, analysis and reporting together.](<https://mustafahafeez.com/assets/images/omniscope-overview-desktop.webp>)
+Report Ninja
 
-Prepare data, explore it and deliver the results in one platform.
+![Visokio’s Report Ninja demonstration, with a chart and an AI-assisted report editing conversation.](<https://mustafahafeez.com/assets/images/omniscope-report-ninja-poster.webp>)
 
-![Load, clean, blend, validate and transform data.](<https://mustafahafeez.com/assets/images/omniscope-prepare-desktop.webp>)
+Public demonstration of AI-assisted report editing in Visokio Omniscope.
 
-Load, clean, blend, validate and transform data.
+Geospatial exploration
 
-![Explore data and investigate patterns.](<https://mustafahafeez.com/assets/images/omniscope-analyse-desktop.webp>)
+![A public Omniscope demonstration exploring European water-quality data through maps, charts and filters.](<https://mustafahafeez.com/assets/images/omniscope-water-poster.webp>)
 
-Explore data and investigate patterns.
+Explore maps, charts and filters in Visokio’s public water-quality demonstration.
 
-![Publish reports, export data and schedule delivery.](<https://mustafahafeez.com/assets/images/omniscope-deliver-desktop.webp>)
+Data analysis
 
-Publish reports, export data and schedule delivery.
+[
 
-Product illustrations from Visokio. Sample data shown.
+![Visokio’s public spend-management demo with expenditure trends, category comparisons and purchasing breakdowns.](<https://mustafahafeez.com/assets/images/omniscope-spend-analysis.webp>)
 
-Image 1 of 4
+](<https://mustafahafeez.com/assets/images/omniscope-spend-analysis.webp>)
+
+A public spend-management analysis example from Visokio. [View full-size image](<https://mustafahafeez.com/assets/images/omniscope-spend-analysis.webp>)
+
+Operational reporting
+
+[
+
+![Visokio’s public call-centre KPI dashboard example.](<https://mustafahafeez.com/assets/images/omniscope-call-centre-demo.webp>)
+
+](<https://mustafahafeez.com/assets/images/omniscope-call-centre-demo.webp>)
+
+A public call-centre dashboard example from Visokio. [View full-size image](<https://mustafahafeez.com/assets/images/omniscope-call-centre-demo.webp>)
+
+#### Explore Omniscope interactively.
+
+Browse Visokio’s public demo catalogue here. It loads only when you choose to open it.
+
+Loads an external report from Visokio. See the [Visokio privacy policy](<https://visokio.com/privacy-policy/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_privacy>) .
+
+[Open the demo catalogue in its own page](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_catalogue>)
 
 02
 
@@ -140,7 +160,7 @@ From university and a placement year to Omniscope and an independent app.
 
 - 2025   to present  [Travel Document Vault](<https://mustafahafeez.com/about/#travel-document-vault>)
 
-### An independent app, from the ground up
+### Designing and releasing an independent app
 
 I started designing and building Travel Document Vault, my independent app for organising passports, visas and IDs. The work covers its architecture, product design, development, testing and releases.
 
@@ -148,9 +168,7 @@ I started designing and building Travel Document Vault, my independent app for o
 
 ### Graduate engineer to senior software engineer
 
-My work has grown with Omniscope from the Classic desktop application to Evo, across the Java backend and JavaScript and React frontend. I develop reporting and shared application features, Scheduler functionality, project automations and APIs.
-
-I implemented Cloud account and subscription flows and OAuth sign-in for AI assistants. I also work on Docker, Terraform, build pipelines and releases, and investigate customer server problems with colleagues.
+I joined Visokio as a graduate engineer in 2007 and progressed to senior software engineer, working with colleagues as Omniscope evolved from a desktop application to a web platform. [Read about my current responsibilities](<https://mustafahafeez.com/about/#professional-title>) .
 
 - 2007   [Kingston University, London, UK](<https://www.kingston.ac.uk/about>)
 
@@ -162,7 +180,7 @@ An ANTLR grammar parsed those descriptions, and Velocity templates generated JUn
 
 - 2005 –2006   [BusinessObjects (later acquired by SAP)](<https://www.sap.com/products/data-cloud/bi-platform.html>)
 
-### Testing and releases as a placement developer
+### Developer Assistant, Research & Development
 
 From June 2005 to July 2006, I worked with senior developers on unit tests with JUnit and mock objects, test environments, and the team’s unit-testing framework and reporting. I handled the team’s release and configuration management, and worked on hot-fixes with teams in other countries.
 
@@ -178,6 +196,8 @@ Contact
 
 ## Let’s compare notes.
 
-[Connect on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>)
+Want help with reporting, automation or an integration? [See how I can help](<https://mustafahafeez.com/#services>) .
+
+[Message me on LinkedIn ](<https://www.linkedin.com/in/mustafahafeez-dev>) Email me about your project
 
 [Read the HTML page](<https://mustafahafeez.com/about/>)

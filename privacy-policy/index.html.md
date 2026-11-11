@@ -1,6 +1,6 @@
 # Privacy & cookies
 
-Last updated 9 November 2026
+Last updated 11 November 2026
 
 How information is used when you visit mustafahafeez.com.
 
@@ -46,13 +46,13 @@ The Google Analytics property is configured to retain event data for two months 
 
 Google’s retention controls apply to user-level and event-level data used in explorations and funnel reports. Standard aggregated reports can remain available for longer. Cookie expiry is a separate setting. [Google explains its retention controls](<https://support.google.com/analytics/answer/7667196>) .
 
-I keep privacy correspondence for the time needed to respond, handle follow-up and meet applicable legal obligations. GitHub and Google describe retention for data they process in their own privacy information.
+I use project-enquiry correspondence to discuss your requirements and respond, and retain it for the time needed for that discussion, any agreed work and applicable obligations. Please do not send credentials, customer data or sensitive documents in an initial message. I keep privacy correspondence for the time needed to respond, handle follow-up and meet applicable legal obligations. GitHub and Google describe retention for data they process in their own privacy information.
 
 ## Providers and international processing
 
 GitHub hosts the site and Google provides optional analytics. They may process information in countries outside your own. Their privacy information describes international transfers and the safeguards they use.
 
-External links take you to services governed by their own policies. If you contact me through email or LinkedIn, the chosen communication provider also processes your message.
+The optional Omniscope demo is hosted by Visokio. It makes no connection to Visokio until you select Load interactive demo. Loading it sends technical request information, such as your IP address, to that provider, whose own privacy policy applies. Closing the demo removes the embedded report. External links take you to services governed by their own policies. If you contact me through email or LinkedIn, the chosen communication provider also processes your message.
 
 ## Your choices and rights
 

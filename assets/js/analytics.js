@@ -61,7 +61,7 @@
   if (prompt) {
    // Initial HTML and the first-paint class reserve this space before rendering.
    prompt.classList.add('privacy-prompt');
-   prompt.querySelector('h2').textContent='Optional analytics';
+   prompt.querySelector('#privacy-title').textContent='Optional analytics';
    if(description) description.textContent='May I use Google Analytics cookies to measure visits and link clicks?';
    prompt.setAttribute('open', '');
   }

@@ -11,7 +11,7 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
   if (modal.classList.contains('privacy-prompt')) modal.close();
   modal.classList.remove('privacy-prompt');
   document.documentElement.classList.remove('analytics-choice-needed');
-  const title = modal.querySelector('h2');
+  const title = modal.querySelector('#privacy-title');
   if (title) title.textContent = 'Privacy & cookies';
   const description = modal.querySelector('[data-privacy-text]');
   if (description) description.textContent = 'Optional Google Analytics uses cookies to measure visits and link clicks after you allow it. Change your choice in Cookie settings.';
@@ -33,6 +33,23 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
  });
 })();
 
+// Reflect the Services fragment without intercepting any native link navigation.
+(() => {
+ const nav = document.querySelector('nav[aria-label="Main navigation"][data-active]');
+ if (!nav || typeof nav.querySelectorAll !== 'function' || typeof window === 'undefined') return;
+ const update = () => {
+  if (location.pathname !== '/') return;
+  const services = location.hash === '#services';
+  nav.dataset.active = services ? 'services' : 'home';
+  nav.querySelectorAll('a').forEach(link => {
+   const selected = link.getAttribute('href') === (services ? '/#services' : '/');
+   if (selected) link.setAttribute('aria-current', services ? 'location' : 'page');
+   else link.removeAttribute('aria-current');
+  });
+ };
+ update(); window.addEventListener('hashchange', update); window.addEventListener('pageshow', update);
+})();
+
 // Animate only the local selection after an ordinary same-tab page navigation.
 // Native links remain immediate, and no preference or navigation data is stored.
 (() => {
@@ -43,11 +60,11 @@ if (location.pathname === '/' && ['#work', '#journey', '#contact', '#writing'].i
  const previous = new URL(activation.from.url);
  if (previous.origin !== location.origin) return;
  const routes = {'/': 'home', '/blog/': 'writing', '/about/': 'about'};
- const from = routes[previous.pathname];
- const to = routes[location.pathname];
+ const from = previous.pathname === '/' && previous.hash === '#services' ? 'services' : routes[previous.pathname];
+ const to = location.pathname === '/' && location.hash === '#services' ? 'services' : routes[location.pathname];
  const indicator = nav.querySelector('.nav-indicator');
  if (!from || !to || to !== nav.dataset.active || from === to || !indicator?.animate) return;
- const position = active => ({home: 'translateX(0)', writing: 'translateX(calc(100% + 2px))', about: 'translateX(calc(200% + 4px))'})[active];
+ const position = active => ({home: 'translateX(0)', writing: 'translateX(calc(100% + 2px))', about: 'translateX(calc(200% + 4px))', services: 'translateX(calc(300% + 6px))'})[active];
  const animation = indicator.animate([{transform: position(from)}, {transform: position(to)}], {duration: 220, easing: 'cubic-bezier(.2,.7,.3,1)'});
  window.addEventListener('pagehide', () => animation.cancel(), {once: true});
 })();
@@ -211,5 +228,44 @@ document.querySelectorAll('[data-code-example]').forEach(panel => {
   button.addEventListener('click', () => { playing = !playing; render(); });
   motion.addEventListener('change', () => { if (motion.matches) { playing = false; render(); } });
   render();
+ });
+})();
+
+// Keep keyboard focus clear of the non-modal fixed analytics choice notice.
+(() => {
+ if (typeof window === 'undefined' || typeof window.requestAnimationFrame !== 'function') return;
+ document.addEventListener('focusin', event => {
+  window.requestAnimationFrame(() => {
+   const notice = document.querySelector('#privacy.privacy-prompt[open]');
+   const target = event.target;
+   if (!notice || !notice.getClientRects().length || notice.contains(target) || !target?.getBoundingClientRect) return;
+   const rect = target.getBoundingClientRect();
+   const limit = notice.getBoundingClientRect().top - 12;
+   if (rect.bottom > limit) window.scrollBy({top: rect.bottom - limit, behavior: 'instant'});
+  });
+ });
+})();
+
+// External report makes no request until the visitor explicitly loads it.
+(() => {
+ document.querySelectorAll('[data-embed-demo]').forEach(panel => {
+  const open = panel.querySelector('[data-load-demo]');
+  const close = panel.querySelector('[data-close-demo]');
+  const container = panel.querySelector('[data-demo-container]');
+  if (!open || !close || !container) return;
+  open.hidden = false;
+  open.addEventListener('click', () => {
+   if (container.firstChild) return;
+   const frame = document.createElement('iframe');
+   frame.title = 'Visokio Omniscope public demo catalogue';
+   frame.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-forms');
+   frame.referrerPolicy = 'no-referrer';
+   frame.src = 'https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_embed';
+   container.append(frame);
+   open.hidden = true; close.hidden = false; close.focus();
+  });
+  close.addEventListener('click', () => {
+   container.replaceChildren(); close.hidden = true; open.hidden = false; open.focus();
+  });
  });
 })();
