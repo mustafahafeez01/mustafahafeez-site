@@ -81,7 +81,7 @@ In my tooling, fixtures made decision tests runnable inside the sandbox\. Keepin
 
 ## About this note
 
-Based on a recorded investigation in my own development tooling, with implementation details generalised\. AI agents helped with research, changes and review\. I chose the approach and the split between sandbox and host checks\. The code uses invented identifiers\. Final test outcomes are historical recorded results\.
+Based on my work adapting developer\-tooling tests for a restricted environment\. Implementation details are generalised, and the code example uses invented identifiers\.
 
 ## Sources
 
