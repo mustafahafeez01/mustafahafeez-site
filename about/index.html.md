@@ -56,9 +56,9 @@ Report Ninja
 
 ![Visokio’s Report Ninja demonstration, with a chart and an AI-assisted report editing conversation.](<https://mustafahafeez.com/assets/images/omniscope-report-ninja-poster.webp>)
 
-](<https://omniscope.app/InsightExplorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
+](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
 
-Public demonstration of AI-assisted report editing in Visokio Omniscope. [Explore Omniscope Insight Explorer](<https://omniscope.app/InsightExplorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
+Public demonstration of AI-assisted report editing in Visokio Omniscope. [Explore Omniscope Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_report_ninja>)
 
 Geospatial exploration
 
@@ -100,7 +100,7 @@ Loads an external report from Visokio. See the [Visokio privacy policy](<https:/
 
 [Open the demo catalogue in its own page](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_catalogue>)
 
-[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>) [Instant Dashboard](<https://omniscope.app/InstantDashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>)
+[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_try_omniscope>) [Instant Dashboard](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_drop_and_dash>)
 
 02
 

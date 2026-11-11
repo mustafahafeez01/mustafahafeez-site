@@ -72,19 +72,27 @@ Explore Omniscope
 
 [Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_try_omniscope>)
 
-#### [Insight Explorer](<https://omniscope.app/InsightExplorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_insight_explorer>)
+#### [Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_insight_explorer>)
 
-Ask questions about your data and explore the analysis.
+Ask a question about your data and explore the answer.
 
-#### [Instant Dashboard](<https://omniscope.app/InstantDashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_drop_and_dash>)
+#### [Instant Dashboard](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_drop_and_dash>)
 
-Upload a CSV file and see an interactive dashboard appear. Sign-in may be required.
+Turn a CSV file into an interactive dashboard.
+
+#### [Decision Scorecard](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_decision_scorecard>)
+
+Compare your options using the criteria that matter to you.
 
 #### [Data Quality Inspector](<https://visokio.com/data-quality-inspector/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_data_quality>)
 
-Check for missing values, duplicate rows and numeric outliers.
+Spot missing values, duplicate rows and numeric outliers.
 
 Use sample or anonymised data when trying these demos. Do not upload personal, confidential or sensitive information.
+
+Have a data problem, project or automation in mind?
+
+[Connect on LinkedIn](<https://www.linkedin.com/in/mustafahafeez-dev>) Email me about your project
 
 Writing
 
