@@ -14,5 +14,6 @@ Mustafa joined Visokio in 2007 and is now a senior software engineer working on 
 - [Terms of use](https://mustafahafeez.com/terms-of-use/index.html.md)
 
 ## Published articles
+- [Your AI agent’s instructions grew while you weren’t looking](https://mustafahafeez.com/blog/ai-agent-context-instructions/index.html.md): An instruction audit found ignored scope metadata, stale guidance and safeguards lost during trimming. Five checks for reviewing what your agent reads.
 - [When an AI agent cannot run your tests](https://mustafahafeez.com/blog/tests-inside-agent-sandbox/index.html.md): How I adapted tooling tests for a restricted environment, and why some checks still needed the real machine.
 - [Before I accept an AI agent’s changes](https://mustafahafeez.com/blog/reviewing-ai-agent-work/index.html.md): Checking what my website build would publish, and how I tested an AI agent’s release check.

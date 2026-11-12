@@ -120,17 +120,23 @@ Writing
 
 Latest article
 
+Agent engineering 12 November 2026 5 min read
+
+### [Your AI agent’s instructions grew while you weren’t looking](<https://mustafahafeez.com/blog/ai-agent-context-instructions/>)
+
+An instruction audit found ignored scope metadata, stale guidance and safeguards lost during trimming. Five checks for reviewing what your agent reads.
+
+![An overflowing accordion folio spreads across a walnut desk while a hand selects a compact bound set of essential cards.](<https://mustafahafeez.com/assets/images/articles/ai-agent-context-cover.webp>)
+
+[Read the note ](<https://mustafahafeez.com/blog/ai-agent-context-instructions/>)
+
+More technical notes
+
 AI engineering 10 November 2026 4 min read
 
 ### [When an AI agent cannot run your tests](<https://mustafahafeez.com/blog/tests-inside-agent-sandbox/>)
 
 How I adapted tooling tests for a restricted environment, and why some checks still needed the real machine.
-
-![A paper model testing station inside a transparent enclosure and a physical computer feed results towards a shared review notebook.](<https://mustafahafeez.com/assets/images/articles/agent-test-environments-cover.webp>)
-
-[Read the note ](<https://mustafahafeez.com/blog/tests-inside-agent-sandbox/>)
-
-More technical notes
 
 AI engineering 9 November 2026 4 min read
 
