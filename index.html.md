@@ -30,7 +30,7 @@ Services
 
 ## Bring me your data problem.
 
-I bring nearly two decades of hands-on software engineering experience across reporting, automation and solving practical problems. If a report takes too long, your tools don’t connect or a task keeps needing manual attention, let’s work out how I can help.
+I bring nearly two decades of hands-on software engineering experience in reporting, automation and practical problem-solving. If a report takes too long, your tools don’t connect or a task keeps needing manual attention, let’s work out how I can help.
 
 [Discuss your project on LinkedIn](<https://www.linkedin.com/in/mustafahafeez-dev>) [Email me about your project](<mailto:mustafa@mustafahafeez.com?subject=Project%20enquiry>)
 

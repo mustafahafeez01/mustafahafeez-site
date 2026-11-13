@@ -98,7 +98,7 @@ Use sample or anonymised data when trying these demos. Do not upload personal, c
 
 Loads an external report from Visokio. See the [Visokio privacy policy](<https://visokio.com/privacy-policy/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_privacy>) .
 
-[Open the demo catalogue in its own page](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_catalogue>)
+[Open the demo catalogue in a new tab](<https://public.omniscope.me/Demos/Catalogue.iox/r/Gallery/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=about_demo_catalogue>)
 
 Explore Omniscope
 
@@ -232,7 +232,7 @@ An ANTLR grammar parsed those descriptions, and Velocity templates generated JUn
 
 ### Developer Assistant, Research & Development
 
-From June 2005 to July 2006, I worked with senior developers on unit tests with JUnit and mock objects, test environments, and the team’s unit-testing framework and reporting. I handled the team’s release and configuration management, and worked on hot-fixes with teams in other countries.
+From June 2005 to July 2006, I worked with senior developers on unit tests with JUnit and mock objects, test environments, and the team’s unit-testing framework and reporting. I handled the team’s release and configuration management, and worked on hotfixes with teams in other countries.
 
 I wrote an internal paper on removing contextual dependencies from unit tests and was asked to present it. I also helped interview the following year’s placement candidates.
 

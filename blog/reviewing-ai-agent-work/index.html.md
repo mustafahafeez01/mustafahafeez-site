@@ -83,7 +83,7 @@ A simplified illustration\. Evidence recorded for revision A does not establish 
 
 Choose one unwanted outcome the change must prevent\. Prepare an input that should trigger it, run the check and inspect what actually happened\. Keep the result with the version you checked\.
 
-The same approach could help with a data pipeline\. Give it a sample with a required field missing, then inspect the published report as well as the job status\. A failure message would leave a problem if malformed data had already reached the report\. This is a suggested application, rather than an incident from my work\.
+The same approach could help with a data pipeline\. Give it a sample with a required field missing, then inspect the published report as well as the job status\. A failure message would not be enough if malformed data had already reached the report\. This is a suggested application, rather than an incident from my work\.
 
 For this website, the useful evidence was straightforward\. The same checker accepted the clean copy and rejected the copy containing an unapproved file\.
 

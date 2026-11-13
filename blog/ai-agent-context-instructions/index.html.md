@@ -16,7 +16,7 @@ A conceptual illustration of accumulated instructions and a smaller core\.
 
 While working with AI coding agents on an independent project, I approved a plan to reduce the instructions loaded into our sessions\. The audit had found something more specific than long files: rules intended for particular work were loading everywhere because their scope was written in a format the loader did not recognise\.
 
-The files had grown through useful additions: a correction after a mistake, a procedure for the next task, a status note left for a later session\. Taken together, they mixed current obligations with history and stale facts\. I wanted a check that would stop the accumulation happening again\.
+The files had grown through useful additions: a correction after a mistake, a procedure for the next task, a status note left for a later session\. Taken together, they mixed current obligations with history and stale facts\. I wanted a check that would stop the accumulation from happening again\.
 
 The repair also introduced a problem\. An independent review found safeguards missing from the shortened instructions, along with wording that contradicted another rule\. Both needed correcting before the changes were committed\. That review shaped the advice below: measure what loads, but check what survives the edit\.
 
@@ -42,7 +42,7 @@ A separate incident exposed guidance saying a capability was unavailable\. A liv
 
 Search for statements such as 'unsupported', 'broken' or 'disabled'\. Separate factual limitations from deliberate permission boundaries\. Verify a capability with a harmless, authorised check; an instruction forbidding an action is not permission to try it\.
 
-For a count you keep, record how to reproduce it and when it was checked\. An incorrect claim that something works tends to produce a visible failure\. A claim that something cannot work may simply prevent anyone trying it again\.
+For a count you keep, record how to reproduce it and when it was checked\. An incorrect claim that something works tends to produce a visible failure\. A claim that something cannot work may simply prevent anyone from trying it again\.
 
 ## Move detail without losing obligations
 
