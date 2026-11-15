@@ -59,9 +59,9 @@ Add a future trip and the difference becomes visible\. The test can now ask whet
 
 This is the question I want the verification process to keep asking: what would make this result demonstrably wrong? More assertions against the same undemanding input may leave the original assumption untouched\.
 
-![A fictional example: past\-only input gives the same total for both interpretations; adding a future trip exposes the difference\.](https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-input-v1.svg)
+![Sage paper tickets labelled Past trips, with a separate Future trip ticket highlighted under a magnifying glass\.](https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-inline-v2.webp)
 
-The input needs to distinguish the intended behaviour from a plausible mistake\.
+A future trip gives the test an input that can expose a wrong interpretation of “used so far”\. Fictional example\.
 
 ## Different checks need different evidence
 
