@@ -8,17 +8,23 @@ I’m Mustafa, a software engineer and independent app developer. These are note
 
 ## Technical notes
 
+AI-assisted engineering 15 November 2026 6 min read
+
+### [How I’m building verification into AI-assisted development](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>)
+
+Turning engineering experience into a Definition of Done: tests, review perspectives and evidence for accepting AI-assisted work.
+
+![A handmade paper bridge with a section lifted out beside a measuring square.](<https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-cover-v1.webp>)
+
+[Read the note ](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>)
+
+## Earlier notes
+
 Agent engineering 12 November 2026 5 min read
 
 ### [Your AI agent’s instructions grew while you weren’t looking](<https://mustafahafeez.com/blog/ai-agent-context-instructions/>)
 
 An instruction audit found ignored scope metadata, stale guidance and safeguards lost during trimming. Five checks for reviewing what your agent reads.
-
-![An overflowing accordion folio spreads across a walnut desk while a hand selects a compact bound set of essential cards.](<https://mustafahafeez.com/assets/images/articles/ai-agent-context-cover.webp>)
-
-[Read the note ](<https://mustafahafeez.com/blog/ai-agent-context-instructions/>)
-
-## Earlier notes
 
 AI engineering 10 November 2026 4 min read
 
