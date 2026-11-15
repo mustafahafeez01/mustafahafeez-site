@@ -25,6 +25,8 @@ Turning engineering experience into a Definition of Done: tests, review perspect
 
 By Mustafa Hafeez · 2026-11-15
 
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
+
 ## The takeaway
 
 Choose inputs and observations that can expose a mistake, record what actually ran and keep untested behaviour visible\.
@@ -71,6 +73,28 @@ The evidence available to a reviewer matters\. A static capture can support a fi
 
 Privacy is also an explicit review question\. The check needs to name the relevant data expectation and how it will be examined\. Listing privacy in the Definition of Done does not establish that a particular feature has satisfied it\.
 
+## What I ask each verification layer to establish
+
+This is how I organise the questions\. The completion record still needs to show which checks actually ran for a particular change\.
+
+| Verification layer | Question I want answered | Evidence to look for | What it cannot establish alone |
+| --- | --- | --- | --- |
+| Unit tests | Does the focused logic match the requirement? | Controlled inputs, expected values and actual results | A complete journey through the app |
+| End\-to\-end tests | Can the relevant journey reach its intended outcome? | A run through the running app, including relevant failure paths | Behaviour outside that run’s inputs and environment |
+| Visual review | Are the required states clear and readable? | Captures of the intended states, tied to the reviewed version | Interaction or screen\-reader behaviour from a still image |
+| Simulated personas | Where might different perspectives reveal friction? | Questions and observations grounded in the available screens or journey | Evidence that real users succeed |
+| Privacy review | Does the feature respect its stated data expectations? | A specific expectation and evidence of the relevant behaviour | Every security or misuse risk |
+| Security review | Could a restriction be bypassed or information exposed? | Scoped checks, findings, fixes and unresolved risks | A guarantee of security or an independent audit |
+| Device and acceptance review | Is there enough evidence to accept this change? | Relevant device observations and a record of remaining gaps | Behaviour on every device or in every situation |
+
+## Security review asks how a feature could be misused
+
+For me, security adds another question to the review: how could this feature be misused? A feature can behave as intended while allowing an action it should prevent\.
+
+In a fictional document app, I would ask whether a restricted action is still rejected when the usual screen is bypassed, and whether an error message reveals information it should keep private\. Those questions need evidence of their own\.
+
+I want security questions raised while the design can still change, followed by checks of the implementation and release\. When a finding leads to a fix, a repeatable regression test can help catch the same failure in later changes\. The record should say what was examined and what remains unresolved; an automated scan or an AI review should not be presented as an independent security audit\.
+
 ## Automation makes the checks repeatable and the gaps visible
 
 For a solo developer, repeatedly holding every expectation in my head is a poor way to manage quality\. Writing those expectations down makes it possible for agents to run checks and return evidence in a form I can inspect\.
@@ -112,6 +136,8 @@ If the check cannot distinguish the intended behaviour from a plausible mistake,
 
 - [Visokio: verifiable AI analytics across the data journey](<https://visokio.com/verifiable-ai-analytics-across-the-data-journey/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=verification_article>)
 
+- [OWASP: Mobile Application Security Testing Guide](<https://mas.owasp.org/MASTG/>)
+
 [Read on the website](https://mustafahafeez.com/blog/verification-ai-assisted-development/)
 
 
@@ -120,6 +146,8 @@ If the check cannot distinguish the intended behaviour from a plausible mistake,
 An instruction audit found ignored scope metadata, stale guidance and safeguards lost during trimming\. Five checks for reviewing what your agent reads\.
 
 By Mustafa Hafeez · 2026-11-12
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 ## The takeaway
 
@@ -201,6 +229,8 @@ Start with one rule you believe is scoped\. Check when it loads, make one change
 How I adapted tooling tests for a restricted environment, and why some checks still needed the real machine\.
 
 By Mustafa Hafeez · 2026-11-10
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 ## The takeaway
 
@@ -293,6 +323,8 @@ Based on my work adapting developer\-tooling tests for a restricted environment\
 Checking what my website build would publish, and how I tested an AI agent’s release check\.
 
 By Mustafa Hafeez · 2026-11-09
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 ## The takeaway
 

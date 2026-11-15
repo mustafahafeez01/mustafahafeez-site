@@ -8,7 +8,7 @@ I’m Mustafa, a software engineer and independent app developer. These are note
 
 ## Technical notes
 
-AI-assisted engineering 15 November 2026 6 min read
+AI-assisted engineering 15 November 2026 7 min read
 
 ### [How I’m building verification into AI-assisted development](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>)
 

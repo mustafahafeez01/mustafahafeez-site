@@ -4,6 +4,8 @@ How I adapted tooling tests for a restricted environment, and why some checks st
 
 By Mustafa Hafeez · 2026-11-10
 
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
+
 ## The takeaway
 
 Before replacing an external dependency with a fixture, identify the real behaviour each test must still observe\.

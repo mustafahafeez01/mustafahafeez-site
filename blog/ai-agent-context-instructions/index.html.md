@@ -4,6 +4,8 @@ An instruction audit found ignored scope metadata, stale guidance and safeguards
 
 By Mustafa Hafeez · 2026-11-12
 
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
+
 ## The takeaway
 
 Measure what loads, verify scope and stale facts, and preserve obligations when trimming instructions\.

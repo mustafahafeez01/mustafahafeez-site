@@ -4,6 +4,8 @@ Checking what my website build would publish, and how I tested an AI agent’s r
 
 By Mustafa Hafeez · 2026-11-09
 
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
+
 ## The takeaway
 
 Choose one failure the change must reject, demonstrate that rejection, and attach the result to the version being released\.
