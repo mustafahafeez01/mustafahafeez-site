@@ -41,7 +41,7 @@ When an AI agent tells me a feature is finished, I want to know what it actually
 
 I’ve worked on software since 2007\. Building Travel Document Vault, my independent app, has given me a reason to turn that experience into explicit expectations that agents can follow\. Reporting a change as complete should mean supplying evidence for those expectations, including any checks that could not be completed\.
 
-This is the role of my Definition of Done\. It brings together the questions I want answered before accepting a feature, from its calculations and error handling to usability and privacy\.
+I use a Definition of Done to organise this as a sequence of checks\. I start with what the change should do, choose tests and observations that could expose a mistake, then record what actually ran and what remains untested\. The relevant checks depend on the change: a calculation, a recovery journey and a privacy requirement need different evidence\.
 
 ## The Definition of Done grows when a review exposes a gap
 
