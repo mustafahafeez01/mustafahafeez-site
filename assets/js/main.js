@@ -218,15 +218,40 @@ document.querySelectorAll('[data-code-example]').forEach(panel => {
   const image = panel.querySelector('[data-gif-src]');
   const button = panel.querySelector('[data-gif-toggle]');
   if (!image || !button) return;
+  const heading = panel.querySelector('.eyebrow');
   let playing = !motion.matches;
   const render = () => {
    image.src = playing ? image.dataset.gifSrc : image.dataset.stillSrc;
    button.textContent = playing ? 'Pause animation' : 'Play animation';
-   button.setAttribute('aria-label', button.textContent + ': ' + panel.querySelector('.eyebrow').textContent.toLowerCase());
+   button.setAttribute('aria-label', button.textContent + ': ' + heading.textContent.toLowerCase());
   };
   button.hidden = false;
   button.addEventListener('click', () => { playing = !playing; render(); });
   motion.addEventListener('change', () => { if (motion.matches) { playing = false; render(); } });
+  const switchButton = panel.querySelector('[data-demo-switch]');
+  const report = panel.querySelector('[data-demo-report]')?.content;
+  if (switchButton && report) {
+   const caption = panel.querySelector('figcaption');
+   const describe = (title, media, description) => ({
+    title: title.textContent, alt: media.alt, caption: description.textContent,
+    gifSrc: media.dataset.gifSrc, stillSrc: media.dataset.stillSrc
+   });
+   const workflow = describe(heading, image, caption);
+   const reportView = describe(report.querySelector('.eyebrow'), report.querySelector('img'), report.querySelector('[data-demo-caption]'));
+   let showingReport = false;
+   switchButton.hidden = false;
+   switchButton.addEventListener('click', () => {
+    showingReport = !showingReport;
+    const view = showingReport ? reportView : workflow;
+    heading.textContent = view.title;
+    image.alt = view.alt;
+    image.dataset.gifSrc = view.gifSrc;
+    image.dataset.stillSrc = view.stillSrc;
+    caption.textContent = view.caption;
+    switchButton.textContent = showingReport ? 'Back to workflow' : 'See the report';
+    render();
+   });
+  }
   render();
  });
 })();

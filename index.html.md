@@ -62,6 +62,10 @@ The workflow
 
 See how two data sources become a report and a CSV export. A public product demonstration in Visokio Omniscope.
 
+The report
+
+See how an interactive report can present the data. A public product demonstration in Visokio Omniscope.
+
 Writing
 
 ## Technical notes.
