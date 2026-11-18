@@ -50,6 +50,18 @@ My software engineering work since 2007 spans product development, reporting aut
 
 This consultancy is separate from my role at Visokio. We start with your data, the systems you already use and what needs to improve.
 
+[Explore more Omniscope examples](<https://mustafahafeez.com/about/#omniscope-demos>)
+
+The workflow
+
+[
+
+![Omniscope joins and processes two data sources, then produces a report and a CSV export.](<https://mustafahafeez.com/assets/images/omniscope-workflow-poster.webp>)
+
+](<https://mustafahafeez.com/about/#omniscope-demos>)
+
+See how two data sources become a report and a CSV export. A public product demonstration in Visokio Omniscope.
+
 Writing
 
 ## Technical notes.
@@ -67,95 +79,5 @@ Turning engineering experience into a Definition of Done: tests, review perspect
 ![A handmade paper bridge with a section lifted out beside a measuring square.](<https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-cover-v1.webp>)
 
 [Read the note ](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>)
-
-More technical notes
-
-Agent engineering 12 November 2026 5 min read
-
-### [Your AI agent’s instructions grew while you weren’t looking](<https://mustafahafeez.com/blog/ai-agent-context-instructions/>)
-
-An instruction audit found ignored scope metadata, stale guidance and safeguards lost during trimming. Five checks for reviewing what your agent reads.
-
-AI engineering 10 November 2026 4 min read
-
-### [When an AI agent cannot run your tests](<https://mustafahafeez.com/blog/tests-inside-agent-sandbox/>)
-
-How I adapted tooling tests for a restricted environment, and why some checks still needed the real machine.
-
-AI engineering 9 November 2026 4 min read
-
-### [Before I accept an AI agent’s changes](<https://mustafahafeez.com/blog/reviewing-ai-agent-work/>)
-
-Checking what my website build would publish, and how I tested an AI agent’s release check.
-
-[Browse all earlier notes ](<https://mustafahafeez.com/blog/#earlier-notes>)
-
-[Subscribe with RSS](<https://mustafahafeez.com/blog/feed.xml>)
-
-Public product demonstrations
-
-## Omniscope examples.
-
-The workflow
-
-[
-
-![Omniscope joins and processes two data sources, then produces a report and a CSV export.](<https://mustafahafeez.com/assets/images/omniscope-workflow-poster.webp>)
-
-](<https://mustafahafeez.com/about/#omniscope-demos>)
-
-See how two data sources become a report and a CSV export. A public product demonstration in Visokio Omniscope.
-
-The report
-
-[
-
-![An Omniscope demonstration report with linked charts and filtering controls.](<https://mustafahafeez.com/assets/images/omniscope-report-poster.webp>)
-
-](<https://mustafahafeez.com/about/#omniscope-demos>)
-
-Explore linked charts and filtering in one report. A public product demonstration in Visokio Omniscope.
-
-[Explore interactive Omniscope examples](<https://mustafahafeez.com/about/#omniscope-demos>)
-
-Explore Omniscope
-
-### Try it with sample data.
-
-Use sample or anonymised data when trying these demos. Do not upload personal, confidential or sensitive information.
-
-[Try Omniscope free](<https://omniscope.visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_try_omniscope>)
-
-[
-
-#### Insight Explorer
-
-Ask a question about your data and explore the answer.
-
-Try Insight Explorer ](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_insight_explorer>)
-
-[
-
-#### Instant Dashboard
-
-Turn a CSV file into an interactive dashboard.
-
-Try Instant Dashboard ](<https://visokio.com/instant-dashboard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_drop_and_dash>)
-
-[
-
-#### Decision Scorecard
-
-Compare your options using the criteria that matter to you.
-
-Try Decision Scorecard ](<https://visokio.com/omniscope-decision-scorecard/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_decision_scorecard>)
-
-[
-
-#### Data Quality Inspector
-
-Spot missing values, duplicate rows and numeric outliers.
-
-Try Data Quality Inspector ](<https://visokio.com/data-quality-inspector/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=services_data_quality>)
 
 [Read the HTML page](<https://mustafahafeez.com/>)
