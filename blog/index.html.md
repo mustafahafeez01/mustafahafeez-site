@@ -8,17 +8,23 @@ I’m Mustafa, a software engineer and independent app developer. These are note
 
 ## Technical notes
 
+AI engineering 20 November 2026 8 min read
+
+### [How I’m using Omniscope and AI for daily app analytics](<https://mustafahafeez.com/blog/ai-reporting-pipeline/>)
+
+I’m building a daily app analytics report with Omniscope and BigQuery. Here’s how I’d use Data Q&A to check answers about search and app-store activity.
+
+![Five small source cards beside larger Omniscope workflow and dashboard printouts on a walnut table with coffee and greenery.](<https://mustafahafeez.com/assets/images/articles/ai-reporting-pipeline/omniscope-tabletop-editorial.webp>)
+
+[Read the note ](<https://mustafahafeez.com/blog/ai-reporting-pipeline/>)
+
+## Earlier notes
+
 AI-assisted engineering 15 November 2026 7 min read
 
 ### [How I’m building verification into AI-assisted development](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>)
 
 Turning engineering experience into a Definition of Done: tests, review perspectives and evidence for accepting AI-assisted work.
-
-![A handmade paper bridge with a section lifted out beside a measuring square.](<https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-cover-v1.webp>)
-
-[Read the note ](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>)
-
-## Earlier notes
 
 Agent engineering 12 November 2026 5 min read
 

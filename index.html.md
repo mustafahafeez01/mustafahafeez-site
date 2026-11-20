@@ -74,14 +74,14 @@ Writing
 
 Latest article
 
-AI-assisted engineering 15 November 2026 7 min read
+AI engineering 20 November 2026 8 min read
 
-### [How I’m building verification into AI-assisted development](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>)
+### [How I’m using Omniscope and AI for daily app analytics](<https://mustafahafeez.com/blog/ai-reporting-pipeline/>)
 
-Turning engineering experience into a Definition of Done: tests, review perspectives and evidence for accepting AI-assisted work.
+I’m building a daily app analytics report with Omniscope and BigQuery. Here’s how I’d use Data Q&A to check answers about search and app-store activity.
 
-![A handmade paper bridge with a section lifted out beside a measuring square.](<https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-cover-v1.webp>)
+![Five small source cards beside larger Omniscope workflow and dashboard printouts on a walnut table with coffee and greenery.](<https://mustafahafeez.com/assets/images/articles/ai-reporting-pipeline/omniscope-tabletop-editorial.webp>)
 
-[Read the note ](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>)
+[Read the note ](<https://mustafahafeez.com/blog/ai-reporting-pipeline/>)
 
 [Read the HTML page](<https://mustafahafeez.com/>)
