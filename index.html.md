@@ -74,11 +74,11 @@ Writing
 
 Latest article
 
-AI engineering 20 November 2026 8 min read
+AI engineering 20 November 2026 3 min read
 
 ### [How I’m using Omniscope and AI for daily app analytics](<https://mustafahafeez.com/blog/ai-reporting-pipeline/>)
 
-I’m building a daily app analytics report with Omniscope and BigQuery. Here’s how I’d use Data Q&A to check answers about search and app-store activity.
+Two charts in my Omniscope app analytics briefing read the same data. Here’s how we traced the mistake, fixed both bindings and checked the saved report.
 
 ![Five small source cards beside larger Omniscope workflow and dashboard printouts on a walnut table with coffee and greenery.](<https://mustafahafeez.com/assets/images/articles/ai-reporting-pipeline/omniscope-tabletop-editorial.webp>)
 
