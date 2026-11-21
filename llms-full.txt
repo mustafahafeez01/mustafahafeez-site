@@ -120,7 +120,7 @@ Omniscope workflow example from Visokio, showing how inputs connect to transform
 
 The daily briefing is meant to bring together Search Console, GA4, Cloudflare, App Store Connect and Google Play\. I’ve tested the initial BigQuery imports\. The Omniscope report we checked still reads dated CSV snapshots\.
 
-In the setup I’m building, [Cloud Scheduler](<https://docs.cloud.google.com/run/docs/triggering/using-scheduler>) would trigger a Cloud Function each day\. The function would use its own identity to read the credentials it needs from Google Secret Manager, fetch the five feeds and write them to separate BigQuery tables with their reporting dates intact\.
+In the setup I’m building, [Cloud Scheduler](<https://docs.cloud.google.com/run/docs/triggering/using-scheduler>) would trigger a Cloud Function each day\. The function would use its own identity to read the credentials it needs from [Google Secret Manager](<https://mustafahafeez.com/blog/reporting-credentials-google-secret-manager/>), fetch the five feeds and write them to separate BigQuery tables with their reporting dates intact\.
 
 Omniscope would [read those tables](<https://help.visokio.com/support/solutions/articles/42000090716-google-bigquery-connectivity?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=ai_reporting_bigquery>) after the import\. I’d use the same workflow to standardise dates and field names and give each chart its own source\. Before relying on the daily refresh, I want to run it unattended, reopen the report and trace a changed point back to the right source and day\.
 
@@ -135,6 +135,8 @@ My rule now is to check the measure, source and reporting dates, then compare th
 My next test is to ask [Insight Explorer](<https://visokio.com/omniscope-insight-explorer/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=ai_reporting_insight_explorer>) which measure changed and how much of the period each feed covers\. I’d open [Explain query](<https://help.visokio.com/support/solutions/articles/42000116042-explore-data-with-natural-language-the-data-q-a-view-in-omniscope?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=ai_reporting_qa#Inspecting-the-query-behind-a-result>) to inspect the source, filters and returned rows, then compare the answer with the data\.
 
 If search clicks rise and store\-link taps fall, I’d check which landing pages gained traffic\. If a page attracted relevant searches and few readers tapped through, I’d test a clearer route to the app from that page\. I’d keep any unreported store day pending\.
+
+I’d try Omniscope’s [AI Decision block](<https://help.visokio.com/support/solutions/articles/42000119202-an-introduction-to-the-ai-decision-block>) with Jev from TypeSafe AI to flag what to investigate now, review later or leave pending for more evidence\.
 
 ![Omniscope Insight Explorer Explain query dialog showing source\-to\-result lineage, details of a join and the table of rows returned by the selected step\.](https://mustafahafeez.com/assets/images/articles/ai-reporting-pipeline/omniscope-explain-query.png)
 
