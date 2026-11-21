@@ -4,7 +4,7 @@ Writing / Mustafa Hafeez
 
 I’m Mustafa, a software engineer and independent app developer. These are notes on software engineering, grounded in the tools I used, the choices I made and the checks behind them.
 
-[Technical notes](<https://mustafahafeez.com/blog/#notes>) [Earlier notes](<https://mustafahafeez.com/blog/#earlier-notes>) [Reading](<https://mustafahafeez.com/blog/#recommended>)
+[Technical notes](<https://mustafahafeez.com/blog/#notes>) [More technical notes](<https://mustafahafeez.com/blog/#earlier-notes>) [Reading](<https://mustafahafeez.com/blog/#recommended>)
 
 ## Technical notes
 
@@ -18,7 +18,13 @@ Two charts in my Omniscope app analytics briefing read the same data. Here’s h
 
 [Read the note ](<https://mustafahafeez.com/blog/ai-reporting-pipeline/>)
 
-## Earlier notes
+## More technical notes
+
+Engineering notes 21 November 2026 3 min read
+
+### [Why I use Google Secret Manager for reporting](<https://mustafahafeez.com/blog/reporting-credentials-google-secret-manager/>)
+
+Credential access tells you a job can connect. It does not tell you the numbers in the report are right.
 
 AI-assisted engineering 15 November 2026 7 min read
 

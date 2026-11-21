@@ -14,6 +14,7 @@ Mustafa joined Visokio in 2007 and is now a senior software engineer working on 
 - [Terms of use](https://mustafahafeez.com/terms-of-use/index.html.md)
 
 ## Published articles
+- [Why I use Google Secret Manager for reporting](https://mustafahafeez.com/blog/reporting-credentials-google-secret-manager/index.html.md): Credential access tells you a job can connect. It does not tell you the numbers in the report are right.
 - [How I’m using Omniscope and AI for daily app analytics](https://mustafahafeez.com/blog/ai-reporting-pipeline/index.html.md): Two charts in my Omniscope app analytics briefing read the same data. Here’s how we traced the mistake, fixed both bindings and checked the saved report.
 - [How I’m building verification into AI-assisted development](https://mustafahafeez.com/blog/verification-ai-assisted-development/index.html.md): Turning engineering experience into a Definition of Done: tests, review perspectives and evidence for accepting AI-assisted work.
 - [Your AI agent’s instructions grew while you weren’t looking](https://mustafahafeez.com/blog/ai-agent-context-instructions/index.html.md): An instruction audit found ignored scope metadata, stale guidance and safeguards lost during trimming. Five checks for reviewing what your agent reads.

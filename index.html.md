@@ -72,7 +72,7 @@ Writing
 
 [All technical notes](<https://mustafahafeez.com/blog/>)
 
-Latest article
+Featured article
 
 AI engineering 20 November 2026 3 min read
 
