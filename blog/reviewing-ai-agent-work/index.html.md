@@ -77,6 +77,8 @@ After publication, I compare the local public text files with the files served b
 
 The file inventory has a limit too\. A JavaScript file can have an approved name and still contain private information\. Content review, credential scanning and browser checks each cover further parts of the release\.
 
+I describe how I choose [which checks belong in a Definition of Done](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>) when a change needs several kinds of evidence\.
+
 ![Tests and review match revision A\. A later edit creates revision B, which needs its own review before release\.](https://mustafahafeez.com/assets/images/articles/ai-agent-revision-evidence-v4.webp)
 
 A simplified illustration\. Evidence recorded for revision A does not establish that revision B has been checked\.

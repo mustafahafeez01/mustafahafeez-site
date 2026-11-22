@@ -73,6 +73,8 @@ Keeping host checks separate creates an ongoing job\. They need a clear place in
 
 A useful handover identifies which tests ran, where they ran, the revision and the result\. If a sandbox run excludes host\-only tests, its result needs the corresponding host result alongside it\.
 
+My broader approach to [verifying AI\-assisted development](<https://mustafahafeez.com/blog/verification-ai-assisted-development/>) starts with the behaviour I need to prove and the evidence each test can supply\.
+
 ## Ask what the test actually observes
 
 Before replacing a dependency in a test, write down what the existing test can see\. Then ask whether the implementation could break while the replacement still passed\. Identify the check that would catch that failure and where it will run\.

@@ -1,6 +1,6 @@
 # How I’m building verification into AI\-assisted development
 
-Turning engineering experience into a Definition of Done: tests, review perspectives and evidence for accepting AI\-assisted work\.
+How I use a Definition of Done to verify AI\-assisted development, choose test data that exposes mistakes and record which checks ran\.
 
 By Mustafa Hafeez · 2026-11-15
 
