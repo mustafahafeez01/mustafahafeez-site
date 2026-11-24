@@ -4,16 +4,6 @@ An instruction audit found ignored scope metadata, stale guidance and safeguards
 
 By Mustafa Hafeez · 2026-11-12
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Measure what loads, verify scope and stale facts, and preserve obligations when trimming instructions\.
-
-![An overflowing accordion folio spreads across a walnut desk while a hand selects a compact bound set of essential cards\.](https://mustafahafeez.com/assets/images/articles/ai-agent-context-cover.webp)
-
-A conceptual illustration of accumulated instructions and a smaller core\.
-
 ## Instructions accumulate between tasks
 
 While working with AI coding agents on an independent project, I approved a plan to reduce the instructions loaded into our sessions\. The audit had found something more specific than long files: rules intended for particular work were loading everywhere because their scope was written in a format the loader did not recognise\.
@@ -21,6 +11,10 @@ While working with AI coding agents on an independent project, I approved a plan
 The files had grown through useful additions: a correction after a mistake, a procedure for the next task, a status note left for a later session\. Taken together, they mixed current obligations with history and stale facts\. I wanted a check that would stop the accumulation from happening again\.
 
 The repair also introduced a problem\. An independent review found safeguards missing from the shortened instructions, along with wording that contradicted another rule\. Both needed correcting before the changes were committed\. That review shaped the advice below: measure what loads, but check what survives the edit\.
+
+![An overflowing accordion folio spreads across a walnut desk while a hand selects a compact bound set of essential cards\.](https://mustafahafeez.com/assets/images/articles/ai-agent-context-cover.webp)
+
+A conceptual illustration of accumulated instructions and a smaller core\.
 
 ## Measure the baseline before changing it
 
@@ -72,10 +66,16 @@ The session record reports smaller fixed context per request alongside higher to
 
 Start with one rule you believe is scoped\. Check when it loads, make one change, then repeat the observation and review the obligations\. If the rule was already loading correctly, or the relevant material still loads through another route, that would change the diagnosis\. Keep the resulting evidence alongside the instructions so the next edit has something concrete to compare\.
 
+## The takeaway
+
+Measure what loads, verify scope and stale facts, and preserve obligations when trimming instructions\.
+
 ## Sources
 
 - [Claude Code documentation: path\-specific rules and loading behaviour](<https://code.claude.com/docs/en/memory#path-specific-rules>)
 
 - [Claude Code documentation: what occupies the context window](<https://code.claude.com/docs/en/how-claude-code-works#the-context-window>)
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/ai-agent-context-instructions/)

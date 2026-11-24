@@ -4,10 +4,6 @@ Credential access tells you a job can connect\. It does not tell you the numbers
 
 By Mustafa Hafeez · 2026-11-21
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-![A hand places a sealed envelope in a walnut lockbox\.](https://mustafahafeez.com/assets/images/articles/reporting-credentials-google-secret-manager/sealed-envelope.webp)
-
 ## Keeping credentials in one place does not set what a job can do
 
 To put together a daily briefing for Travel Document Vault and my websites, I pull figures from services that require a credential before they answer\. A job reading daily metrics has a narrow purpose, so I want its access just as narrow\.
@@ -17,6 +13,8 @@ I use Google Secret Manager for reporting credentials\. It gives me a managed pl
 ![A closed wooden cupboard with a brass lock and four blank cards behind the glass\.](https://mustafahafeez.com/assets/images/articles/reporting-credentials-google-secret-manager/locked-cupboard.webp)
 
 A locked walnut cupboard with blank cards\. Each card represents one credential, separating who can retrieve it from what a service allows it to do\.
+
+![A hand places a sealed envelope in a walnut lockbox\.](https://mustafahafeez.com/assets/images/articles/reporting-credentials-google-secret-manager/sealed-envelope.webp)
 
 ## Storage access and service actions are two separate permission checks
 
@@ -55,5 +53,7 @@ Pick one figure in your latest report and trace it to its source, reporting peri
 - [Google Cloud's Secret Manager overview](<https://docs.cloud.google.com/secret-manager/docs/overview>)
 
 - [Google Cloud's Secret Manager best practices](<https://docs.cloud.google.com/secret-manager/docs/best-practices>)
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/reporting-credentials-google-secret-manager/)

@@ -4,16 +4,6 @@ How I use a Definition of Done to verify AI\-assisted development, choose test d
 
 By Mustafa Hafeez · 2026-11-15
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Choose inputs and observations that can expose a mistake, record what actually ran and keep untested behaviour visible\.
-
-![A handmade paper bridge with a section lifted out beside a measuring square\.](https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-cover-v1.webp)
-
-Conceptual illustration of inspecting work before accepting it\.
-
 ## An agent’s completion report leaves questions to answer
 
 When an AI agent tells me a feature is finished, I want to know what it actually checked\. A passing test tells me something useful about the behaviour it exercised\. I still need to understand whether that behaviour matches what someone using the app needs\.
@@ -21,6 +11,10 @@ When an AI agent tells me a feature is finished, I want to know what it actually
 I’ve worked on software since 2007\. Building Travel Document Vault, my independent app, has given me a reason to turn that experience into explicit expectations that agents can follow\. Reporting a change as complete should mean supplying evidence for those expectations, including any checks that could not be completed\.
 
 I use a Definition of Done to organise this as a sequence of checks\. I start with what the change should do, choose tests and observations that could expose a mistake, then record what actually ran and what remains untested\. The relevant checks depend on the change: a calculation, a recovery journey and a privacy requirement need different evidence\.
+
+![A handmade paper bridge with a section lifted out beside a measuring square\.](https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-cover-v1.webp)
+
+Conceptual illustration of inspecting work before accepting it\.
 
 ## The Definition of Done grows when a review exposes a gap
 
@@ -109,6 +103,10 @@ For your next AI\-assisted change, choose one claim you would otherwise accept f
 
 If the check cannot distinguish the intended behaviour from a plausible mistake, improve the input or the observation before adding more checks\. That is the kind of verification I want built into each feature: specific enough to catch a failure, repeatable where possible, and clear about what still needs attention\.
 
+## The takeaway
+
+Choose inputs and observations that can expose a mistake, record what actually ran and keep untested behaviour visible\.
+
 ## Sources
 
 - [Detox: testing interactions in a running React Native app](<https://wix.github.io/Detox/docs/introduction/getting-started/>)
@@ -116,5 +114,7 @@ If the check cannot distinguish the intended behaviour from a plausible mistake,
 - [Visokio: verifiable AI analytics across the data journey](<https://visokio.com/verifiable-ai-analytics-across-the-data-journey/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=verification_article>)
 
 - [OWASP: Mobile Application Security Testing Guide](<https://mas.owasp.org/MASTG/>)
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/verification-ai-assisted-development/)

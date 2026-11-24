@@ -4,16 +4,6 @@ Checking what my website build would publish, and how I tested an AI agent’s r
 
 By Mustafa Hafeez · 2026-11-09
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Choose one failure the change must reject, demonstrate that rejection, and attach the result to the version being released\.
-
-![Conceptual paper models of an app and websites bring work towards a human review desk and release gate\.](https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp)
-
-A conceptual illustration of preparing work across an app and its websites\.
-
 ## A successful build left a question
 
 While building this website with AI coding agents, I needed to keep drafts, build scripts and agent instructions private\. The finished pages belonged in a public repository\. The source belonged in a separate private one\.
@@ -21,6 +11,10 @@ While building this website with AI coding agents, I needed to keep drafts, buil
 A successful build could still copy an unwanted file into the public output\. Looking at the website in a browser would tell me whether the pages looked right\. It would leave a stray notes file sitting alongside those pages unseen\.
 
 Agents helped implement the publishing checks\. Before accepting that work, I wanted to see what happened when the output contained something that had no reason to go live\.
+
+![Conceptual paper models of an app and websites bring work towards a human review desk and release gate\.](https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp)
+
+A conceptual illustration of preparing work across an app and its websites\.
 
 ## An approved list gave me something to compare
 
@@ -94,5 +88,11 @@ For this website, the useful evidence was straightforward\. The same checker acc
 ## About this note
 
 Based on my personal website’s publishing checks\. The rejection result came from a temporary copy containing a harmless fixture\. The code is a simplified illustration with invented filenames\.
+
+## The takeaway
+
+Choose one failure the change must reject, demonstrate that rejection, and attach the result to the version being released\.
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/reviewing-ai-agent-work/)

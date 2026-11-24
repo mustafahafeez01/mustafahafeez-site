@@ -4,14 +4,6 @@ Two charts in my Omniscope app analytics briefing read the same data\. Here’s 
 
 By Mustafa Hafeez · 2026-11-20
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Before acting on a trend, check the measure, source and dates against the original rows\. Keep a missing reporting day pending\.
-
-![Five small source cards beside larger Omniscope workflow and dashboard printouts on a walnut table with coffee and greenery\.](https://mustafahafeez.com/assets/images/articles/ai-reporting-pipeline/omniscope-tabletop-editorial.webp)
-
 ## Two charts were reading the same data
 
 The first layout for my app analytics briefing had one chart for Google search clicks and another for taps on app\-store links\. [Report Ninja](<https://help.visokio.com/support/solutions/articles/42000114724-thinking-in-style-a-report-ninja-update>) generated the layout from a prompt\. When we checked the charts, both were reading the same combined input\. The labels described two different measures, but the lines couldn’t tell me how those measures moved\.
@@ -19,6 +11,8 @@ The first layout for my app analytics briefing had one chart for Google search c
 I wanted one briefing for Travel Document Vault and my websites\. Search Console tells me when someone clicks a Google result\. GA4 records website activity, including taps on links to the stores\. The counts come from different sources and reporting periods\. My question was practical: if search traffic changes, which landing pages are worth a closer look, and do I have enough coverage to compare them?
 
 I work at Visokio, the team behind Omniscope, and develop Travel Document Vault independently\.
+
+![Five small source cards beside larger Omniscope workflow and dashboard printouts on a walnut table with coffee and greenery\.](https://mustafahafeez.com/assets/images/articles/ai-reporting-pipeline/omniscope-tabletop-editorial.webp)
 
 ## We traced each chart back to its source
 
@@ -58,6 +52,10 @@ I’d try Omniscope’s [AI Decision block](<https://help.visokio.com/support/so
 
 Visokio’s Explain query example uses demo data to show query lineage, transformation details and the rows returned by the selected step\.
 
+## The takeaway
+
+Before acting on a trend, check the measure, source and dates against the original rows\. Keep a missing reporting day pending\.
+
 [Try Omniscope for free](<https://omniscope.visokio.com/>)
 
 [Explore Visokio](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=ai_reporting_visokio_homepage>)
@@ -75,5 +73,7 @@ Visokio’s Explain query example uses demo data to show query lineage, transfor
 - [Run Google Cloud services on a schedule](<https://docs.cloud.google.com/run/docs/triggering/using-scheduler>)
 
 - [Omniscope BigQuery connectivity](<https://help.visokio.com/support/solutions/articles/42000090716-google-bigquery-connectivity?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=ai_reporting_bigquery>)
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/ai-reporting-pipeline/)

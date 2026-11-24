@@ -4,16 +4,6 @@ How I adapted tooling tests for a restricted environment, and why some checks st
 
 By Mustafa Hafeez · 2026-11-10
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Before replacing an external dependency with a fixture, identify the real behaviour each test must still observe\.
-
-![A paper model testing station inside a transparent enclosure and a physical computer feed results towards a shared review notebook\.](https://mustafahafeez.com/assets/images/articles/agent-test-environments-cover.webp)
-
-A conceptual illustration of testing inside a restricted environment and against the real machine\.
-
 ## The agent could edit the code, but the tests were blocked
 
 Some tests in my app’s developer tooling worked on the real machine and failed to run inside the coding agent’s sandbox\. They needed access to process lists and local sockets that the restricted environment could not provide\.
@@ -21,6 +11,10 @@ Some tests in my app’s developer tooling worked on the real machine and failed
 I wanted the agent to check useful parts of its work before handing a change back\. Sending every verification run outside the sandbox would leave another person or agent to do it\.
 
 I chose to adapt the tests that could run inside, while keeping checks of real\-machine behaviour in a separate host run\. During review, we found that some replacements had lost behaviour the original tests checked\.
+
+![A paper model testing station inside a transparent enclosure and a physical computer feed results towards a shared review notebook\.](https://mustafahafeez.com/assets/images/articles/agent-test-environments-cover.webp)
+
+A conceptual illustration of testing inside a restricted environment and against the real machine\.
 
 ## Two questions were being tested together
 
@@ -87,8 +81,14 @@ In my tooling, fixtures made decision tests runnable inside the sandbox\. Keepin
 
 Based on my work adapting developer\-tooling tests for a restricted environment\. Implementation details are generalised, and the code example uses invented identifiers\.
 
+## The takeaway
+
+Before replacing an external dependency with a fixture, identify the real behaviour each test must still observe\.
+
 ## Sources
 
 - [Jest documentation on replacing dependencies with mock data](<https://jestjs.io/docs/manual-mocks>)
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/tests-inside-agent-sandbox/)

@@ -27,10 +27,6 @@ Credential access tells you a job can connect\. It does not tell you the numbers
 
 By Mustafa Hafeez · 2026-11-21
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-![A hand places a sealed envelope in a walnut lockbox\.](https://mustafahafeez.com/assets/images/articles/reporting-credentials-google-secret-manager/sealed-envelope.webp)
-
 ## Keeping credentials in one place does not set what a job can do
 
 To put together a daily briefing for Travel Document Vault and my websites, I pull figures from services that require a credential before they answer\. A job reading daily metrics has a narrow purpose, so I want its access just as narrow\.
@@ -40,6 +36,8 @@ I use Google Secret Manager for reporting credentials\. It gives me a managed pl
 ![A closed wooden cupboard with a brass lock and four blank cards behind the glass\.](https://mustafahafeez.com/assets/images/articles/reporting-credentials-google-secret-manager/locked-cupboard.webp)
 
 A locked walnut cupboard with blank cards\. Each card represents one credential, separating who can retrieve it from what a service allows it to do\.
+
+![A hand places a sealed envelope in a walnut lockbox\.](https://mustafahafeez.com/assets/images/articles/reporting-credentials-google-secret-manager/sealed-envelope.webp)
 
 ## Storage access and service actions are two separate permission checks
 
@@ -79,6 +77,8 @@ Pick one figure in your latest report and trace it to its source, reporting peri
 
 - [Google Cloud's Secret Manager best practices](<https://docs.cloud.google.com/secret-manager/docs/best-practices>)
 
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
+
 [Read on the website](https://mustafahafeez.com/blog/reporting-credentials-google-secret-manager/)
 
 
@@ -88,14 +88,6 @@ Two charts in my Omniscope app analytics briefing read the same data\. Here’s 
 
 By Mustafa Hafeez · 2026-11-20
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Before acting on a trend, check the measure, source and dates against the original rows\. Keep a missing reporting day pending\.
-
-![Five small source cards beside larger Omniscope workflow and dashboard printouts on a walnut table with coffee and greenery\.](https://mustafahafeez.com/assets/images/articles/ai-reporting-pipeline/omniscope-tabletop-editorial.webp)
-
 ## Two charts were reading the same data
 
 The first layout for my app analytics briefing had one chart for Google search clicks and another for taps on app\-store links\. [Report Ninja](<https://help.visokio.com/support/solutions/articles/42000114724-thinking-in-style-a-report-ninja-update>) generated the layout from a prompt\. When we checked the charts, both were reading the same combined input\. The labels described two different measures, but the lines couldn’t tell me how those measures moved\.
@@ -103,6 +95,8 @@ The first layout for my app analytics briefing had one chart for Google search c
 I wanted one briefing for Travel Document Vault and my websites\. Search Console tells me when someone clicks a Google result\. GA4 records website activity, including taps on links to the stores\. The counts come from different sources and reporting periods\. My question was practical: if search traffic changes, which landing pages are worth a closer look, and do I have enough coverage to compare them?
 
 I work at Visokio, the team behind Omniscope, and develop Travel Document Vault independently\.
+
+![Five small source cards beside larger Omniscope workflow and dashboard printouts on a walnut table with coffee and greenery\.](https://mustafahafeez.com/assets/images/articles/ai-reporting-pipeline/omniscope-tabletop-editorial.webp)
 
 ## We traced each chart back to its source
 
@@ -142,6 +136,10 @@ I’d try Omniscope’s [AI Decision block](<https://help.visokio.com/support/so
 
 Visokio’s Explain query example uses demo data to show query lineage, transformation details and the rows returned by the selected step\.
 
+## The takeaway
+
+Before acting on a trend, check the measure, source and dates against the original rows\. Keep a missing reporting day pending\.
+
 [Try Omniscope for free](<https://omniscope.visokio.com/>)
 
 [Explore Visokio](<https://visokio.com/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=ai_reporting_visokio_homepage>)
@@ -160,6 +158,8 @@ Visokio’s Explain query example uses demo data to show query lineage, transfor
 
 - [Omniscope BigQuery connectivity](<https://help.visokio.com/support/solutions/articles/42000090716-google-bigquery-connectivity?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=ai_reporting_bigquery>)
 
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
+
 [Read on the website](https://mustafahafeez.com/blog/ai-reporting-pipeline/)
 
 
@@ -169,16 +169,6 @@ How I use a Definition of Done to verify AI\-assisted development, choose test d
 
 By Mustafa Hafeez · 2026-11-15
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Choose inputs and observations that can expose a mistake, record what actually ran and keep untested behaviour visible\.
-
-![A handmade paper bridge with a section lifted out beside a measuring square\.](https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-cover-v1.webp)
-
-Conceptual illustration of inspecting work before accepting it\.
-
 ## An agent’s completion report leaves questions to answer
 
 When an AI agent tells me a feature is finished, I want to know what it actually checked\. A passing test tells me something useful about the behaviour it exercised\. I still need to understand whether that behaviour matches what someone using the app needs\.
@@ -186,6 +176,10 @@ When an AI agent tells me a feature is finished, I want to know what it actually
 I’ve worked on software since 2007\. Building Travel Document Vault, my independent app, has given me a reason to turn that experience into explicit expectations that agents can follow\. Reporting a change as complete should mean supplying evidence for those expectations, including any checks that could not be completed\.
 
 I use a Definition of Done to organise this as a sequence of checks\. I start with what the change should do, choose tests and observations that could expose a mistake, then record what actually ran and what remains untested\. The relevant checks depend on the change: a calculation, a recovery journey and a privacy requirement need different evidence\.
+
+![A handmade paper bridge with a section lifted out beside a measuring square\.](https://mustafahafeez.com/assets/images/articles/verification-ai-assisted-development-cover-v1.webp)
+
+Conceptual illustration of inspecting work before accepting it\.
 
 ## The Definition of Done grows when a review exposes a gap
 
@@ -274,6 +268,10 @@ For your next AI\-assisted change, choose one claim you would otherwise accept f
 
 If the check cannot distinguish the intended behaviour from a plausible mistake, improve the input or the observation before adding more checks\. That is the kind of verification I want built into each feature: specific enough to catch a failure, repeatable where possible, and clear about what still needs attention\.
 
+## The takeaway
+
+Choose inputs and observations that can expose a mistake, record what actually ran and keep untested behaviour visible\.
+
 ## Sources
 
 - [Detox: testing interactions in a running React Native app](<https://wix.github.io/Detox/docs/introduction/getting-started/>)
@@ -281,6 +279,8 @@ If the check cannot distinguish the intended behaviour from a plausible mistake,
 - [Visokio: verifiable AI analytics across the data journey](<https://visokio.com/verifiable-ai-analytics-across-the-data-journey/?utm_source=mustafa_hafeez&utm_medium=referral&utm_campaign=personal_website&utm_content=verification_article>)
 
 - [OWASP: Mobile Application Security Testing Guide](<https://mas.owasp.org/MASTG/>)
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/verification-ai-assisted-development/)
 
@@ -291,16 +291,6 @@ An instruction audit found ignored scope metadata, stale guidance and safeguards
 
 By Mustafa Hafeez · 2026-11-12
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Measure what loads, verify scope and stale facts, and preserve obligations when trimming instructions\.
-
-![An overflowing accordion folio spreads across a walnut desk while a hand selects a compact bound set of essential cards\.](https://mustafahafeez.com/assets/images/articles/ai-agent-context-cover.webp)
-
-A conceptual illustration of accumulated instructions and a smaller core\.
-
 ## Instructions accumulate between tasks
 
 While working with AI coding agents on an independent project, I approved a plan to reduce the instructions loaded into our sessions\. The audit had found something more specific than long files: rules intended for particular work were loading everywhere because their scope was written in a format the loader did not recognise\.
@@ -308,6 +298,10 @@ While working with AI coding agents on an independent project, I approved a plan
 The files had grown through useful additions: a correction after a mistake, a procedure for the next task, a status note left for a later session\. Taken together, they mixed current obligations with history and stale facts\. I wanted a check that would stop the accumulation from happening again\.
 
 The repair also introduced a problem\. An independent review found safeguards missing from the shortened instructions, along with wording that contradicted another rule\. Both needed correcting before the changes were committed\. That review shaped the advice below: measure what loads, but check what survives the edit\.
+
+![An overflowing accordion folio spreads across a walnut desk while a hand selects a compact bound set of essential cards\.](https://mustafahafeez.com/assets/images/articles/ai-agent-context-cover.webp)
+
+A conceptual illustration of accumulated instructions and a smaller core\.
 
 ## Measure the baseline before changing it
 
@@ -359,11 +353,17 @@ The session record reports smaller fixed context per request alongside higher to
 
 Start with one rule you believe is scoped\. Check when it loads, make one change, then repeat the observation and review the obligations\. If the rule was already loading correctly, or the relevant material still loads through another route, that would change the diagnosis\. Keep the resulting evidence alongside the instructions so the next edit has something concrete to compare\.
 
+## The takeaway
+
+Measure what loads, verify scope and stale facts, and preserve obligations when trimming instructions\.
+
 ## Sources
 
 - [Claude Code documentation: path\-specific rules and loading behaviour](<https://code.claude.com/docs/en/memory#path-specific-rules>)
 
 - [Claude Code documentation: what occupies the context window](<https://code.claude.com/docs/en/how-claude-code-works#the-context-window>)
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/ai-agent-context-instructions/)
 
@@ -374,16 +374,6 @@ How I adapted tooling tests for a restricted environment, and why some checks st
 
 By Mustafa Hafeez · 2026-11-10
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Before replacing an external dependency with a fixture, identify the real behaviour each test must still observe\.
-
-![A paper model testing station inside a transparent enclosure and a physical computer feed results towards a shared review notebook\.](https://mustafahafeez.com/assets/images/articles/agent-test-environments-cover.webp)
-
-A conceptual illustration of testing inside a restricted environment and against the real machine\.
-
 ## The agent could edit the code, but the tests were blocked
 
 Some tests in my app’s developer tooling worked on the real machine and failed to run inside the coding agent’s sandbox\. They needed access to process lists and local sockets that the restricted environment could not provide\.
@@ -391,6 +381,10 @@ Some tests in my app’s developer tooling worked on the real machine and failed
 I wanted the agent to check useful parts of its work before handing a change back\. Sending every verification run outside the sandbox would leave another person or agent to do it\.
 
 I chose to adapt the tests that could run inside, while keeping checks of real\-machine behaviour in a separate host run\. During review, we found that some replacements had lost behaviour the original tests checked\.
+
+![A paper model testing station inside a transparent enclosure and a physical computer feed results towards a shared review notebook\.](https://mustafahafeez.com/assets/images/articles/agent-test-environments-cover.webp)
+
+A conceptual illustration of testing inside a restricted environment and against the real machine\.
 
 ## Two questions were being tested together
 
@@ -457,9 +451,15 @@ In my tooling, fixtures made decision tests runnable inside the sandbox\. Keepin
 
 Based on my work adapting developer\-tooling tests for a restricted environment\. Implementation details are generalised, and the code example uses invented identifiers\.
 
+## The takeaway
+
+Before replacing an external dependency with a fixture, identify the real behaviour each test must still observe\.
+
 ## Sources
 
 - [Jest documentation on replacing dependencies with mock data](<https://jestjs.io/docs/manual-mocks>)
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/tests-inside-agent-sandbox/)
 
@@ -470,16 +470,6 @@ Checking what my website build would publish, and how I tested an AI agent’s r
 
 By Mustafa Hafeez · 2026-11-09
 
-These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
-
-## The takeaway
-
-Choose one failure the change must reject, demonstrate that rejection, and attach the result to the version being released\.
-
-![Conceptual paper models of an app and websites bring work towards a human review desk and release gate\.](https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp)
-
-A conceptual illustration of preparing work across an app and its websites\.
-
 ## A successful build left a question
 
 While building this website with AI coding agents, I needed to keep drafts, build scripts and agent instructions private\. The finished pages belonged in a public repository\. The source belonged in a separate private one\.
@@ -487,6 +477,10 @@ While building this website with AI coding agents, I needed to keep drafts, buil
 A successful build could still copy an unwanted file into the public output\. Looking at the website in a browser would tell me whether the pages looked right\. It would leave a stray notes file sitting alongside those pages unseen\.
 
 Agents helped implement the publishing checks\. Before accepting that work, I wanted to see what happened when the output contained something that had no reason to go live\.
+
+![Conceptual paper models of an app and websites bring work towards a human review desk and release gate\.](https://mustafahafeez.com/assets/images/articles/ai-agent-review-cover.webp)
+
+A conceptual illustration of preparing work across an app and its websites\.
 
 ## An approved list gave me something to compare
 
@@ -560,5 +554,11 @@ For this website, the useful evidence was straightforward\. The same checker acc
 ## About this note
 
 Based on my personal website’s publishing checks\. The rejection result came from a temporary copy containing a harmless fixture\. The code is a simplified illustration with invented filenames\.
+
+## The takeaway
+
+Choose one failure the change must reject, demonstrate that rejection, and attach the result to the version being released\.
+
+These are my personal views and experiences\. They do not represent the views of Visokio or any other organisation\.
 
 [Read on the website](https://mustafahafeez.com/blog/reviewing-ai-agent-work/)
