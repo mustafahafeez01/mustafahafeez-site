@@ -1,6 +1,6 @@
 # How I’m using Omniscope and AI for daily app analytics
 
-Two charts in my Omniscope app analytics briefing read the same data\. Here’s how we traced the mistake, fixed both bindings and checked the saved report\.
+My Omniscope briefing had one chart for Google search clicks and another for taps on app store links\. Both read the same data, so I couldn’t compare the two measures\. Here’s how we traced each chart to its source and checked the saved report\.
 
 By Mustafa Hafeez · 2026-11-20
 

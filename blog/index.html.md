@@ -12,7 +12,7 @@ AI engineering 20 November 2026 3 min read
 
 ### [How I’m using Omniscope and AI for daily app analytics](<https://mustafahafeez.com/blog/ai-reporting-pipeline/>)
 
-Two charts in my Omniscope app analytics briefing read the same data. Here’s how we traced the mistake, fixed both bindings and checked the saved report.
+My Omniscope briefing had one chart for Google search clicks and another for taps on app store links. Both read the same data, so I couldn’t compare the two measures. Here’s how we traced each chart to its source and checked the saved report.
 
 ![Five small source cards beside larger Omniscope workflow and dashboard printouts on a walnut table with coffee and greenery.](<https://mustafahafeez.com/assets/images/articles/ai-reporting-pipeline/omniscope-tabletop-editorial.webp>)
 
