@@ -84,4 +84,10 @@ My Omniscope briefing had one chart for Google search clicks and another for tap
 
 [Read the note ](<https://mustafahafeez.com/blog/ai-reporting-pipeline/>)
 
+Latest article
+
+### [When a missing day looks like zero](<https://mustafahafeez.com/blog/when-a-missing-day-looks-like-zero/>)
+
+26 November 2026
+
 [Read the HTML page](<https://mustafahafeez.com/>)
