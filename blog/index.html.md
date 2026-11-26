@@ -20,6 +20,12 @@ My Omniscope briefing had one chart for Google search clicks and another for tap
 
 ## More technical notes
 
+Engineering notes 26 November 2026 5 min read
+
+### [When a missing day looks like zero](<https://mustafahafeez.com/blog/when-a-missing-day-looks-like-zero/>)
+
+One day of website traffic was missing from my daily briefing. Here’s how I checked the recovery and how to tell a reported zero from a gap in your own data.
+
 Engineering notes 21 November 2026 3 min read
 
 ### [Why I use Google Secret Manager for reporting](<https://mustafahafeez.com/blog/reporting-credentials-google-secret-manager/>)

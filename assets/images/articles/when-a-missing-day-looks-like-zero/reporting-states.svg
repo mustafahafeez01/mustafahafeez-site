@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="408" height="268" viewBox="0 0 408 268" role="img" aria-labelledby="title description">
+  <title id="title">Three outcomes for the same reporting day</title>
+  <desc id="description">The source confirms zero requests, the day is absent from the report, or the latest refresh fails. Only the first outcome provides a zero count.</desc>
+  <rect x="1" y="1" width="406" height="266" rx="16" fill="#f8f5ef" stroke="#c9bcae"/>
+  <g font-family="Georgia, serif" fill="#302a25" font-weight="bold" font-size="21">
+    <text x="24" y="38">One date, three possible states</text>
+  </g>
+  <g fill="none" stroke="#d7ccbf">
+    <path d="M24 54h360 M24 121h360 M24 188h360"/>
+  </g>
+  <g font-family="system-ui, sans-serif" fill="#302a25">
+    <g font-size="19" font-weight="650">
+      <text x="52" y="81">Reported zero</text>
+      <text x="52" y="148">Pending</text>
+      <text x="52" y="215">Refresh failed</text>
+    </g>
+    <g font-size="16" fill="#594e44">
+      <text x="52" y="104">The source confirms zero requests</text>
+      <text x="52" y="171">The response has no data for the day</text>
+      <text x="52" y="238">The latest collection attempt failed</text>
+    </g>
+  </g>
+  <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m25 75 5 5 9-10" fill="none" stroke="#465841"/>
+    <circle cx="32" cy="142" r="7" fill="none" stroke="#765339"/>
+    <path d="M32 138v4l3 2" fill="none" stroke="#765339"/>
+    <path d="M32 203v8m0 5v1" fill="none" stroke="#893f38"/>
+  </g>
+</svg>

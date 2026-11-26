@@ -14,6 +14,7 @@ Mustafa joined Visokio in 2007 and is now a senior software engineer working on 
 - [Terms of use](https://mustafahafeez.com/terms-of-use/index.html.md)
 
 ## Published articles
+- [When a missing day looks like zero](https://mustafahafeez.com/blog/when-a-missing-day-looks-like-zero/index.html.md): One day of website traffic was missing from my daily briefing. Here’s how I checked the recovery and how to tell a reported zero from a gap in your own data.
 - [Why I use Google Secret Manager for reporting](https://mustafahafeez.com/blog/reporting-credentials-google-secret-manager/index.html.md): Credential access tells you a job can connect. It does not tell you the numbers in the report are right.
 - [How I’m using Omniscope and AI for daily app analytics](https://mustafahafeez.com/blog/ai-reporting-pipeline/index.html.md): My Omniscope briefing had one chart for Google search clicks and another for taps on app store links. Both read the same data, so I couldn’t compare the two measures. Here’s how we traced each chart to its source and checked the saved report.
 - [How I’m building verification into AI-assisted development](https://mustafahafeez.com/blog/verification-ai-assisted-development/index.html.md): How I use a Definition of Done to verify AI-assisted development, choose test data that exposes mistakes and record which checks ran.
